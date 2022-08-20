@@ -1,0 +1,98 @@
+{% load static %}
+<!-- {% load sass_tags %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English for kids</title>
+    <script
+      src="https://kit.fontawesome.com/2f094e08d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="#" />
+    <link
+      href="{% static 'build/bundle.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <button
+          class="burger"
+          aria-label="Toggle navigation"
+          id="js-nav-button"
+        >
+          <span class="burger__line"></span>
+        </button>
+        <nav class="nav" id="js-nav">
+          <ul class="nav__menu nav__menu--main menu menu--main">
+            <li class="menu__item menu__item--main">
+              <a class="menu__link menu__link--main toMain" href="#main"
+                ><i class="fa-solid fa-globe"></i> Main</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a class="header__link" href="#main"
+          ><h1 class="header__h1 toMain">English for kids</h1></a
+        >
+        <input class="switch" id="first-toggle-btn" type="checkbox" />
+        <label for="first-toggle-btn"></label>
+      </header>
+
+      <div class="stars_line"></div>
+    </div>
+    <div class="start_line">
+      <span class="start_line__icon_start icon_start icon_start">
+        <i class="fa-solid fa-play"></i>
+      </span>
+      <span class="start_line__icon_start icon_repeat icon_repeat--hidden">
+        <i class="fa-solid fa-repeat"></i>
+      </span>
+    </div>
+    <audio
+      src="../static/assets/audio/error.mp3"
+      class="audio-player--error"
+      crossorigin="anonymous"
+    >
+      Your browser does not support the
+      <code>audio</code> element.
+    </audio>
+    <audio
+      src="../static/assets/audio/correct.mp3"
+      class="audio-player--correct"
+      crossorigin="anonymous"
+    >
+      Your browser does not support the
+      <code>audio</code> element.
+    </audio>
+    <span class="site-overlay" aria-hidden="true" id="js-overlay"></span>
+    <script src="{% static 'build/index-bundle.js' %}"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="{% static 'build/bundle.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello Murziki!</h1>
+    <p>Today is {{today}}</p>
+    <script src="{% static 'build/index-bundle.js' %}"></script>
+  </body>
+</html> -->

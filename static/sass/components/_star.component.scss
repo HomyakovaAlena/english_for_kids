@@ -1,0 +1,18 @@
+
+
+.icon_star {
+  font-size: 30px;
+  margin: 0px 8px;
+
+  &--right {
+    color: $orange;
+  }
+
+  &--wrong {
+    color: $red;
+  }
+
+  &--hidden {
+    display: none;
+  }
+}

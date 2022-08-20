@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  max-width: 1400px;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.stars_line {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1048px;
+  margin-bottom: 40px;
+  justify-content: flex-end;
+  overflow-x: hidden;
+  margin: 0px auto 30px;
+  &--hidden {
+    display: none;
+  }
+  @media (max-width: 750px) {
+    margin: 60px auto 30px;
+  }
+}

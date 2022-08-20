@@ -1,0 +1,116 @@
+.stats_container {
+  width: 85vw;
+}
+
+.statsTable_container_div {
+  overflow-x: auto;
+  width: 100%;
+}
+table {
+  width: 100%;
+  position: relative;
+  min-width: 600px;
+}
+table caption {
+  font-family: $dinnext;
+  font-weight: bold;
+  font-size: 40px;
+  color: $white;
+  margin: 30px 0px;
+  width: 50%;
+  text-align: left;
+}
+
+table.sortable td,
+table.sortable th {
+  padding: 0.125rem 0.25rem;
+  min-width: max(12vw, 120px);
+  max-width: 120px;
+  table-layout: fixed;
+  font-family: $dinnext;
+  &:hover {
+    background-color: $darkblue;
+    color: $white;
+  }
+}
+
+table.sortable th {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 60px;
+  font-weight: bold;
+  border-bottom: thin solid $grey;
+  position: relative;
+  text-transform: uppercase;
+}
+
+table.sortable th button {
+  position: absolute;
+  padding: 4px;
+  margin: 1px;
+  font-size: 100%;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  display: inline;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+table.sortable th button span {
+  position: absolute;
+  right: 10px;
+}
+
+table.sortable th[aria-sort="descending"] span::after {
+  content: "▼";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}
+
+table.sortable th[aria-sort="ascending"] span::after {
+  content: "▲";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}
+
+table.sortable td {
+  text-align: center;
+}
+
+table.sortable tbody tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+table.sortable tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+table.sortable th button:focus {
+  padding: 10px;
+  background-color: $orange;
+}
+
+table.sortable th button:hover {
+  padding: 10px;
+  background-color: $orangelight;
+}
+
+table.sortable th button:focus span,
+table.sortable th button:hover span {
+  right: 10px;
+}
+
+table.sortable th:not([aria-sort]) button:focus span::after,
+table.sortable th:not([aria-sort]) button:hover span::after {
+  content: "▼";
+  color: currentcolor;
+  font-size: 100%;
+  top: 0;
+}

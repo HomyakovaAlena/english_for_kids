@@ -1,0 +1,29 @@
+@import "normalize";
+@import "../assets/fonts/dinnext/stylesheet.css";
+@import "../assets/fonts/wellwait/stylesheet.css";
+
+@import "./constants/colors.constants.scss";
+@import "./constants/fonts.constants.scss";
+
+@import "./components/layout";
+@import "./components/navigation.component.scss";
+@import "./components/toggleButton.component.scss";
+@import "./components/star.component.scss";
+@import "./components/startButton.component.scss";
+@import "./components/header.component.scss";
+@import "./components/audio.component.scss";
+@import "./components/rotate.component.scss";
+@import "./components/categoryCards.component.scss";
+@import "./components/card.component.scss";
+@import "./components/gameResult.component.scss";
+@import "./components/statsTable.component.scss";
+
+body {
+  background: $gradient-blue;
+  background: $gradient-blue-moz;
+  background: $gradient-blue-webkit;
+  height: 100%;
+  &.overflow {
+    overflow: hidden;
+  }
+}

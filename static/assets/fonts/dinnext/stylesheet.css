@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "DIN Next Rounded LT Pro";
+  src: url("DINNextRoundedLTPro-Bold.eot");
+  src: local("DIN Next Rounded LT Pro Bold"), local("DINNextRoundedLTPro-Bold"),
+    url("DINNextRoundedLTPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("DINNextRoundedLTPro-Bold.woff") format("woff"),
+    url("DINNextRoundedLTPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next Rounded LT Pro";
+  src: url("DINNextRoundedLTPro-Regular.eot");
+  src: local("DIN Next Rounded LT Pro Regular"),
+    local("DINNextRoundedLTPro-Regular"),
+    url("DINNextRoundedLTPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("DINNextRoundedLTPro-Regular.woff") format("woff"),
+    url("DINNextRoundedLTPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,44 @@
+$red: red;
+$black: #000000;
+$white: #ffffff;
+// $blue: #00cdb5;
+$blue: #45c4b5;
+// $pink: #5a5ab4;
+$pink: #3e3e8e;
+$orange: #d5d026;
+$orangelight: #ede964;
+$darkblue: #3232b0;
+$grey: #f9f9f9;
+$darkgrey: #46463b;
+
+$gradient-main: linear-gradient(
+  90deg,
+  hsla(136, 68%, 54%, 1) 0%,
+  hsla(58, 99%, 48%, 1) 100%
+);
+$gradient-main-moz: -moz-linear-gradient(
+  90deg,
+  hsla(136, 68%, 54%, 1) 0%,
+  hsla(58, 99%, 48%, 1) 100%
+);
+$gradient-main-webkit: -webkit-linear-gradient(
+  90deg,
+  hsla(136, 68%, 54%, 1) 0%,
+  hsla(58, 99%, 48%, 1) 100%
+);
+
+$gradient-blue: linear-gradient(
+  90deg,
+  hsla(192, 95%, 50%, 1) 0%,
+  hsla(225, 89%, 47%, 1) 100%
+);
+$gradient-blue-moz: -moz-linear-gradient(
+  90deg,
+  hsla(192, 95%, 50%, 1) 0%,
+  hsla(225, 89%, 47%, 1) 100%
+);
+$gradient-blue-webkit: -webkit-linear-gradient(
+  90deg,
+  hsla(192, 95%, 50%, 1) 0%,
+  hsla(225, 89%, 47%, 1) 100%
+);

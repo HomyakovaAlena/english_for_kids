@@ -1,0 +1,76 @@
+@keyframes change-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.switch {
+  opacity: 0;
+  & + label {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border: 4px solid $white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &:before,
+    &:after {
+      display: inline-block;
+      position: absolute;
+      transition: all 0.3s;
+    }
+
+    &:before {
+      content: "";
+      width: 24px;
+      height: 24px;
+      border-radius: 25px;
+      left: 4px;
+      top: 4px;
+      background: $grey;
+      background: radial-gradient(circle at 10px 10px, $white, $grey);
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:after {
+      display: inline-block;
+      content: "TRAIN";
+      font-family: $wellwait;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: $white;
+    }
+  }
+
+  &:checked {
+    & + label:before {
+      left: 65px;
+      background: $orange;
+      background: radial-gradient(circle at 3px 3px, $orangelight, $orange);
+    }
+
+    & + label:after {
+      content: "PLAY";
+      font-family: $wellwait;
+      color: $orange;
+      animation: change-content 0.3s forwards linear;
+    }
+  }
+}
