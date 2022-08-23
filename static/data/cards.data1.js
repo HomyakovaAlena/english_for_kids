@@ -11,7 +11,7 @@ const categories = [
     "Home",
   ],
   [
-    "static/assets/images/ACTIONS3.jpg",
+    "../static/assets/images/ACTIONS3.jpg",
     "../static/assets/images/ACTIONS4.jpg",
     "../static/assets/images/ANIMALS1.jpg",
     "../static/assets/images/ANIMALS3.jpg",

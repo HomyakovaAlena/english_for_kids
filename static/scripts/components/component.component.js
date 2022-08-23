@@ -59,6 +59,16 @@ class Component {
     const switchButton = document.querySelector(".switch");
     switchButton.dispatchEvent(clickEvent);
   }
+
+  static simulatetoMainPageClick() {
+    const clickEvent = new MouseEvent("click", {
+      bubbles: true,
+      cancelable: true,
+      view: window,
+    });
+    const h1 = document.querySelector(".header__link");
+    h1.dispatchEvent(clickEvent);
+  }
 }
 
 export { Component };

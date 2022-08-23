@@ -1,8 +1,32 @@
-{% extends "base.html" %} {% block content %}
-<h2>Categories List:</h2>
-<ul>
-  {% for word in words %}
-  <li>{{word.category}}</li>
+{% extends "base.html" %} 
+{% block nav %} {% for category in categories %}
+<li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
+  <a
+    class="menu__link menu__link--main"
+    href="{% url 'selected_category' category.category %}"
+    ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
+  >
+</li>
+{%endfor%} {% endblock %}
+
+{% block content %}
+<div class="category_container">
+  {% for category in categories %}
+  <div class="category_card" id="{{category.id}}">
+    <a
+      class="category_card__link"
+      href="{% url 'selected_category' category.category %}"
+    >
+      <figure class="category_card__figure">
+        <img
+          class="category_card__img"
+          src="{{category.category_image}}"
+          alt="{{category.category}}"
+        />
+        <h4 class="category_card__capture">{{category.category}}</h4>
+      </figure>
+    </a>
+  </div>
   {%endfor%}
-</ul>
+</div>
 {% endblock %}

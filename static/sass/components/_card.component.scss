@@ -10,7 +10,7 @@
 }
 
 .card {
-  width: min(100%, 310px);
+  width: 310px;
   height: 260px;
   background-color: transparent;
   perspective: 1000px;
@@ -93,14 +93,15 @@
 
   &__img {
     height: 207px;
+    width: 310px;
     margin: 0px 30px 15px 30px;
     border-radius: 20px;
     object-fit: cover;
     overflow: hidden;
 
     &--gameMode {
-      height: 100%;
-      width: auto;
+      width: 310px;
+      height: 260px;
       margin: 0px;
       padding: 0px;
       border-radius: 20px;

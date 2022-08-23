@@ -1,4 +1,4 @@
-import "../../data/cards.data";
+// import "../../data/cards.data";
 import { fragment, container, body } from "../constants/constants";
 
 import { Component } from "./component.component";

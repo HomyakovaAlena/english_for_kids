@@ -1,6 +1,63 @@
-{% extends "base.html" %} {% block content %}
-<h2>{{word.word}}</h2>
-<h2>{{word.translation}}</h2>
-<h2>{{word.word_image}}</h2>
-<h2>{{word.word_audioSrc}}</h2>
+{% extends "base.html" %} {% block nav %} {% for category in categories %}
+<li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
+  <a
+    class="menu__link menu__link--main"
+    href="{% url 'selected_category' category.category %}"
+    ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
+  >
+</li>
+{%endfor%} {% endblock %} {% block content %}
+
+<div class="card_container">
+  {% for word in words %}
+  <div class="card" id="card{{word.id}}">
+    <div class="card__card-inner">
+      <div class="card__card-front">
+        <a class="card__link" href="#">
+          <figure class="card__figure">
+            <img
+              class="card__img"
+              src="{{word.word_image}}"
+              alt="{{word.word}}"
+            />
+            <h4 class="card__capture">{{word.word}}</h4>
+          </figure>
+          <audio
+            src="{{word.word_audioSrc}}"
+            class="audio-player"
+            crossorigin="anonymous"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+          <div class="audio-controls">
+            <div class="audio-controls__play-toggle">
+              <span class="play-icon"><i class="fa-solid fa-music"></i></span>
+              <span class="pause-icon--hidden"
+                ><i class="fa-solid fa-pause"></i
+              ></span>
+            </div>
+          </div>
+          <div class="rotate-controls">
+            <div class="rotate-controls__play-toggle">
+              <span class="rotate-icon"
+                ><i class="fa-solid fa-arrows-rotate"></i
+              ></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card__card-back">
+        <a class="card__link" href="#">
+          <figure class="card__figure">
+            <img class="card__img" src="{{word.word_image}}" alt="open" />
+            <h4 class="card__capture">{{word.translation}}</h4>
+          </figure>
+        </a>
+      </div>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+
 {% endblock %}

@@ -1,14 +1,17 @@
 import {
   body,
-  categoryNames,
-  categoryImagesPaths,
+  // categoryNames,
+  // categoryImagesPaths,
 } from "../constants/constants";
-import { Card, CardsContainer } from "../components/card.component";
-import { cards, categories } from "../../data/cards.data";
+import {
+  Card,
+  // CardsContainer
+} from "../components/card.component";
+// import { cards, categories } from "../../data/cards.data";
 import { Navigation } from "../components/navigation.component";
 import {
   CategoryCard,
-  CategoryContainer,
+  // CategoryContainer,
 } from "../components/categoryCard.component";
 import { GameResultContainer } from "../components/gameResult.component";
 import { AudioComponent } from "../components/audio.component";
@@ -22,12 +25,12 @@ import { SortableTable } from "../components/sortableTable.component";
 class App {
   constructor(categories, cards) {
     this.categories = categories;
-    this.categoriesNames = categories[0];
-    this.categoriesImages = categories[1];
-    this.categoriesIcons = categories[2];
+    this.categoriesNames = "";
+    this.categoriesImages = "";
+    this.categoriesIcons = "";
     this.cards = cards;
     this.mode = "train";
-    this.currentCategory = "None";
+    // this.currentCategory = "None";
     this.errors = 0;
     this.currentID = NaN;
     this.audiogenerator = null;
@@ -48,51 +51,53 @@ class App {
       Card.changeCardDesignToGameMode();
       CategoryCard.changeCategoriesDesignToGameMode();
       StartButtonComponent.renderStartButton();
+      console.log("play mode");
     } else {
       this.setMode("train");
       Card.changeCardDesignToTrainMode();
       CategoryCard.changeCategoriesDesignToTrainMode();
       StartButtonComponent.hideStartButton();
+      console.log("train mode");
     }
   }
 
-  renderCards(event, difficultWords) {
-    if (difficultWords) {
-      const wordsToRender = cards
-        .flat()
-        .filter((item) => difficultWords.includes(item.word));
-      const CardsContainerElement = new CardsContainer();
-      CardsContainerElement.renderDifficultCards(wordsToRender);
-    } else {
-      this.currentCategory =
-        event.target.closest(".category_card")?.id ||
-        event.target.closest(".toCardPage").id;
-      const CardsContainerElement = new CardsContainer();
-      CardsContainerElement.renderCards(
-        ...Component.chooseAssetsForRendering(this.cards, this.currentCategory)
-      );
-    }
+  // renderCards(event, difficultWords) {
+  //   if (difficultWords) {
+  //     const wordsToRender = cards
+  //       .flat()
+  //       .filter((item) => difficultWords.includes(item.word));
+  //     const CardsContainerElement = new CardsContainer();
+  //     CardsContainerElement.renderDifficultCards(wordsToRender);
+  //   } else {
+  //     this.currentCategory =
+  //       event.target.closest(".category_card")?.id ||
+  //       event.target.closest(".toCardPage").id;
+  //     const CardsContainerElement = new CardsContainer();
+  //     CardsContainerElement.renderCards(
+  //       ...Component.chooseAssetsForRendering(this.cards, this.currentCategory)
+  //     );
+  //   }
 
-    if (this.mode === "play") {
-      Card.changeCardDesignToGameMode();
-      StartButtonComponent.renderStartButton();
-    } else {
-      Card.changeCardDesignToTrainMode();
-      StartButtonComponent.hideStartButton();
-    }
-  }
+  //   if (this.mode === "play") {
+  //     Card.changeCardDesignToGameMode();
+  //     StartButtonComponent.renderStartButton();
+  //   } else {
+  //     Card.changeCardDesignToTrainMode();
+  //     StartButtonComponent.hideStartButton();
+  //   }
+  // }
 
-  renderCategories() {
-    const Categories = new CategoryContainer();
-    Categories.renderCategoryCards(categoryNames, categoryImagesPaths);
-    if (this.mode === "play") {
-      CategoryCard.changeCategoriesDesignToGameMode();
-      StartButtonComponent.renderStartButton();
-    } else {
-      CategoryCard.changeCategoriesDesignToTrainMode();
-      StartButtonComponent.hideStartButton();
-    }
-  }
+  // renderCategories() {
+  //   const Categories = new CategoryContainer();
+  //   Categories.renderCategoryCards(categoryNames, categoryImagesPaths);
+  //   if (this.mode === "play") {
+  //     CategoryCard.changeCategoriesDesignToGameMode();
+  //     StartButtonComponent.renderStartButton();
+  //   } else {
+  //     CategoryCard.changeCategoriesDesignToTrainMode();
+  //     StartButtonComponent.hideStartButton();
+  //   }
+  // }
 
   generateAudio() {
     const shuffledAudio = AudioComponent.shuffleAudio();
@@ -156,30 +161,38 @@ class App {
     } else if (element.closest(".statistics")) {
       StarComponent.hideStars();
       this.renderStats();
-    } else if (
-      element.closest(".category_card") ||
-      element.closest(".toCardPage")
-    ) {
-      Component.cleanDOM();
-      StarComponent.hideStars();
-      this.renderCards(event);
-      this.errors = 0;
-    } else if (element.closest(".audio-controls")) {
+    }
+    // else if (
+    //   element.closest(".category_card") ||
+    //   element.closest(".toCardPage")
+    // ) {
+    //   Component.cleanDOM();
+    //   StarComponent.hideStars();
+    //   this.renderCards(event);
+    //   this.errors = 0;
+    // }
+    else if (element.closest(".audio-controls")) {
       AudioComponent.playAudio(event, element);
       this.currentID = card.id;
       this.currentWord = card.querySelector(".card__capture").textContent;
-      this.currentCategory = this.cards.findIndex((x) =>
-        x.some((e) => e.word === this.currentWord)
-      );
-      this.currentCategoryName = this.categoriesNames[this.currentCategory];
+      // this.currentCategory = this.cards.findIndex((x) =>
+      //   x.some((e) => e.word === this.currentWord)
+      // );
+      this.currentCategoryName = window.location.href
+        .slice(window.location.href.lastIndexOf("/") + 1)
+        .replaceAll("%20", " ")
+        .replace("#", "");
+      console.log(this.currentCategoryName);
       this.statsData.addTrainItem(this.currentCategoryName, this.currentWord);
       this.statsData.mirrorToLocalStorage();
     } else if (element.closest(".rotate-controls")) {
       Component.rotateBack(event, card);
-    } else if (element.closest(".toMain")) {
-      Component.cleanDOM();
-      this.renderCategories();
-    } else if (element.closest(".icon_start")) {
+    }
+    // else if (element.closest(".toMain")) {
+    //   Component.cleanDOM();
+    //   this.renderCategories();
+    // }
+    else if (element.closest(".icon_start")) {
       this.generateAudio();
       this.currentID = this.pronounceWords();
       element.closest(".icon_start").classList.add("icon_start--hidden");
@@ -193,10 +206,13 @@ class App {
         StarComponent.renderStar("right");
         AudioComponent.playCorrectAudio();
         this.currentWord = card.querySelector(".card__capture").textContent;
-        this.currentCategory = this.cards.findIndex((x) =>
-          x.some((e) => e.word === this.currentWord)
-        );
-        this.currentCategoryName = this.categoriesNames[this.currentCategory];
+        // this.currentCategory = this.cards.findIndex((x) =>
+        //   x.some((e) => e.word === this.currentWord)
+        // );
+        this.currentCategoryName = window.location.href
+          .slice(window.location.href.lastIndexOf("/") + 1)
+          .replaceAll("%20", " ")
+          .replace("#", "");
         this.statsData.addGameItem(
           this.currentCategoryName,
           this.currentWord,
@@ -217,7 +233,7 @@ class App {
           StarComponent.hideStars();
           this.renderGameResult();
           setTimeout(Component.cleanDOM, 5000);
-          setTimeout(this.renderCategories, 5000);
+          setTimeout(Component.simulatetoMainPageClick, 5000);
           setTimeout(Component.simulateSwitchButtonClick, 5000);
           this.count = 0;
           this.audioPlayersCount = NaN;
@@ -227,10 +243,13 @@ class App {
         this.errors++;
         AudioComponent.playErrorAudio();
         this.currentWord = card.querySelector(".card__capture").textContent;
-        this.currentCategory = this.cards.findIndex((x) =>
-          x.some((e) => e.word === this.currentWord)
-        );
-        this.currentCategoryName = this.categoriesNames[this.currentCategory];
+        // this.currentCategory = this.cards.findIndex((x) =>
+        //   x.some((e) => e.word === this.currentWord)
+        // );
+        this.currentCategoryName = window.location.href
+          .slice(window.location.href.lastIndexOf("/") + 1)
+          .replaceAll("%20", " ")
+          .replaceAll("#", "");
         this.statsData.addGameItem(
           this.currentCategoryName,
           this.currentWord,
@@ -269,17 +288,17 @@ class App {
   }
 
   addNavigation() {
-    const navigation = new Navigation(
-      this.categoriesNames,
-      this.categoriesIcons
-    );
-    navigation.addMenuItems();
+    console.log("nav");
+    const navigation = new Navigation();
+    // this.categoriesNames,
+    // this.categoriesIcons
+    // navigation.addMenuItems();
     navigation.addListeners();
   }
 }
 
-const application = new App(categories, cards);
-application.renderCategories();
+const application = new App();
+// application.renderCategories();
 application.addNavigation();
 application.addListeners();
 

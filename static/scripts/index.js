@@ -1,5 +1,5 @@
 import "../sass/styles.scss";
-import "../data/cards.data";
+// import "../data/cards.data";
 import "./components/navigation.component";
 import "./components/audio.component";
 import "./components/categoryCard.component";

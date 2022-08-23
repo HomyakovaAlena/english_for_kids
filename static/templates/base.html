@@ -32,13 +32,31 @@
         <nav class="nav" id="js-nav">
           <ul class="nav__menu nav__menu--main menu menu--main">
             <li class="menu__item menu__item--main">
-              <a class="menu__link menu__link--main toMain" href="#main"
+              <a class="menu__link menu__link--main toMain" href="/categories"
                 ><i class="fa-solid fa-globe"></i> Main</a
+              >
+            </li>
+            {% block nav %} {% for category in categories %}
+            <li
+              class="menu__item menu__item--main toCardPage"
+              id="{{category.id}}"
+            >
+              <a
+                class="menu__link menu__link--main"
+                href="{% url 'selected_category' category.category %}"
+                ><i class="{{category.category_icon}}"></i> {{ category.category
+                }}</a
+              >
+            </li>
+            {%endfor%} {% endblock %}
+            <li class="menu__item menu__item--main statistics">
+              <a class="menu__link menu__link--main" href="/statistics"
+                ><i class="fa-solid fa-calculator"></i> Statistics</a
               >
             </li>
           </ul>
         </nav>
-        <a class="header__link" href="#main"
+        <a class="header__link" href="/categories"
           ><h1 class="header__h1 toMain">English for kids</h1></a
         >
         <input class="switch" id="first-toggle-btn" type="checkbox" />
@@ -54,6 +72,7 @@
       </header>
 
       <div class="stars_line"></div>
+      {% block content %} {% endblock %}
     </div>
     <div class="start_line">
       <span class="start_line__icon_start icon_start icon_start">
@@ -64,7 +83,6 @@
       </span>
     </div>
 
-    {% block content %} {% endblock %}
     <audio
       src="../static/assets/audio/error.mp3"
       class="audio-player--error"
