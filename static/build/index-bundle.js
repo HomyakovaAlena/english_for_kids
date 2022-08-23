@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"cards\": () => (/* binding */ cards),\n/* harmony export */   \"categories\": () => (/* binding */ categories)\n/* harmony export */ });\nvar categories = [[\"Action (set A)\", \"Action (set B)\", \"Animal (set A)\", \"Animal (set B)\", \"Clothes\", \"Emotions\", \"Food\", \"Nature\", \"Home\"], [\"static/assets/images/ACTIONS3.jpg\", \"../static/assets/images/ACTIONS4.jpg\", \"../static/assets/images/ANIMALS1.jpg\", \"../static/assets/images/ANIMALS3.jpg\", \"../static/assets/images/CLOTHES2.jpg\", \"../static/assets/images/EMOTIONS.jpg\", \"../static/assets/images/FOOD2.jpg\", \"../static/assets/images/NATURE.jpg\", \"../static/assets/images/HOME.jpg\"], [\"fa-solid fa-person-hiking\", \"fa-solid fa-person-biking\", \"fa-solid fa-cat\", \"fa-solid fa-frog\", \"fa-solid fa-shirt\", \"fa-solid fa-face-grin-wide\", \"fa-solid fa-apple-whole\", \"fa-brands fa-canadian-maple-leaf\", \"fa-solid fa-house-chimney\"]];\nvar cards = [[{\n  word: \"cry\",\n  translation: \"плакать\",\n  image: \"../static/assets/images/cry.jpg\",\n  audioSrc: \"../static/assets/audio/cry.mp3\"\n}, {\n  word: \"dance\",\n  translation: \"танцевать\",\n  image: \"../static/assets/images/dance.jpg\",\n  audioSrc: \"../static/assets/audio/dance.mp3\"\n}, {\n  word: \"dive\",\n  translation: \"нырять\",\n  image: \"../static/assets/images/dive.jpg\",\n  audioSrc: \"../static/assets/audio/dive.mp3\"\n}, {\n  word: \"draw\",\n  translation: \"рисовать\",\n  image: \"../static/assets/images/draw.jpg\",\n  audioSrc: \"../static/assets/audio/draw.mp3\"\n}, {\n  word: \"fish\",\n  translation: \"ловить рыбу\",\n  image: \"../static/assets/images/fish.jpg\",\n  audioSrc: \"../static/assets/audio/fish.mp3\"\n}, {\n  word: \"fly\",\n  translation: \"летать\",\n  image: \"../static/assets/images/fly.jpg\",\n  audioSrc: \"../static/assets/audio/fly.mp3\"\n}, {\n  word: \"hug\",\n  translation: \"обнимать\",\n  image: \"../static/assets/images/hug.jpg\",\n  audioSrc: \"../static/assets/audio/hug.mp3\"\n}, {\n  word: \"jump\",\n  translation: \"прыгать\",\n  image: \"../static/assets/images/jump.jpg\",\n  audioSrc: \"../static/assets/audio/jump.mp3\"\n}], [{\n  word: \"open\",\n  translation: \"открывать\",\n  image: \"../static/assets/images/open.jpg\",\n  audioSrc: \"../static/assets/audio/open.mp3\"\n}, {\n  word: \"play\",\n  translation: \"играть\",\n  image: \"../static/assets/images/play.jpg\",\n  audioSrc: \"../static/assets/audio/play.mp3\"\n}, {\n  word: \"point\",\n  translation: \"указывать\",\n  image: \"../static/assets/images/point.jpg\",\n  audioSrc: \"../static/assets/audio/point.mp3\"\n}, {\n  word: \"ride\",\n  translation: \"ездить\",\n  image: \"../static/assets/images/ride.jpg\",\n  audioSrc: \"../static/assets/audio/ride.mp3\"\n}, {\n  word: \"run\",\n  translation: \"бегать\",\n  image: \"../static/assets/images/run.jpg\",\n  audioSrc: \"../static/assets/audio/run.mp3\"\n}, {\n  word: \"sing\",\n  translation: \"петь\",\n  image: \"../static/assets/images/sing.jpg\",\n  audioSrc: \"../static/assets/audio/sing.mp3\"\n}, {\n  word: \"skip\",\n  translation: \"пропускать, прыгать\",\n  image: \"../static/assets/images/skip.jpg\",\n  audioSrc: \"../static/assets/audio/skip.mp3\"\n}, {\n  word: \"swim\",\n  translation: \"плавать\",\n  image: \"../static/assets/images/swim.jpg\",\n  audioSrc: \"../static/assets/audio/swim.mp3\"\n}], [{\n  word: \"cat\",\n  translation: \"кот\",\n  image: \"../static/assets/images/cat.jpg\",\n  audioSrc: \"../static/assets/audio/cat.mp3\"\n}, {\n  word: \"chick\",\n  translation: \"цыплёнок\",\n  image: \"../static/assets/images/chick.jpg\",\n  audioSrc: \"../static/assets/audio/chick.mp3\"\n}, {\n  word: \"chicken\",\n  translation: \"курица\",\n  image: \"../static/assets/images/chicken.jpg\",\n  audioSrc: \"../static/assets/audio/chicken.mp3\"\n}, {\n  word: \"dog\",\n  translation: \"собака\",\n  image: \"../static/assets/images/dog.jpg\",\n  audioSrc: \"../static/assets/audio/dog.mp3\"\n}, {\n  word: \"horse\",\n  translation: \"лошадь\",\n  image: \"../static/assets/images/horse.jpg\",\n  audioSrc: \"../static/assets/audio/horse.mp3\"\n}, {\n  word: \"pig\",\n  translation: \"свинья\",\n  image: \"../static/assets/images/pig.jpg\",\n  audioSrc: \"../static/assets/audio/pig.mp3\"\n}, {\n  word: \"rabbit\",\n  translation: \"кролик\",\n  image: \"../static/assets/images/rabbit.jpg\",\n  audioSrc: \"../static/assets/audio/rabbit.mp3\"\n}, {\n  word: \"sheep\",\n  translation: \"овца\",\n  image: \"../static/assets/images/sheep.jpg\",\n  audioSrc: \"../static/assets/audio/sheep.mp3\"\n}], [{\n  word: \"bird\",\n  translation: \"птица\",\n  image: \"../static/assets/images/bird.jpg\",\n  audioSrc: \"../static/assets/audio/bird.mp3\"\n}, {\n  word: \"fish\",\n  translation: \"рыба\",\n  image: \"../static/assets/images/fish1.jpg\",\n  audioSrc: \"../static/assets/audio/fish.mp3\"\n}, {\n  word: \"frog\",\n  translation: \"жаба\",\n  image: \"../static/assets/images/frog.jpg\",\n  audioSrc: \"../static/assets/audio/frog.mp3\"\n}, {\n  word: \"giraffe\",\n  translation: \"жирафа\",\n  image: \"../static/assets/images/giraffe.jpg\",\n  audioSrc: \"../static/assets/audio/giraffe.mp3\"\n}, {\n  word: \"lion\",\n  translation: \"лев\",\n  image: \"../static/assets/images/lion.jpg\",\n  audioSrc: \"../static/assets/audio/lion.mp3\"\n}, {\n  word: \"mouse\",\n  translation: \"мышь\",\n  image: \"../static/assets/images/mouse.jpg\",\n  audioSrc: \"../static/assets/audio/mouse.mp3\"\n}, {\n  word: \"turtle\",\n  translation: \"черепаха\",\n  image: \"../static/assets/images/turtle.jpg\",\n  audioSrc: \"../static/assets/audio/turtle.mp3\"\n}, {\n  word: \"dolphin\",\n  translation: \"дельфин\",\n  image: \"../static/assets/images/dolphin.jpg\",\n  audioSrc: \"../static/assets/audio/dolphin.mp3\"\n}], [{\n  word: \"skirt\",\n  translation: \"юбка\",\n  image: \"../static/assets/images/skirt.jpg\",\n  audioSrc: \"../static/assets/audio/skirt.mp3\"\n}, {\n  word: \"pants\",\n  translation: \"брюки\",\n  image: \"../static/assets/images/pants.jpg\",\n  audioSrc: \"../static/assets/audio/pants.mp3\"\n}, {\n  word: \"blouse\",\n  translation: \"блузка\",\n  image: \"../static/assets/images/blouse.jpg\",\n  audioSrc: \"../static/assets/audio/blouse.mp3\"\n}, {\n  word: \"dress\",\n  translation: \"платье\",\n  image: \"../static/assets/images/dress.jpg\",\n  audioSrc: \"../static/assets/audio/dress.mp3\"\n}, {\n  word: \"boot\",\n  translation: \"ботинок\",\n  image: \"../static/assets/images/boot.jpg\",\n  audioSrc: \"../static/assets/audio/boot.mp3\"\n}, {\n  word: \"shirt\",\n  translation: \"рубашка\",\n  image: \"../static/assets/images/shirt.jpg\",\n  audioSrc: \"../static/assets/audio/shirt.mp3\"\n}, {\n  word: \"coat\",\n  translation: \"пальто\",\n  image: \"../static/assets/images/coat.jpg\",\n  audioSrc: \"../static/assets/audio/coat.mp3\"\n}, {\n  word: \"shoe\",\n  translation: \"туфли\",\n  image: \"../static/assets/images/shoe.jpg\",\n  audioSrc: \"../static/assets/audio/shoe.mp3\"\n}], [{\n  word: \"sad\",\n  translation: \"грустный\",\n  image: \"../static/assets/images/sad.jpg\",\n  audioSrc: \"../static/assets/audio/sad.mp3\"\n}, {\n  word: \"angry\",\n  translation: \"сердитый\",\n  image: \"../static/assets/images/angry.jpg\",\n  audioSrc: \"../static/assets/audio/angry.mp3\"\n}, {\n  word: \"happy\",\n  translation: \"счастливый\",\n  image: \"../static/assets/images/happy.jpg\",\n  audioSrc: \"../static/assets/audio/happy.mp3\"\n}, {\n  word: \"tired\",\n  translation: \"уставший\",\n  image: \"../static/assets/images/tired.jpg\",\n  audioSrc: \"../static/assets/audio/tired.mp3\"\n}, {\n  word: \"surprised\",\n  translation: \"удивлённый\",\n  image: \"../static/assets/images/surprised.jpg\",\n  audioSrc: \"../static/assets/audio/surprised.mp3\"\n}, {\n  word: \"scared\",\n  translation: \"испуганный\",\n  image: \"../static/assets/images/scared.jpg\",\n  audioSrc: \"../static/assets/audio/scared.mp3\"\n}, {\n  word: \"smile\",\n  translation: \"улыбка\",\n  image: \"../static/assets/images/smile.jpg\",\n  audioSrc: \"../static/assets/audio/smile.mp3\"\n}, {\n  word: \"laugh\",\n  translation: \"смех\",\n  image: \"../static/assets/images/laugh.jpg\",\n  audioSrc: \"../static/assets/audio/laugh.mp3\"\n}]];\n\n\n//# sourceURL=webpack://english_for_kids/./static/data/cards.data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"cards\": () => (/* binding */ cards),\n/* harmony export */   \"categories\": () => (/* binding */ categories)\n/* harmony export */ });\nvar categories = [[\"Action (set A)\", \"Action (set B)\", \"Animal (set A)\", \"Animal (set B)\", \"Clothes\", \"Emotions\", \"Food\", \"Nature\", \"Home\"], [\"static/assets/images/ACTIONS3.jpg\", \"../static/assets/images/ACTIONS4.jpg\", \"../static/assets/images/ANIMALS1.jpg\", \"../static/assets/images/ANIMALS3.jpg\", \"../static/assets/images/CLOTHES2.jpg\", \"../static/assets/images/EMOTIONS.jpg\", \"../static/assets/images/FOOD2.jpg\", \"../static/assets/images/NATURE.jpg\", \"../static/assets/images/HOME.jpg\"], [\"fa-solid fa-person-hiking\", \"fa-solid fa-person-biking\", \"fa-solid fa-cat\", \"fa-solid fa-frog\", \"fa-solid fa-shirt\", \"fa-solid fa-face-grin-wide\", \"fa-solid fa-apple-whole\", \"fa-brands fa-canadian-maple-leaf\", \"fa-solid fa-house-chimney\"]];\nvar cards = [[{\n  word: \"cry\",\n  translation: \"плакать\",\n  image: \"../static/assets/images/cry.jpg\",\n  audioSrc: \"../static/assets/audio/cry.mp3\"\n}, {\n  word: \"dance\",\n  translation: \"танцевать\",\n  image: \"../static/assets/images/dance.jpg\",\n  audioSrc: \"../static/assets/audio/dance.mp3\"\n}, {\n  word: \"dive\",\n  translation: \"нырять\",\n  image: \"../static/assets/images/dive.jpg\",\n  audioSrc: \"../static/assets/audio/dive.mp3\"\n}, {\n  word: \"draw\",\n  translation: \"рисовать\",\n  image: \"../static/assets/images/draw.jpg\",\n  audioSrc: \"../static/assets/audio/draw.mp3\"\n}, {\n  word: \"fish\",\n  translation: \"ловить рыбу\",\n  image: \"../static/assets/images/fish.jpg\",\n  audioSrc: \"../static/assets/audio/fish.mp3\"\n}, {\n  word: \"fly\",\n  translation: \"летать\",\n  image: \"../static/assets/images/fly.jpg\",\n  audioSrc: \"../static/assets/audio/fly.mp3\"\n}, {\n  word: \"hug\",\n  translation: \"обнимать\",\n  image: \"../static/assets/images/hug.jpg\",\n  audioSrc: \"../static/assets/audio/hug.mp3\"\n}, {\n  word: \"jump\",\n  translation: \"прыгать\",\n  image: \"../static/assets/images/jump.jpg\",\n  audioSrc: \"../static/assets/audio/jump.mp3\"\n}], [{\n  word: \"open\",\n  translation: \"открывать\",\n  image: \"../static/assets/images/open.jpg\",\n  audioSrc: \"../static/assets/audio/open.mp3\"\n}, {\n  word: \"play\",\n  translation: \"играть\",\n  image: \"../static/assets/images/play.jpg\",\n  audioSrc: \"../static/assets/audio/play.mp3\"\n}, {\n  word: \"point\",\n  translation: \"указывать\",\n  image: \"../static/assets/images/point.jpg\",\n  audioSrc: \"../static/assets/audio/point.mp3\"\n}, {\n  word: \"ride\",\n  translation: \"ездить\",\n  image: \"../static/assets/images/ride.jpg\",\n  audioSrc: \"../static/assets/audio/ride.mp3\"\n}, {\n  word: \"run\",\n  translation: \"бегать\",\n  image: \"../static/assets/images/run.jpg\",\n  audioSrc: \"../static/assets/audio/run.mp3\"\n}, {\n  word: \"sing\",\n  translation: \"петь\",\n  image: \"../static/assets/images/sing.jpg\",\n  audioSrc: \"../static/assets/audio/sing.mp3\"\n}, {\n  word: \"skip\",\n  translation: \"пропускать, прыгать\",\n  image: \"../static/assets/images/skip.jpg\",\n  audioSrc: \"../static/assets/audio/skip.mp3\"\n}, {\n  word: \"swim\",\n  translation: \"плавать\",\n  image: \"../static/assets/images/swim.jpg\",\n  audioSrc: \"../static/assets/audio/swim.mp3\"\n}], [{\n  word: \"cat\",\n  translation: \"кот\",\n  image: \"../static/assets/images/cat.jpg\",\n  audioSrc: \"../static/assets/audio/cat.mp3\"\n}, {\n  word: \"chick\",\n  translation: \"цыплёнок\",\n  image: \"../static/assets/images/chick.jpg\",\n  audioSrc: \"../static/assets/audio/chick.mp3\"\n}, {\n  word: \"chicken\",\n  translation: \"курица\",\n  image: \"../static/assets/images/chicken.jpg\",\n  audioSrc: \"../static/assets/audio/chicken.mp3\"\n}, {\n  word: \"dog\",\n  translation: \"собака\",\n  image: \"../static/assets/images/dog.jpg\",\n  audioSrc: \"../static/assets/audio/dog.mp3\"\n}, {\n  word: \"horse\",\n  translation: \"лошадь\",\n  image: \"../static/assets/images/horse.jpg\",\n  audioSrc: \"../static/assets/audio/horse.mp3\"\n}, {\n  word: \"pig\",\n  translation: \"свинья\",\n  image: \"../static/assets/images/pig.jpg\",\n  audioSrc: \"../static/assets/audio/pig.mp3\"\n}, {\n  word: \"rabbit\",\n  translation: \"кролик\",\n  image: \"../static/assets/images/rabbit.jpg\",\n  audioSrc: \"../static/assets/audio/rabbit.mp3\"\n}, {\n  word: \"sheep\",\n  translation: \"овца\",\n  image: \"../static/assets/images/sheep.jpg\",\n  audioSrc: \"../static/assets/audio/sheep.mp3\"\n}], [{\n  word: \"bird\",\n  translation: \"птица\",\n  image: \"../static/assets/images/bird.jpg\",\n  audioSrc: \"../static/assets/audio/bird.mp3\"\n}, {\n  word: \"fish\",\n  translation: \"рыба\",\n  image: \"../static/assets/images/fish1.jpg\",\n  audioSrc: \"../static/assets/audio/fish.mp3\"\n}, {\n  word: \"frog\",\n  translation: \"жаба\",\n  image: \"../static/assets/images/frog.jpg\",\n  audioSrc: \"../static/assets/audio/frog.mp3\"\n}, {\n  word: \"giraffe\",\n  translation: \"жирафа\",\n  image: \"../static/assets/images/giraffe.jpg\",\n  audioSrc: \"../static/assets/audio/giraffe.mp3\"\n}, {\n  word: \"lion\",\n  translation: \"лев\",\n  image: \"../static/assets/images/lion.jpg\",\n  audioSrc: \"../static/assets/audio/lion.mp3\"\n}, {\n  word: \"mouse\",\n  translation: \"мышь\",\n  image: \"../static/assets/images/mouse.jpg\",\n  audioSrc: \"../static/assets/audio/mouse.mp3\"\n}, {\n  word: \"turtle\",\n  translation: \"черепаха\",\n  image: \"../static/assets/images/turtle.jpg\",\n  audioSrc: \"../static/assets/audio/turtle.mp3\"\n}, {\n  word: \"dolphin\",\n  translation: \"дельфин\",\n  image: \"../static/assets/images/dolphin.jpg\",\n  audioSrc: \"../static/assets/audio/dolphin.mp3\"\n}], [{\n  word: \"skirt\",\n  translation: \"юбка\",\n  image: \"../static/assets/images/skirt.jpg\",\n  audioSrc: \"../static/assets/audio/skirt.mp3\"\n}, {\n  word: \"pants\",\n  translation: \"брюки\",\n  image: \"../static/assets/images/pants.jpg\",\n  audioSrc: \"../static/assets/audio/pants.mp3\"\n}, {\n  word: \"blouse\",\n  translation: \"блузка\",\n  image: \"../static/assets/images/blouse.jpg\",\n  audioSrc: \"../static/assets/audio/blouse.mp3\"\n}, {\n  word: \"dress\",\n  translation: \"платье\",\n  image: \"../static/assets/images/dress.jpg\",\n  audioSrc: \"../static/assets/audio/dress.mp3\"\n}, {\n  word: \"boot\",\n  translation: \"ботинок\",\n  image: \"../static/assets/images/boot.jpg\",\n  audioSrc: \"../static/assets/audio/boot.mp3\"\n}, {\n  word: \"shirt\",\n  translation: \"рубашка\",\n  image: \"../static/assets/images/shirt.jpg\",\n  audioSrc: \"../static/assets/audio/shirt.mp3\"\n}, {\n  word: \"coat\",\n  translation: \"пальто\",\n  image: \"../static/assets/images/coat.jpg\",\n  audioSrc: \"../static/assets/audio/coat.mp3\"\n}, {\n  word: \"shoe\",\n  translation: \"туфли\",\n  image: \"../static/assets/images/shoe.jpg\",\n  audioSrc: \"../static/assets/audio/shoe.mp3\"\n}], [{\n  word: \"sad\",\n  translation: \"грустный\",\n  image: \"../static/assets/images/sad.jpg\",\n  audioSrc: \"../static/assets/audio/sad.mp3\"\n}, {\n  word: \"angry\",\n  translation: \"сердитый\",\n  image: \"../static/assets/images/angry.jpg\",\n  audioSrc: \"../static/assets/audio/angry.mp3\"\n}, {\n  word: \"happy\",\n  translation: \"счастливый\",\n  image: \"../static/assets/images/happy.jpg\",\n  audioSrc: \"../static/assets/audio/happy.mp3\"\n}, {\n  word: \"tired\",\n  translation: \"уставший\",\n  image: \"../static/assets/images/tired.jpg\",\n  audioSrc: \"../static/assets/audio/tired.mp3\"\n}, {\n  word: \"surprised\",\n  translation: \"удивлённый\",\n  image: \"../static/assets/images/surprised.jpg\",\n  audioSrc: \"../static/assets/audio/surprised.mp3\"\n}, {\n  word: \"scared\",\n  translation: \"испуганный\",\n  image: \"../static/assets/images/scared.jpg\",\n  audioSrc: \"../static/assets/audio/scared.mp3\"\n}, {\n  word: \"smile\",\n  translation: \"улыбка\",\n  image: \"../static/assets/images/smile.jpg\",\n  audioSrc: \"../static/assets/audio/smile.mp3\"\n}, {\n  word: \"laugh\",\n  translation: \"смех\",\n  image: \"../static/assets/images/laugh.jpg\",\n  audioSrc: \"../static/assets/audio/laugh.mp3\"\n}], [{\n  word: \"vegetables\",\n  translation: \"овощи\",\n  image: \"../static/assets/images/vegetables.jpg\",\n  audioSrc: \"../static/assets/audio/vegetables.mp3\"\n}, {\n  word: \"fruits\",\n  translation: \"фрукты\",\n  image: \"../static/assets/images/fruits.jpg\",\n  audioSrc: \"../static/assets/audio/fruits.mp3\"\n}, {\n  word: \"breakfast\",\n  translation: \"завтрак\",\n  image: \"../static/assets/images/breakfast.jpg\",\n  audioSrc: \"../static/assets/audio/breakfast.mp3\"\n}, {\n  word: \"cake\",\n  translation: \"торт\",\n  image: \"../static/assets/images/cake.jpg\",\n  audioSrc: \"../static/assets/audio/cake.mp3\"\n}, {\n  word: \"cocktail\",\n  translation: \"коктейль\",\n  image: \"../static/assets/images/cocktail.jpg\",\n  audioSrc: \"../static/assets/audio/cocktail.mp3\"\n}, {\n  word: \"pizza\",\n  translation: \"пицца\",\n  image: \"../static/assets/images/pizza.jpg\",\n  audioSrc: \"../static/assets/audio/pizza.mp3\"\n}, {\n  word: \"meat\",\n  translation: \"мясо\",\n  image: \"../static/assets/images/meat.jpg\",\n  audioSrc: \"../static/assets/audio/meat.mp3\"\n}, {\n  word: \"soup\",\n  translation: \"суп\",\n  image: \"../static/assets/images/soup.jpg\",\n  audioSrc: \"../static/assets/audio/soup.mp3\"\n}], [{\n  word: \"tree\",\n  translation: \"дерево\",\n  image: \"../static/assets/images/tree.jpg\",\n  audioSrc: \"../static/assets/audio/tree.mp3\"\n}, {\n  word: \"mountain\",\n  translation: \"гора\",\n  image: \"../static/assets/images/mountain.jpg\",\n  audioSrc: \"../static/assets/audio/mountain.mp3\"\n}, {\n  word: \"river\",\n  translation: \"река\",\n  image: \"../static/assets/images/river.jpg\",\n  audioSrc: \"../static/assets/audio/river.mp3\"\n}, {\n  word: \"beach\",\n  translation: \"пляж\",\n  image: \"../static/assets/images/beach.jpg\",\n  audioSrc: \"../static/assets/audio/beach.mp3\"\n}, {\n  word: \"forest\",\n  translation: \"лес\",\n  image: \"../static/assets/images/forest.jpg\",\n  audioSrc: \"../static/assets/audio/forest.mp3\"\n}, {\n  word: \"field\",\n  translation: \"поле\",\n  image: \"../static/assets/images/field.jpg\",\n  audioSrc: \"../static/assets/audio/field.mp3\"\n}, {\n  word: \"flowers\",\n  translation: \"цветы\",\n  image: \"../static/assets/images/flowers.jpg\",\n  audioSrc: \"../static/assets/audio/flowers.mp3\"\n}, {\n  word: \"sea\",\n  translation: \"море\",\n  image: \"../static/assets/images/sea.jpg\",\n  audioSrc: \"../static/assets/audio/sea.mp3\"\n}], [{\n  word: \"living room\",\n  translation: \"гостиная\",\n  image: \"../static/assets/images/livingroom.jpg\",\n  audioSrc: \"../static/assets/audio/livingroom.mp3\"\n}, {\n  word: \"bedroom\",\n  translation: \"спальня\",\n  image: \"../static/assets/images/bedroom.jpg\",\n  audioSrc: \"../static/assets/audio/bedroom.mp3\"\n}, {\n  word: \"kitchen\",\n  translation: \"кухня\",\n  image: \"../static/assets/images/kitchen.jpg\",\n  audioSrc: \"../static/assets/audio/kitchen.mp3\"\n}, {\n  word: \"fireplace\",\n  translation: \"камин\",\n  image: \"../static/assets/images/fireplace.jpg\",\n  audioSrc: \"../static/assets/audio/fireplace.mp3\"\n}, {\n  word: \"curtains\",\n  translation: \"шторы\",\n  image: \"../static/assets/images/curtains.jpg\",\n  audioSrc: \"../static/assets/audio/curtains.mp3\"\n}, {\n  word: \"armchair\",\n  translation: \"кресло\",\n  image: \"../static/assets/images/armchair.jpg\",\n  audioSrc: \"../static/assets/audio/armchair.mp3\"\n}, {\n  word: \"sofa\",\n  translation: \"диван\",\n  image: \"../static/assets/images/sofa.jpg\",\n  audioSrc: \"../static/assets/audio/sofa.mp3\"\n}, {\n  word: \"window\",\n  translation: \"окно\",\n  image: \"../static/assets/images/window.jpg\",\n  audioSrc: \"../static/assets/audio/window.mp3\"\n}]];\n\n\n//# sourceURL=webpack://english_for_kids/./static/data/cards.data.js?");
 
 /***/ }),
 
@@ -202,7 +202,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./angry.mp3\": \"./static/assets/audio/angry.mp3\",\n\t\"./bird.mp3\": \"./static/assets/audio/bird.mp3\",\n\t\"./blouse.mp3\": \"./static/assets/audio/blouse.mp3\",\n\t\"./boot.mp3\": \"./static/assets/audio/boot.mp3\",\n\t\"./cat.mp3\": \"./static/assets/audio/cat.mp3\",\n\t\"./chick.mp3\": \"./static/assets/audio/chick.mp3\",\n\t\"./chicken.mp3\": \"./static/assets/audio/chicken.mp3\",\n\t\"./coat.mp3\": \"./static/assets/audio/coat.mp3\",\n\t\"./correct.mp3\": \"./static/assets/audio/correct.mp3\",\n\t\"./cry.mp3\": \"./static/assets/audio/cry.mp3\",\n\t\"./dance.mp3\": \"./static/assets/audio/dance.mp3\",\n\t\"./dive.mp3\": \"./static/assets/audio/dive.mp3\",\n\t\"./dog.mp3\": \"./static/assets/audio/dog.mp3\",\n\t\"./dolphin.mp3\": \"./static/assets/audio/dolphin.mp3\",\n\t\"./draw.mp3\": \"./static/assets/audio/draw.mp3\",\n\t\"./dress.mp3\": \"./static/assets/audio/dress.mp3\",\n\t\"./error.mp3\": \"./static/assets/audio/error.mp3\",\n\t\"./failure.mp3\": \"./static/assets/audio/failure.mp3\",\n\t\"./fish.mp3\": \"./static/assets/audio/fish.mp3\",\n\t\"./fly.mp3\": \"./static/assets/audio/fly.mp3\",\n\t\"./frog.mp3\": \"./static/assets/audio/frog.mp3\",\n\t\"./giraffe.mp3\": \"./static/assets/audio/giraffe.mp3\",\n\t\"./happy.mp3\": \"./static/assets/audio/happy.mp3\",\n\t\"./horse.mp3\": \"./static/assets/audio/horse.mp3\",\n\t\"./hug.mp3\": \"./static/assets/audio/hug.mp3\",\n\t\"./jump.mp3\": \"./static/assets/audio/jump.mp3\",\n\t\"./laugh.mp3\": \"./static/assets/audio/laugh.mp3\",\n\t\"./lion.mp3\": \"./static/assets/audio/lion.mp3\",\n\t\"./mouse.mp3\": \"./static/assets/audio/mouse.mp3\",\n\t\"./open.mp3\": \"./static/assets/audio/open.mp3\",\n\t\"./pants.mp3\": \"./static/assets/audio/pants.mp3\",\n\t\"./pig.mp3\": \"./static/assets/audio/pig.mp3\",\n\t\"./play.mp3\": \"./static/assets/audio/play.mp3\",\n\t\"./point.mp3\": \"./static/assets/audio/point.mp3\",\n\t\"./rabbit.mp3\": \"./static/assets/audio/rabbit.mp3\",\n\t\"./ride.mp3\": \"./static/assets/audio/ride.mp3\",\n\t\"./run.mp3\": \"./static/assets/audio/run.mp3\",\n\t\"./sad.mp3\": \"./static/assets/audio/sad.mp3\",\n\t\"./scared.mp3\": \"./static/assets/audio/scared.mp3\",\n\t\"./sheep.mp3\": \"./static/assets/audio/sheep.mp3\",\n\t\"./shirt.mp3\": \"./static/assets/audio/shirt.mp3\",\n\t\"./shoe.mp3\": \"./static/assets/audio/shoe.mp3\",\n\t\"./sing.mp3\": \"./static/assets/audio/sing.mp3\",\n\t\"./skip.mp3\": \"./static/assets/audio/skip.mp3\",\n\t\"./skirt.mp3\": \"./static/assets/audio/skirt.mp3\",\n\t\"./smile.mp3\": \"./static/assets/audio/smile.mp3\",\n\t\"./success.mp3\": \"./static/assets/audio/success.mp3\",\n\t\"./surprised.mp3\": \"./static/assets/audio/surprised.mp3\",\n\t\"./swim.mp3\": \"./static/assets/audio/swim.mp3\",\n\t\"./tired.mp3\": \"./static/assets/audio/tired.mp3\",\n\t\"./turtle.mp3\": \"./static/assets/audio/turtle.mp3\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/audio sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./angry.mp3\": \"./static/assets/audio/angry.mp3\",\n\t\"./armchair.mp3\": \"./static/assets/audio/armchair.mp3\",\n\t\"./beach.mp3\": \"./static/assets/audio/beach.mp3\",\n\t\"./bedroom.mp3\": \"./static/assets/audio/bedroom.mp3\",\n\t\"./bird.mp3\": \"./static/assets/audio/bird.mp3\",\n\t\"./blouse.mp3\": \"./static/assets/audio/blouse.mp3\",\n\t\"./boot.mp3\": \"./static/assets/audio/boot.mp3\",\n\t\"./breakfast.mp3\": \"./static/assets/audio/breakfast.mp3\",\n\t\"./cake.mp3\": \"./static/assets/audio/cake.mp3\",\n\t\"./cat.mp3\": \"./static/assets/audio/cat.mp3\",\n\t\"./chick.mp3\": \"./static/assets/audio/chick.mp3\",\n\t\"./chicken.mp3\": \"./static/assets/audio/chicken.mp3\",\n\t\"./coat.mp3\": \"./static/assets/audio/coat.mp3\",\n\t\"./cocktail.mp3\": \"./static/assets/audio/cocktail.mp3\",\n\t\"./correct.mp3\": \"./static/assets/audio/correct.mp3\",\n\t\"./cry.mp3\": \"./static/assets/audio/cry.mp3\",\n\t\"./curtains.mp3\": \"./static/assets/audio/curtains.mp3\",\n\t\"./dance.mp3\": \"./static/assets/audio/dance.mp3\",\n\t\"./dive.mp3\": \"./static/assets/audio/dive.mp3\",\n\t\"./dog.mp3\": \"./static/assets/audio/dog.mp3\",\n\t\"./dolphin.mp3\": \"./static/assets/audio/dolphin.mp3\",\n\t\"./draw.mp3\": \"./static/assets/audio/draw.mp3\",\n\t\"./dress.mp3\": \"./static/assets/audio/dress.mp3\",\n\t\"./error.mp3\": \"./static/assets/audio/error.mp3\",\n\t\"./failure.mp3\": \"./static/assets/audio/failure.mp3\",\n\t\"./field.mp3\": \"./static/assets/audio/field.mp3\",\n\t\"./fireplace.mp3\": \"./static/assets/audio/fireplace.mp3\",\n\t\"./fish.mp3\": \"./static/assets/audio/fish.mp3\",\n\t\"./flowers.mp3\": \"./static/assets/audio/flowers.mp3\",\n\t\"./fly.mp3\": \"./static/assets/audio/fly.mp3\",\n\t\"./forest.mp3\": \"./static/assets/audio/forest.mp3\",\n\t\"./frog.mp3\": \"./static/assets/audio/frog.mp3\",\n\t\"./fruits.mp3\": \"./static/assets/audio/fruits.mp3\",\n\t\"./giraffe.mp3\": \"./static/assets/audio/giraffe.mp3\",\n\t\"./happy.mp3\": \"./static/assets/audio/happy.mp3\",\n\t\"./horse.mp3\": \"./static/assets/audio/horse.mp3\",\n\t\"./hug.mp3\": \"./static/assets/audio/hug.mp3\",\n\t\"./jump.mp3\": \"./static/assets/audio/jump.mp3\",\n\t\"./kitchen.mp3\": \"./static/assets/audio/kitchen.mp3\",\n\t\"./laugh.mp3\": \"./static/assets/audio/laugh.mp3\",\n\t\"./lion.mp3\": \"./static/assets/audio/lion.mp3\",\n\t\"./livingroom.mp3\": \"./static/assets/audio/livingroom.mp3\",\n\t\"./meat.mp3\": \"./static/assets/audio/meat.mp3\",\n\t\"./mountain.mp3\": \"./static/assets/audio/mountain.mp3\",\n\t\"./mouse.mp3\": \"./static/assets/audio/mouse.mp3\",\n\t\"./open.mp3\": \"./static/assets/audio/open.mp3\",\n\t\"./pants.mp3\": \"./static/assets/audio/pants.mp3\",\n\t\"./pig.mp3\": \"./static/assets/audio/pig.mp3\",\n\t\"./pizza.mp3\": \"./static/assets/audio/pizza.mp3\",\n\t\"./play.mp3\": \"./static/assets/audio/play.mp3\",\n\t\"./point.mp3\": \"./static/assets/audio/point.mp3\",\n\t\"./rabbit.mp3\": \"./static/assets/audio/rabbit.mp3\",\n\t\"./ride.mp3\": \"./static/assets/audio/ride.mp3\",\n\t\"./river.mp3\": \"./static/assets/audio/river.mp3\",\n\t\"./run.mp3\": \"./static/assets/audio/run.mp3\",\n\t\"./sad.mp3\": \"./static/assets/audio/sad.mp3\",\n\t\"./scared.mp3\": \"./static/assets/audio/scared.mp3\",\n\t\"./sea.mp3\": \"./static/assets/audio/sea.mp3\",\n\t\"./sheep.mp3\": \"./static/assets/audio/sheep.mp3\",\n\t\"./shirt.mp3\": \"./static/assets/audio/shirt.mp3\",\n\t\"./shoe.mp3\": \"./static/assets/audio/shoe.mp3\",\n\t\"./sing.mp3\": \"./static/assets/audio/sing.mp3\",\n\t\"./skip.mp3\": \"./static/assets/audio/skip.mp3\",\n\t\"./skirt.mp3\": \"./static/assets/audio/skirt.mp3\",\n\t\"./smile.mp3\": \"./static/assets/audio/smile.mp3\",\n\t\"./sofa.mp3\": \"./static/assets/audio/sofa.mp3\",\n\t\"./soup.mp3\": \"./static/assets/audio/soup.mp3\",\n\t\"./success.mp3\": \"./static/assets/audio/success.mp3\",\n\t\"./surprised.mp3\": \"./static/assets/audio/surprised.mp3\",\n\t\"./swim.mp3\": \"./static/assets/audio/swim.mp3\",\n\t\"./tired.mp3\": \"./static/assets/audio/tired.mp3\",\n\t\"./tree.mp3\": \"./static/assets/audio/tree.mp3\",\n\t\"./turtle.mp3\": \"./static/assets/audio/turtle.mp3\",\n\t\"./vegetables.mp3\": \"./static/assets/audio/vegetables.mp3\",\n\t\"./window.mp3\": \"./static/assets/audio/window.mp3\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/audio sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -212,7 +212,7 @@ eval("var map = {\n\t\"./angry.mp3\": \"./static/assets/audio/angry.mp3\",\n\t\"
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\": \"./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\",\n\t\"./500aa9360f5573bf4c282bb6ed73cd92.png\": \"./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\",\n\t\"./ACTIONS1.jpg\": \"./static/assets/images/ACTIONS1.jpg\",\n\t\"./ACTIONS2.jpg\": \"./static/assets/images/ACTIONS2.jpg\",\n\t\"./ACTIONS3.jpg\": \"./static/assets/images/ACTIONS3.jpg\",\n\t\"./ACTIONS4.jpg\": \"./static/assets/images/ACTIONS4.jpg\",\n\t\"./ANIMALS1.jpg\": \"./static/assets/images/ANIMALS1.jpg\",\n\t\"./ANIMALS2.jpg\": \"./static/assets/images/ANIMALS2.jpg\",\n\t\"./ANIMALS3.jpg\": \"./static/assets/images/ANIMALS3.jpg\",\n\t\"./CLOTHES.jpg\": \"./static/assets/images/CLOTHES.jpg\",\n\t\"./CLOTHES2.jpg\": \"./static/assets/images/CLOTHES2.jpg\",\n\t\"./EMOTIONS.jpg\": \"./static/assets/images/EMOTIONS.jpg\",\n\t\"./FAILURE1.jpg\": \"./static/assets/images/FAILURE1.jpg\",\n\t\"./FAILURE2.jpg\": \"./static/assets/images/FAILURE2.jpg\",\n\t\"./FOOD.jpg\": \"./static/assets/images/FOOD.jpg\",\n\t\"./FOOD2.jpg\": \"./static/assets/images/FOOD2.jpg\",\n\t\"./HOME.jpg\": \"./static/assets/images/HOME.jpg\",\n\t\"./NATURE.jpg\": \"./static/assets/images/NATURE.jpg\",\n\t\"./SUCCESS1.jpg\": \"./static/assets/images/SUCCESS1.jpg\",\n\t\"./SUCCESS2.jpg\": \"./static/assets/images/SUCCESS2.jpg\",\n\t\"./angry.jpg\": \"./static/assets/images/angry.jpg\",\n\t\"./audio.svg\": \"./static/assets/images/audio.svg\",\n\t\"./bird.jpg\": \"./static/assets/images/bird.jpg\",\n\t\"./blouse.jpg\": \"./static/assets/images/blouse.jpg\",\n\t\"./boot.jpg\": \"./static/assets/images/boot.jpg\",\n\t\"./cat.jpg\": \"./static/assets/images/cat.jpg\",\n\t\"./chick.jpg\": \"./static/assets/images/chick.jpg\",\n\t\"./chicken.jpg\": \"./static/assets/images/chicken.jpg\",\n\t\"./clouds-transparent-background-75-700x439.png\": \"./static/assets/images/clouds-transparent-background-75-700x439.png\",\n\t\"./clouds-transparent-background-9-700x573.png\": \"./static/assets/images/clouds-transparent-background-9-700x573.png\",\n\t\"./coat.jpg\": \"./static/assets/images/coat.jpg\",\n\t\"./cry.jpg\": \"./static/assets/images/cry.jpg\",\n\t\"./dance.jpg\": \"./static/assets/images/dance.jpg\",\n\t\"./dive.jpg\": \"./static/assets/images/dive.jpg\",\n\t\"./dog.jpg\": \"./static/assets/images/dog.jpg\",\n\t\"./dolphin.jpg\": \"./static/assets/images/dolphin.jpg\",\n\t\"./draw.jpg\": \"./static/assets/images/draw.jpg\",\n\t\"./dress.jpg\": \"./static/assets/images/dress.jpg\",\n\t\"./e54fa2d2646f7146db99fd133f2b9de0.jpg\": \"./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\",\n\t\"./failure.jpg\": \"./static/assets/images/failure.jpg\",\n\t\"./fish.jpg\": \"./static/assets/images/fish.jpg\",\n\t\"./fish1.jpg\": \"./static/assets/images/fish1.jpg\",\n\t\"./fly.jpg\": \"./static/assets/images/fly.jpg\",\n\t\"./frog.jpg\": \"./static/assets/images/frog.jpg\",\n\t\"./giraffe.jpg\": \"./static/assets/images/giraffe.jpg\",\n\t\"./happy.jpg\": \"./static/assets/images/happy.jpg\",\n\t\"./horse.jpg\": \"./static/assets/images/horse.jpg\",\n\t\"./hug.jpg\": \"./static/assets/images/hug.jpg\",\n\t\"./jump.jpg\": \"./static/assets/images/jump.jpg\",\n\t\"./laugh.jpg\": \"./static/assets/images/laugh.jpg\",\n\t\"./lion.jpg\": \"./static/assets/images/lion.jpg\",\n\t\"./mouse.jpg\": \"./static/assets/images/mouse.jpg\",\n\t\"./open.jpg\": \"./static/assets/images/open.jpg\",\n\t\"./pants.jpg\": \"./static/assets/images/pants.jpg\",\n\t\"./pig.jpg\": \"./static/assets/images/pig.jpg\",\n\t\"./play.jpg\": \"./static/assets/images/play.jpg\",\n\t\"./point.jpg\": \"./static/assets/images/point.jpg\",\n\t\"./rabbit.jpg\": \"./static/assets/images/rabbit.jpg\",\n\t\"./repeat.svg\": \"./static/assets/images/repeat.svg\",\n\t\"./ride.jpg\": \"./static/assets/images/ride.jpg\",\n\t\"./rotate.svg\": \"./static/assets/images/rotate.svg\",\n\t\"./run.jpg\": \"./static/assets/images/run.jpg\",\n\t\"./sad.jpg\": \"./static/assets/images/sad.jpg\",\n\t\"./scared.jpg\": \"./static/assets/images/scared.jpg\",\n\t\"./sheep.jpg\": \"./static/assets/images/sheep.jpg\",\n\t\"./shirt.jpg\": \"./static/assets/images/shirt.jpg\",\n\t\"./shoe.jpg\": \"./static/assets/images/shoe.jpg\",\n\t\"./sing.jpg\": \"./static/assets/images/sing.jpg\",\n\t\"./skip.jpg\": \"./static/assets/images/skip.jpg\",\n\t\"./skirt.jpg\": \"./static/assets/images/skirt.jpg\",\n\t\"./smile.jpg\": \"./static/assets/images/smile.jpg\",\n\t\"./star-win.svg\": \"./static/assets/images/star-win.svg\",\n\t\"./star.svg\": \"./static/assets/images/star.svg\",\n\t\"./success.jpg\": \"./static/assets/images/success.jpg\",\n\t\"./surprised.jpg\": \"./static/assets/images/surprised.jpg\",\n\t\"./swim.jpg\": \"./static/assets/images/swim.jpg\",\n\t\"./tired.jpg\": \"./static/assets/images/tired.jpg\",\n\t\"./turtle.jpg\": \"./static/assets/images/turtle.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\": \"./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\",\n\t\"./500aa9360f5573bf4c282bb6ed73cd92.png\": \"./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\",\n\t\"./ACTIONS1.jpg\": \"./static/assets/images/ACTIONS1.jpg\",\n\t\"./ACTIONS2.jpg\": \"./static/assets/images/ACTIONS2.jpg\",\n\t\"./ACTIONS3.jpg\": \"./static/assets/images/ACTIONS3.jpg\",\n\t\"./ACTIONS4.jpg\": \"./static/assets/images/ACTIONS4.jpg\",\n\t\"./ANIMALS1.jpg\": \"./static/assets/images/ANIMALS1.jpg\",\n\t\"./ANIMALS2.jpg\": \"./static/assets/images/ANIMALS2.jpg\",\n\t\"./ANIMALS3.jpg\": \"./static/assets/images/ANIMALS3.jpg\",\n\t\"./CLOTHES.jpg\": \"./static/assets/images/CLOTHES.jpg\",\n\t\"./CLOTHES2.jpg\": \"./static/assets/images/CLOTHES2.jpg\",\n\t\"./EMOTIONS.jpg\": \"./static/assets/images/EMOTIONS.jpg\",\n\t\"./FAILURE1.jpg\": \"./static/assets/images/FAILURE1.jpg\",\n\t\"./FAILURE2.jpg\": \"./static/assets/images/FAILURE2.jpg\",\n\t\"./FOOD.jpg\": \"./static/assets/images/FOOD.jpg\",\n\t\"./FOOD2.jpg\": \"./static/assets/images/FOOD2.jpg\",\n\t\"./HOME.jpg\": \"./static/assets/images/HOME.jpg\",\n\t\"./NATURE.jpg\": \"./static/assets/images/NATURE.jpg\",\n\t\"./SUCCESS1.jpg\": \"./static/assets/images/SUCCESS1.jpg\",\n\t\"./SUCCESS2.jpg\": \"./static/assets/images/SUCCESS2.jpg\",\n\t\"./angry.jpg\": \"./static/assets/images/angry.jpg\",\n\t\"./armchair.jpg\": \"./static/assets/images/armchair.jpg\",\n\t\"./audio.svg\": \"./static/assets/images/audio.svg\",\n\t\"./beach.jpg\": \"./static/assets/images/beach.jpg\",\n\t\"./bedroom.jpg\": \"./static/assets/images/bedroom.jpg\",\n\t\"./bird.jpg\": \"./static/assets/images/bird.jpg\",\n\t\"./blouse.jpg\": \"./static/assets/images/blouse.jpg\",\n\t\"./boot.jpg\": \"./static/assets/images/boot.jpg\",\n\t\"./breakfast.jpg\": \"./static/assets/images/breakfast.jpg\",\n\t\"./cake.jpg\": \"./static/assets/images/cake.jpg\",\n\t\"./cat.jpg\": \"./static/assets/images/cat.jpg\",\n\t\"./chick.jpg\": \"./static/assets/images/chick.jpg\",\n\t\"./chicken.jpg\": \"./static/assets/images/chicken.jpg\",\n\t\"./clouds-transparent-background-75-700x439.png\": \"./static/assets/images/clouds-transparent-background-75-700x439.png\",\n\t\"./clouds-transparent-background-9-700x573.png\": \"./static/assets/images/clouds-transparent-background-9-700x573.png\",\n\t\"./coat.jpg\": \"./static/assets/images/coat.jpg\",\n\t\"./cocktail.jpg\": \"./static/assets/images/cocktail.jpg\",\n\t\"./cry.jpg\": \"./static/assets/images/cry.jpg\",\n\t\"./curtains.jpg\": \"./static/assets/images/curtains.jpg\",\n\t\"./dance.jpg\": \"./static/assets/images/dance.jpg\",\n\t\"./dive.jpg\": \"./static/assets/images/dive.jpg\",\n\t\"./dog.jpg\": \"./static/assets/images/dog.jpg\",\n\t\"./dolphin.jpg\": \"./static/assets/images/dolphin.jpg\",\n\t\"./draw.jpg\": \"./static/assets/images/draw.jpg\",\n\t\"./dress.jpg\": \"./static/assets/images/dress.jpg\",\n\t\"./e54fa2d2646f7146db99fd133f2b9de0.jpg\": \"./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\",\n\t\"./failure.jpg\": \"./static/assets/images/failure.jpg\",\n\t\"./field.jpg\": \"./static/assets/images/field.jpg\",\n\t\"./fireplace.jpg\": \"./static/assets/images/fireplace.jpg\",\n\t\"./fish.jpg\": \"./static/assets/images/fish.jpg\",\n\t\"./fish1.jpg\": \"./static/assets/images/fish1.jpg\",\n\t\"./flowers.jpg\": \"./static/assets/images/flowers.jpg\",\n\t\"./fly.jpg\": \"./static/assets/images/fly.jpg\",\n\t\"./forest.jpg\": \"./static/assets/images/forest.jpg\",\n\t\"./frog.jpg\": \"./static/assets/images/frog.jpg\",\n\t\"./fruits.jpg\": \"./static/assets/images/fruits.jpg\",\n\t\"./giraffe.jpg\": \"./static/assets/images/giraffe.jpg\",\n\t\"./happy.jpg\": \"./static/assets/images/happy.jpg\",\n\t\"./horse.jpg\": \"./static/assets/images/horse.jpg\",\n\t\"./hug.jpg\": \"./static/assets/images/hug.jpg\",\n\t\"./jump.jpg\": \"./static/assets/images/jump.jpg\",\n\t\"./kitchen.jpg\": \"./static/assets/images/kitchen.jpg\",\n\t\"./laugh.jpg\": \"./static/assets/images/laugh.jpg\",\n\t\"./lion.jpg\": \"./static/assets/images/lion.jpg\",\n\t\"./livingroom.jpg\": \"./static/assets/images/livingroom.jpg\",\n\t\"./meat.jpg\": \"./static/assets/images/meat.jpg\",\n\t\"./mountain.jpg\": \"./static/assets/images/mountain.jpg\",\n\t\"./mouse.jpg\": \"./static/assets/images/mouse.jpg\",\n\t\"./open.jpg\": \"./static/assets/images/open.jpg\",\n\t\"./pants.jpg\": \"./static/assets/images/pants.jpg\",\n\t\"./pig.jpg\": \"./static/assets/images/pig.jpg\",\n\t\"./pizza.jpg\": \"./static/assets/images/pizza.jpg\",\n\t\"./play.jpg\": \"./static/assets/images/play.jpg\",\n\t\"./point.jpg\": \"./static/assets/images/point.jpg\",\n\t\"./rabbit.jpg\": \"./static/assets/images/rabbit.jpg\",\n\t\"./repeat.svg\": \"./static/assets/images/repeat.svg\",\n\t\"./ride.jpg\": \"./static/assets/images/ride.jpg\",\n\t\"./river.jpg\": \"./static/assets/images/river.jpg\",\n\t\"./rotate.svg\": \"./static/assets/images/rotate.svg\",\n\t\"./run.jpg\": \"./static/assets/images/run.jpg\",\n\t\"./sad.jpg\": \"./static/assets/images/sad.jpg\",\n\t\"./scared.jpg\": \"./static/assets/images/scared.jpg\",\n\t\"./sea.jpg\": \"./static/assets/images/sea.jpg\",\n\t\"./sheep.jpg\": \"./static/assets/images/sheep.jpg\",\n\t\"./shirt.jpg\": \"./static/assets/images/shirt.jpg\",\n\t\"./shoe.jpg\": \"./static/assets/images/shoe.jpg\",\n\t\"./sing.jpg\": \"./static/assets/images/sing.jpg\",\n\t\"./skip.jpg\": \"./static/assets/images/skip.jpg\",\n\t\"./skirt.jpg\": \"./static/assets/images/skirt.jpg\",\n\t\"./smile.jpg\": \"./static/assets/images/smile.jpg\",\n\t\"./sofa.jpg\": \"./static/assets/images/sofa.jpg\",\n\t\"./soup.jpg\": \"./static/assets/images/soup.jpg\",\n\t\"./star-win.svg\": \"./static/assets/images/star-win.svg\",\n\t\"./star.svg\": \"./static/assets/images/star.svg\",\n\t\"./success.jpg\": \"./static/assets/images/success.jpg\",\n\t\"./surprised.jpg\": \"./static/assets/images/surprised.jpg\",\n\t\"./swim.jpg\": \"./static/assets/images/swim.jpg\",\n\t\"./tired.jpg\": \"./static/assets/images/tired.jpg\",\n\t\"./tree.jpg\": \"./static/assets/images/tree.jpg\",\n\t\"./turtle.jpg\": \"./static/assets/images/turtle.jpg\",\n\t\"./vegetables.jpg\": \"./static/assets/images/vegetables.jpg\",\n\t\"./window.jpg\": \"./static/assets/images/window.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -224,6 +224,39 @@ eval("var map = {\n\t\"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\": \
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/angry.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/angry.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/armchair.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/armchair.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/armchair.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/armchair.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/beach.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/beach.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/beach.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/beach.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/bedroom.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/bedroom.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/bedroom.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/bedroom.mp3?");
 
 /***/ }),
 
@@ -257,6 +290,28 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/blouse.mp3\";\n\n/
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/boot.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/boot.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/breakfast.mp3":
+/*!*******************************************!*\
+  !*** ./static/assets/audio/breakfast.mp3 ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/breakfast.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/breakfast.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/cake.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/cake.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cake.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cake.mp3?");
 
 /***/ }),
 
@@ -304,6 +359,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/coat.mp3\";\n\n//#
 
 /***/ }),
 
+/***/ "./static/assets/audio/cocktail.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/cocktail.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cocktail.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cocktail.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/correct.mp3":
 /*!*****************************************!*\
   !*** ./static/assets/audio/correct.mp3 ***!
@@ -323,6 +389,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/correct.mp3\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/cry.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cry.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/curtains.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/curtains.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/curtains.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/curtains.mp3?");
 
 /***/ }),
 
@@ -414,6 +491,28 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/failure.mp3\";\n\n
 
 /***/ }),
 
+/***/ "./static/assets/audio/field.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/field.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/field.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/field.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fireplace.mp3":
+/*!*******************************************!*\
+  !*** ./static/assets/audio/fireplace.mp3 ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fireplace.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fireplace.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/fish.mp3":
 /*!**************************************!*\
   !*** ./static/assets/audio/fish.mp3 ***!
@@ -422,6 +521,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/failure.mp3\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/fish.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fish.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/flowers.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/flowers.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/flowers.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/flowers.mp3?");
 
 /***/ }),
 
@@ -436,6 +546,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/fly.mp3\";\n\n//# 
 
 /***/ }),
 
+/***/ "./static/assets/audio/forest.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/forest.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/forest.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/forest.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/frog.mp3":
 /*!**************************************!*\
   !*** ./static/assets/audio/frog.mp3 ***!
@@ -444,6 +565,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/fly.mp3\";\n\n//# 
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/frog.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/frog.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fruits.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/fruits.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fruits.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fruits.mp3?");
 
 /***/ }),
 
@@ -502,6 +634,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/jump.mp3\";\n\n//#
 
 /***/ }),
 
+/***/ "./static/assets/audio/kitchen.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/kitchen.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/kitchen.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/kitchen.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/laugh.mp3":
 /*!***************************************!*\
   !*** ./static/assets/audio/laugh.mp3 ***!
@@ -521,6 +664,39 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/laugh.mp3\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/lion.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/lion.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/livingroom.mp3":
+/*!********************************************!*\
+  !*** ./static/assets/audio/livingroom.mp3 ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/livingroom.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/livingroom.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/meat.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/meat.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/meat.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/meat.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/mountain.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/mountain.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/mountain.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/mountain.mp3?");
 
 /***/ }),
 
@@ -568,6 +744,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/pig.mp3\";\n\n//# 
 
 /***/ }),
 
+/***/ "./static/assets/audio/pizza.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/pizza.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/pizza.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/pizza.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/play.mp3":
 /*!**************************************!*\
   !*** ./static/assets/audio/play.mp3 ***!
@@ -612,6 +799,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/ride.mp3\";\n\n//#
 
 /***/ }),
 
+/***/ "./static/assets/audio/river.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/river.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/river.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/river.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/run.mp3":
 /*!*************************************!*\
   !*** ./static/assets/audio/run.mp3 ***!
@@ -642,6 +840,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/sad.mp3\";\n\n//# 
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/scared.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/scared.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sea.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/sea.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sea.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sea.mp3?");
 
 /***/ }),
 
@@ -722,6 +931,28 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/smile.mp3\";\n\n//
 
 /***/ }),
 
+/***/ "./static/assets/audio/sofa.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/sofa.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sofa.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sofa.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/soup.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/soup.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/soup.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/soup.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/success.mp3":
 /*!*****************************************!*\
   !*** ./static/assets/audio/success.mp3 ***!
@@ -766,6 +997,17 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/tired.mp3\";\n\n//
 
 /***/ }),
 
+/***/ "./static/assets/audio/tree.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/tree.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/tree.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/tree.mp3?");
+
+/***/ }),
+
 /***/ "./static/assets/audio/turtle.mp3":
 /*!****************************************!*\
   !*** ./static/assets/audio/turtle.mp3 ***!
@@ -774,6 +1016,28 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/tired.mp3\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/audio/turtle.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/turtle.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/vegetables.mp3":
+/*!********************************************!*\
+  !*** ./static/assets/audio/vegetables.mp3 ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/vegetables.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/vegetables.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/window.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/window.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/window.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/window.mp3?");
 
 /***/ }),
 
@@ -1008,6 +1272,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/angry.jpg\";\n\n/
 
 /***/ }),
 
+/***/ "./static/assets/images/armchair.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/armchair.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/armchair.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/armchair.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/audio.svg":
 /*!****************************************!*\
   !*** ./static/assets/images/audio.svg ***!
@@ -1016,6 +1291,28 @@ eval("module.exports = __webpack_require__.p + \"assets/images/angry.jpg\";\n\n/
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/audio.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/audio.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/beach.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/beach.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/beach.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/beach.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/bedroom.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/bedroom.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/bedroom.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/bedroom.jpg?");
 
 /***/ }),
 
@@ -1049,6 +1346,28 @@ eval("module.exports = __webpack_require__.p + \"assets/images/blouse.jpg\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/boot.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/boot.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/breakfast.jpg":
+/*!********************************************!*\
+  !*** ./static/assets/images/breakfast.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/breakfast.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/breakfast.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/cake.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/cake.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cake.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cake.jpg?");
 
 /***/ }),
 
@@ -1118,6 +1437,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/coat.jpg\";\n\n//
 
 /***/ }),
 
+/***/ "./static/assets/images/cocktail.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/cocktail.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cocktail.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cocktail.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/cry.jpg":
 /*!**************************************!*\
   !*** ./static/assets/images/cry.jpg ***!
@@ -1126,6 +1456,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/coat.jpg\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/cry.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cry.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/curtains.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/curtains.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/curtains.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/curtains.jpg?");
 
 /***/ }),
 
@@ -1217,6 +1558,28 @@ eval("module.exports = __webpack_require__.p + \"assets/images/failure.jpg\";\n\
 
 /***/ }),
 
+/***/ "./static/assets/images/field.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/field.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/field.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/field.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fireplace.jpg":
+/*!********************************************!*\
+  !*** ./static/assets/images/fireplace.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fireplace.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fireplace.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/fish.jpg":
 /*!***************************************!*\
   !*** ./static/assets/images/fish.jpg ***!
@@ -1239,6 +1602,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/fish1.jpg\";\n\n/
 
 /***/ }),
 
+/***/ "./static/assets/images/flowers.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/flowers.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/flowers.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/flowers.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/fly.jpg":
 /*!**************************************!*\
   !*** ./static/assets/images/fly.jpg ***!
@@ -1250,6 +1624,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/fly.jpg\";\n\n//#
 
 /***/ }),
 
+/***/ "./static/assets/images/forest.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/forest.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/forest.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/forest.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/frog.jpg":
 /*!***************************************!*\
   !*** ./static/assets/images/frog.jpg ***!
@@ -1258,6 +1643,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/fly.jpg\";\n\n//#
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/frog.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/frog.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fruits.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/fruits.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fruits.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fruits.jpg?");
 
 /***/ }),
 
@@ -1316,6 +1712,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/jump.jpg\";\n\n//
 
 /***/ }),
 
+/***/ "./static/assets/images/kitchen.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/kitchen.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/kitchen.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/kitchen.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/laugh.jpg":
 /*!****************************************!*\
   !*** ./static/assets/images/laugh.jpg ***!
@@ -1335,6 +1742,39 @@ eval("module.exports = __webpack_require__.p + \"assets/images/laugh.jpg\";\n\n/
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/lion.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/lion.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/livingroom.jpg":
+/*!*********************************************!*\
+  !*** ./static/assets/images/livingroom.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/livingroom.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/livingroom.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/meat.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/meat.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/meat.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/meat.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/mountain.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/mountain.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/mountain.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/mountain.jpg?");
 
 /***/ }),
 
@@ -1379,6 +1819,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/pants.jpg\";\n\n/
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/pig.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/pig.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/pizza.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/pizza.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/pizza.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/pizza.jpg?");
 
 /***/ }),
 
@@ -1437,6 +1888,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/ride.jpg\";\n\n//
 
 /***/ }),
 
+/***/ "./static/assets/images/river.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/river.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/river.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/river.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/rotate.svg":
 /*!*****************************************!*\
   !*** ./static/assets/images/rotate.svg ***!
@@ -1478,6 +1940,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/sad.jpg\";\n\n//#
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/scared.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/scared.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sea.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/sea.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sea.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sea.jpg?");
 
 /***/ }),
 
@@ -1558,6 +2031,28 @@ eval("module.exports = __webpack_require__.p + \"assets/images/smile.jpg\";\n\n/
 
 /***/ }),
 
+/***/ "./static/assets/images/sofa.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/sofa.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sofa.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sofa.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/soup.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/soup.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/soup.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/soup.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/star-win.svg":
 /*!*******************************************!*\
   !*** ./static/assets/images/star-win.svg ***!
@@ -1624,6 +2119,17 @@ eval("module.exports = __webpack_require__.p + \"assets/images/tired.jpg\";\n\n/
 
 /***/ }),
 
+/***/ "./static/assets/images/tree.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/tree.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/tree.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/tree.jpg?");
+
+/***/ }),
+
 /***/ "./static/assets/images/turtle.jpg":
 /*!*****************************************!*\
   !*** ./static/assets/images/turtle.jpg ***!
@@ -1632,6 +2138,28 @@ eval("module.exports = __webpack_require__.p + \"assets/images/tired.jpg\";\n\n/
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/turtle.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/turtle.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/vegetables.jpg":
+/*!*********************************************!*\
+  !*** ./static/assets/images/vegetables.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/vegetables.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/vegetables.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/window.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/window.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/window.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/window.jpg?");
 
 /***/ })
 

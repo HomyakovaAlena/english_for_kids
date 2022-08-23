@@ -4,6 +4,7 @@ from django.views.generic import ListView, DetailView
 
 # Create your views here.
 from .models import Words
+from .models import Categories
 
 
 class CategoriesListView(ListView):
@@ -16,5 +17,7 @@ class WordsDetailView(DetailView):
     model = Words
     context_object_name = "word"
     template_name = "words/words_list.html"
+
+
 
 
