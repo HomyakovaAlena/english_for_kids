@@ -19,7 +19,7 @@ import { StarComponent } from "../components/star.component";
 import { StartButtonComponent } from "../components/startButton.component";
 import { Component } from "../components/component.component";
 import { StatsData } from "../components/statsData";
-import { StatisticsContainer } from "../components/statsTable.component";
+// import { StatisticsContainer } from "../components/statsTable.component";
 import { SortableTable } from "../components/sortableTable.component";
 
 class App {
@@ -142,25 +142,24 @@ class App {
   }
 
   renderStats() {
-    Component.cleanDOM();
-    const statsContainer = new StatisticsContainer();
-    statsContainer.renderStatistics(
-      this.cards,
-      this.categories,
-      this.statsData
-    );
+    // Component.cleanDOM();
+    // const statsContainer = new StatisticsContainer();
+    // statsContainer.renderStatistics(
+    //   this.cards,
+    //   this.categories,
+    //   this.statsData
+    // );
     SortableTable.addSortTableListener();
   }
 
   handleclicks = (event) => {
     const element = event.target;
     const card = element.closest(".card");
-
+    this.renderStats();
     if (element.closest(".switch")) {
       this.toggleMode();
     } else if (element.closest(".statistics")) {
       StarComponent.hideStars();
-      this.renderStats();
     }
     // else if (
     //   element.closest(".category_card") ||
@@ -184,7 +183,10 @@ class App {
         .replace("#", "");
       console.log(this.currentCategoryName);
       this.statsData.addTrainItem(this.currentCategoryName, this.currentWord);
-      this.statsData.mirrorToLocalStorage();
+      // this.statsData.mirrorToLocalStorage();
+      this.statsData.sendToServer(
+        this.statsData.postNewItem(+this.currentID.replace('card', ''), 'trained')
+      );
     } else if (element.closest(".rotate-controls")) {
       Component.rotateBack(event, card);
     }
@@ -218,7 +220,10 @@ class App {
           this.currentWord,
           true
         );
-        this.statsData.mirrorToLocalStorage();
+        // this.statsData.mirrorToLocalStorage();
+        this.statsData.sendToServer(
+        this.statsData.postNewItem(+this.currentID.replace('card', ''), 'correct')
+      );
         if (!this.isFinished()) {
           this.currentID = this.pronounceWords();
         } else {
@@ -255,7 +260,10 @@ class App {
           this.currentWord,
           false
         );
-        this.statsData.mirrorToLocalStorage();
+        // this.statsData.mirrorToLocalStorage();
+        this.statsData.sendToServer(
+        this.statsData.postNewItem(+this.currentID.replace('card', ''), 'errors')
+      );
         if (!this.difficultWords.includes(this.currentWord)) {
           this.difficultWords.push(this.currentWord);
         }
@@ -276,7 +284,8 @@ class App {
       }
     } else if (element.closest(".stats__button-reset")) {
       this.statsData = new StatsData();
-      this.statsData.mirrorToLocalStorage();
+      // this.statsData.mirrorToLocalStorage();
+      this.statsData.sendToServer();
       this.difficultWords = [];
       this.renderStats();
     }
@@ -284,7 +293,7 @@ class App {
 
   addListeners() {
     body.addEventListener("click", this.handleclicks);
-    this.statsData.restoreFromLocalStorage();
+    // this.statsData.restoreFromLocalStorage();
   }
 
   addNavigation() {

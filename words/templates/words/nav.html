@@ -1,9 +1,0 @@
-{% extends "base.html" %} {% block nav %} {% for category in categories %}
-<li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
-  <a
-    class="menu__link menu__link--main"
-    href="{% url 'selected_category' category.category %}"
-    ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
-  >
-</li>
-{%endfor%} {% endblock %}

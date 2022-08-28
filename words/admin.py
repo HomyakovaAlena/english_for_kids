@@ -14,3 +14,4 @@ admin.site.register(models.Words)
 
 
 admin.site.register(models.Categories)
+admin.site.register(models.Stats)

@@ -142,7 +142,10 @@ class SortableTable {
 
   static addSortTableListener() {
     const sortableTable = document.querySelector(".sortable");
-    new SortableTable(sortableTable);
+    console.log("sortable");
+    if (sortableTable) {
+      new SortableTable(sortableTable);
+    }
   }
 }
 

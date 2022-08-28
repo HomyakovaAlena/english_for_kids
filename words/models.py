@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -25,6 +26,28 @@ class Words(models.Model):
         return self.word
 
 
+class Stats(models.Model):
+    trained = models.IntegerField(default=0)
+    correct = models.IntegerField(default=0)
+    errors = models.IntegerField(default=0)
+    word = models.ForeignKey(
+        'Words',
+        on_delete=models.CASCADE, related_name='words'
+    )
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE, related_name='stats'
+    )
+
+    def __str__(self):
+        return f'{self.user}, {self.word}: {self.trained}, {self.correct}, {self.errors}'
+
+    @property
+    def get_percentage(self):
+        if self.correct == self.errors == 0:
+            return f'0%'
+        else:
+            return f'{round((self.correct / (self.correct + self.errors) ) * 100)}%'
 
 
 

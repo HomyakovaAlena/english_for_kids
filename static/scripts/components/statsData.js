@@ -23,6 +23,13 @@ class StatsData {
     this.data[category][word]["trained"]++;
   }
 
+  postNewItem(id, action) {
+    return {
+      id: id,
+      action: action,
+    };
+  }
+
   getTrainedItem(category, word) {
     return (
       (this.data[category] &&
@@ -54,6 +61,64 @@ class StatsData {
 
   restoreFromLocalStorage() {
     this.data = { ...JSON.parse(localStorage.getItem("stats")) };
+  }
+
+  getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== "") {
+      const cookies = document.cookie.split(";");
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === name + "=") {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+
+  async sendToServer(stats) {
+    const url = window.location.href;
+    let data = { data: stats };
+    console.log({ data });
+    const csrftoken = this.getCookie("csrftoken");
+
+    // try {
+    //   const response = await fetch(url, {
+    //     method: "GET",
+    //     credentials: "same-origin",
+    //   });
+    //   const json = await response.json();
+    //   console.log("Success:", JSON.stringify(json));
+    // } catch (error) {
+    //   console.error("Error:", error);
+    // }
+
+    // fetch(url)
+    //   .then((response) => {
+    //     return response.json();
+    //   })
+    //   .then((data) => {
+    //     console.log(data);
+    //   });
+
+    try {
+      const response = await fetch(url, {
+        method: "POST",
+        credentials: "same-origin",
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json",
+          "X-Requested-With": "XMLHttpRequest",
+          "X-CSRFToken": csrftoken,
+        },
+      });
+      const json = await response.json();
+      console.log("Success:", JSON.stringify(json));
+    } catch (error) {
+      console.error("Error:", error);
+    }
   }
 }
 

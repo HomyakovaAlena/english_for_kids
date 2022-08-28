@@ -11,6 +11,7 @@
 <div class="card_container">
   {% for word in words %}
   <div class="card" id="card{{word.id}}">
+    {% csrf_token %}
     <div class="card__card-inner">
       <div class="card__card-front">
         <a class="card__link" href="#">

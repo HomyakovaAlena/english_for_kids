@@ -1,0 +1,80 @@
+{% extends "base.html" %} 
+{% load simple_tags %} 
+{% block nav %} 
+{% for category in categories %}
+<li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
+  <a
+    class="menu__link menu__link--main"
+    href="{% url 'selected_category' category.category %}"
+    ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
+  >
+</li>
+{%endfor%} 
+{% endblock %} 
+{% block content %}
+<div class="stats_container">
+  <button class="stats__button stats__button-repeat_difficult">
+    Repeat difficult words</button
+  ><button class="stats__button stats__button-reset">Reset</button>
+  <div class="statsTable_container_div">
+    <table class="stats sortable">
+      <caption>
+        Your results, {{request.user}}:
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" aria-sort="ascending">
+            <button data-column-index="0">
+              Category<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col">
+            <button data-column-index="1">
+              Word<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col">
+            <button data-column-index="2">
+              Translation<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col" class="num">
+            <button data-column-index="3">
+              Trained<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col" class="num">
+            <button data-column-index="4">
+              Correct<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col" class="num">
+            <button data-column-index="5">
+              Errors<span aria-hidden="true"></span>
+            </button>
+          </th>
+          <th scope="col" class="num">
+            <button data-column-index="6">
+              % correct<span aria-hidden="true"></span>
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="stats__table_body" id="stats__table_body">
+        {% for word in stats%}
+
+        <tr class="stats__row">
+          <th scope="row">{{word.category}}</th>
+          <td class="num">{{word.word}}</td>
+          <td class="num">{{word.translation}}</td>
+          <td class="num">{{word.trained|default_if_none:0}}</td>
+          <td class="num">{{word.correct|default_if_none:0}}</td>
+          <td class="num">{{word.errors|default_if_none:0}}</td>
+          <td class="num">{% get_percentage word %}</td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
