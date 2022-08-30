@@ -7,24 +7,26 @@
   align-items: center;
   justify-content: center;
   gap: min(50px, 8vw);
-  
+   @media screen and (max-width: 700px) {
+    gap: 20px;
+  }
 
   &--hidden {
     display: none;
   }
-  // @media (max-width: 750px) {
-  //   margin: 60px auto;
-  // }
 }
 
 .category_card {
-  width: min(100%, 310px);
+  width: min(85vw, 310px);
   height: 330px;
   background-color: $white;
   border-radius: 20px;
   border-bottom: 0px solid $orange;
   transition: all 0.5s;
   transform-style: preserve-3d;
+  @media screen and (max-width: 340px) {
+    height: 300px;
+  }
 
   &:hover {
     -webkit-box-shadow: 5px 5px 10px 5px $darkblue;
@@ -32,8 +34,8 @@
     box-shadow: 5px 5px 10px 5px $darkblue;
     transform: translateY(-10px) scale(1.03);
   }
-  &--gameMode {
-    border-bottom: 50px solid $orange;
+  .gameMode & {
+    border-bottom: 51px solid $orange;
   }
   &__figure {
     display: flex;
@@ -43,11 +45,16 @@
   }
 
   &__img {
-    width: min(85%, 250px);
+    width: min(95%, 250px);
     height: 250px;
-    margin: 30px 30px 15px 30px;
+    margin: 10% 10% 5% 10%;
     border-radius: 10px;
     object-fit: cover;
+    @media screen and (max-width: 340px) {
+      margin: 0;
+      width: 100%;
+      border-radius: 10px 10px 0px 0px;
+    }
   }
 
   &__capture {
@@ -56,6 +63,9 @@
     font-family: $dinnext;
     font-size: 20px;
     color: $darkblue;
+    @media screen and (max-width: 340px) {
+      margin-top: 10px;
+    }
   }
 
   &__link {

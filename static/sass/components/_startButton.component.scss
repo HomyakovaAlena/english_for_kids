@@ -3,12 +3,63 @@
   transition: all 0.5s ease-in-out;
   position: fixed;
   right: 0px;
-  transform: translateX(-95px);
+  transform: translateX(70px);
   top: 50vh;
-  margin-left: 40px;
+  // margin-left: 40px;
+  flex-wrap: nowrap;
+  @media screen and (max-width: 600px) {
+    top: 20vh;
+  }
+  .gameMode & {
+    transform: translateX(-45px);
+    @media screen and (max-width: 600px) {
+      transform: translateX(-35px);
+    }
+  }
+}
 
-  &--hidden {
-    transform: translateX(85px);
+.tooltiptext {
+  display: none;
+}
+
+.category_page.gameMode {
+  .start_line {
+    cursor: default;
+
+    &:active {
+      pointer-events: none;
+    }
+  }
+  & .tooltiptext {
+    display: inline;
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: $darkblue;
+    font-family: $dinnext;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  & .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: $white transparent transparent transparent;
+  }
+
+  & .start_line:hover .tooltiptext {
+    visibility: visible;
   }
 }
 
@@ -23,6 +74,10 @@
   cursor: pointer;
   transition: all 0.5s;
   transform-style: preserve-3d;
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+    padding: 13px 13px 13px 17px;
+  }
   &:hover {
     -webkit-box-shadow: 0px 0px 10px 5px $darkblue;
     -moz-box-shadow: 0px 0px 10px 5px $darkblue;
@@ -34,6 +89,7 @@
     display: none;
   }
 }
+
 .icon_repeat {
   font-size: 30px;
   color: $orange;
@@ -45,6 +101,10 @@
   cursor: pointer;
   transition: all 0.5s;
   transform-style: preserve-3d;
+  @media screen and (max-width: 600px) {
+    font-size: 20px;
+    padding: 15px 13px 12px 17px;
+  }
   &:hover {
     -webkit-box-shadow: 0px 0px 10px 5px $darkblue;
     -moz-box-shadow: 0px 0px 10px 5px $darkblue;

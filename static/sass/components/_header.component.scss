@@ -2,28 +2,32 @@
   font-family: $wellwait;
   font-weight: normal;
   font-style: normal;
+  letter-spacing: 2px;
   margin: 0px;
   font-size: 40px;
   color: $white;
   transition: all 0.5s;
   transform-style: preserve-3d;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 
-  @media screen and (max-width: 900px) {
-    font-size: 30px;
+  @media all and (max-width: 900px) {
+    font-size: 24px;
+
+    &:hover {
+      transform: scale(1.002);
+    }
   }
 }
 
 .header__link {
   text-decoration: none;
 
-  @media screen and (max-width: 750px) {
+  @media all and (max-width: 700px) {
     display: none;
   }
   &:hover .header__h1 {
     color: $orange;
-    font-size: 42px;
   }
 }

@@ -6,7 +6,6 @@ class StatsTable {
     this.cards = cards;
     this.categories = categories;
     this.statsData = statsData;
-    // this.difficult = Array(this.cards.length).fill(0);
   }
 
   createTable() {

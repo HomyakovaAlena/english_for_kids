@@ -1,6 +1,4 @@
-// import "../../data/cards.data";
-import { fragment, container, body } from "../constants/constants";
-
+import { fragment, container } from "../constants/constants";
 import { Component } from "./component.component";
 
 class CategoryCard extends Component {
@@ -30,20 +28,6 @@ class CategoryCard extends Component {
     fragment.append(this.createCategoryCard());
     this.cardContainer.append(fragment);
     return this;
-  }
-
-  static changeCategoriesDesignToGameMode() {
-    const categoryCards = body.querySelectorAll(".category_card");
-    [...categoryCards].forEach((item) => {
-      item.classList.add("category_card--gameMode");
-    });
-  }
-
-  static changeCategoriesDesignToTrainMode() {
-    const categoryCards = body.querySelectorAll(".category_card");
-    [...categoryCards].forEach((item) => {
-      item.classList.remove("category_card--gameMode");
-    });
   }
 }
 

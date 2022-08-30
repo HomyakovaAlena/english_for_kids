@@ -24,10 +24,11 @@ class CategoriesListView(ListView):
     template_name = "words/categories_list.html"
 
 
-class WordsListView(ListView):
+class WordsListView(LoginRequiredMixin, ListView):
     model = Words
     context_object_name = "words"
     template_name = "words/words_list.html"
+    login_url = '/login'
 
     def get_queryset(self, **kwargs):
        qs = super().get_queryset(**kwargs)
@@ -39,13 +40,10 @@ class WordsListView(ListView):
             pass
         elif request.method == 'POST':
             data_from_post = json.load(request)['data']
-            print(data_from_post)
             action = data_from_post['action']
-            print(action)
             try:
                 query_word = Stats.objects.get(
                     word=data_from_post['id'], user=self.request.user)
-                print({query_word})
                 if action == 'trained':
                     query_word.trained += 1 if query_word.trained else 1
                 elif action == 'correct':
@@ -63,16 +61,7 @@ class WordsListView(ListView):
                 else:
                     query_word = Stats(
                         word=Words.objects.get(pk=data_from_post['id']), errors=1, user=self.request.user)
-                query_word.save()
-            print(query_word)
-                            #     en=Stats(trained=data_from_post['trained'], correct=data_from_post['correct'],
-            #            errors=data_from_post['errors'])
-            # en.save()
-            # en.user.set([User.objects.get(
-            #     user_id=self.request.user.id)])
-            # en.word.set([Words.objects.get(
-            #     word=data_from_post['word'])])
-            
+                query_word.save()           
             return JsonResponse(data_from_post)
 
 

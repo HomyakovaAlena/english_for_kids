@@ -84,25 +84,6 @@ class StatsData {
     console.log({ data });
     const csrftoken = this.getCookie("csrftoken");
 
-    // try {
-    //   const response = await fetch(url, {
-    //     method: "GET",
-    //     credentials: "same-origin",
-    //   });
-    //   const json = await response.json();
-    //   console.log("Success:", JSON.stringify(json));
-    // } catch (error) {
-    //   console.error("Error:", error);
-    // }
-
-    // fetch(url)
-    //   .then((response) => {
-    //     return response.json();
-    //   })
-    //   .then((data) => {
-    //     console.log(data);
-    //   });
-
     try {
       const response = await fetch(url, {
         method: "POST",

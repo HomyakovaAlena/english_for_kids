@@ -1,0 +1,144 @@
+.login {
+  max-width: 50vw;
+}
+
+.login__link {
+  font-family: $wellwait;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  color: $white;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s;
+  transform-style: preserve-3d;
+  display: inline-block;
+  &:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width: 1000px) {
+    font-size: 14px;
+    letter-spacing: 0px;
+  }
+}
+
+.byeUser {
+  font-family: $wellwait;
+  font-weight: bold;
+  font-size: 30px;
+  color: $orange;
+  text-align: center;
+  margin-top: 30px;
+  // position: absolute;
+  // top: calc(100vh / 2);
+  // right: calc(100vw / 2 - 150px);
+  max-width: 80vw;
+  letter-spacing: 2px;
+
+  @media (max-width: 900px) {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  font-family: $wellwait;
+  font-weight: bold;
+  font-size: 30px;
+  color: $darkblue;
+  letter-spacing: 2px;
+  background-color: $white;
+  // width: min(80vw, 220px);
+  height: 50px;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 50px;
+  cursor: pointer;
+  justify-content: center;
+  transition-duration: 0.3s;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  @media (max-width: 900px) {
+    font-size: 20px;
+    height: 35px;
+  }
+
+  &:hover {
+    background: $orange;
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+  }
+  &:disabled {
+    background: $grey;
+    opacity: 80%;
+    cursor: auto;
+  }
+}
+
+label {
+  font-family: $dinnext;
+  font-weight: bold;
+  font-size: 20px;
+  color: $white;
+  margin: 10px 10px 10px 0px;
+  display: inline-block;
+  width: 120px;
+}
+
+.logout__form,
+.login__form {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  & p {
+    margin: 15px 10px;
+    // display: flex;
+    // flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+  }
+  & ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 80vw;
+  }
+  & li {
+    font-family: $dinnext;
+    font-size: 14px;
+    color: $white;
+    margin-left: 30px;
+  }
+
+  & .helptext {
+    font-family: $dinnext;
+    font-size: 14px;
+    color: $white;
+    display: block;
+  }
+
+  & input {
+    font-family: $dinnext;
+    font-weight: bold;
+    font-size: 18px;
+    color: $darkblue;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid $white;
+    margin: 10px 20px 10px 0px;
+
+    &:focus {
+      border: 2px solid $white;
+    }
+
+    &:valid {
+      border: 2px solid green;
+    }
+  }
+}

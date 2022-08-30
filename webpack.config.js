@@ -1,13 +1,12 @@
 const path = require("path");
-// const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: "./static/scripts/index.js", // path to our input file
+  entry: "./static/scripts/index.js",
   output: {
-    filename: "index-bundle.js", // output bundle file name
-    path: path.resolve(__dirname, "./static/build"), // path to our Django static directory
+    filename: "index-bundle.js",
+    path: path.resolve(__dirname, "./static/build"),
     clean: true,
     assetModuleFilename: (pathData) => {
       const filepath = path
@@ -62,21 +61,10 @@ module.exports = {
       {
         test: /\.(mp3|wav|wma|ogg)$/,
         type: "asset/resource",
-        // use: {
-        //   loader: "file-loader",
-        //   options: {
-        //     name: "[name].[contenthash].[ext]",
-        //     outputPath: "assets/audio/",
-        //     publicPath: "assets/audio/",
-        //   },
-        // },
       },
     ],
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   template: "./template.html",
-    // }),
     new ESLintPlugin(),
     new MiniCssExtractPlugin({
       filename: "bundle.css",

@@ -1,5 +1,4 @@
-// import "../../data/cards.data";
-import { fragment, container, body } from "../constants/constants";
+import { fragment, container} from "../constants/constants";
 import { Component } from "./component.component";
 
 class Card extends Component {
@@ -68,50 +67,10 @@ class Card extends Component {
     return this;
   }
 
-  static changeCardDesignToGameMode() {
-    const rotateControls = body.querySelectorAll(".rotate-controls");
-    const audioControls = body.querySelectorAll(".audio-controls");
-    const captures = body.querySelectorAll(".card__capture");
-    const images = body.querySelectorAll(".card__img");
-
-    [...rotateControls].forEach((item) => {
-      item.classList.add("rotate-controls--hidden");
-    });
-    [...audioControls].forEach((item) => {
-      item.classList.add("audio-controls--hidden");
-    });
-    [...captures].forEach((item) => {
-      item.classList.add("card__capture--hidden");
-    });
-    [...images].forEach((item) => {
-      item.classList.add("card__img--gameMode");
-    });
-  }
-
-  static changeCardDesignToTrainMode() {
-    const rotateControls = body.querySelectorAll(".rotate-controls");
-    const audioControls = body.querySelectorAll(".audio-controls");
-    const captures = body.querySelectorAll(".card__capture");
-    const images = body.querySelectorAll(".card__img");
-
-    [...rotateControls].forEach((item) => {
-      item.classList.remove("rotate-controls--hidden");
-    });
-    [...audioControls].forEach((item) => {
-      item.classList.remove("audio-controls--hidden");
-    });
-    [...captures].forEach((item) => {
-      item.classList.remove("card__capture--hidden");
-    });
-    [...images].forEach((item) => {
-      item.classList.remove("card__img--gameMode");
-    });
-  }
 }
 
 class CardsContainer {
   constructor(name = "Card Container", parent = container) {
-    // super(name);
     this.name = name;
     this.parent = parent;
   }

@@ -17,12 +17,20 @@
 @import "./components/card.component.scss";
 @import "./components/gameResult.component.scss";
 @import "./components/statsTable.component.scss";
+@import "./components/login.component.scss";
 
 body {
   background: $gradient-blue;
   background: $gradient-blue-moz;
   background: $gradient-blue-webkit;
   height: 100%;
+   max-width: 100%;
+  overflow-x: hidden !important;
+  &::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
   &.overflow {
     overflow: hidden;
   }

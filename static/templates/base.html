@@ -47,28 +47,32 @@
         <a class="header__link" href="/categories"
           ><h1 class="header__h1 toMain">English for kids</h1></a
         >
-        <input class="switch" id="first-toggle-btn" type="checkbox" />
-        <label for="first-toggle-btn"></label>
-        <div class="logbtn">
-          {%if user.is_authenticated %}
-          <a href="{% url 'logout'%}">Logout</a>
-          {% else %}
-          <a href="{% url 'login'%}">Login</a>
-          <a href="{% url 'signup'%}">Signup</a>
-          {% endif %}
+        <div class="nav__right">
+          <div class="login">
+            {%if user.is_authenticated %}
+            <a class="login__link" href="{% url 'logout'%}">Logout</a>
+            {% else %}
+            <a class="login__link" href="{% url 'login'%}">Login</a>
+            <a class="login__link" href="{% url 'signup'%}">Signup</a>
+            {% endif %}
+          </div>
+
+          <input class="switch" id="first-toggle-btn" type="checkbox" />
+          <label for="first-toggle-btn"></label>
         </div>
       </header>
 
       <div class="stars_line"></div>
       {% block content %} {% endblock %}
-    </div>
-    <div class="start_line">
-      <span class="start_line__icon_start icon_start icon_start">
-        <i class="fa-solid fa-play"></i>
-      </span>
-      <span class="start_line__icon_start icon_repeat icon_repeat--hidden">
-        <i class="fa-solid fa-repeat"></i>
-      </span>
+      <div class="start_line">
+        <span class="start_line__icon_start icon_start icon_start">
+          <i class="fa-solid fa-play"></i>
+        </span>
+        <span class="tooltiptext">Please, choose topic</span>
+        <span class="start_line__icon_start icon_repeat icon_repeat--hidden">
+          <i class="fa-solid fa-repeat"></i>
+        </span>
+      </div>
     </div>
 
     <audio

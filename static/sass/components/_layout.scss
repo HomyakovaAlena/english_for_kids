@@ -1,27 +1,46 @@
 .container {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   width: 85vw;
   max-width: 1400px;
   margin: 40px auto;
   align-items: center;
-  justify-content: center;
+  min-height: 100vh;
+  &::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 .header {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: min(100%, 1100px);
+}
+
+.nav__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 70vw;
 }
 
 .stars_line {
   display: flex;
   flex-wrap: nowrap;
-  max-width: 1048px;
-  margin-bottom: 40px;
+  max-width: min(1048px, 85vw);
   justify-content: flex-end;
   overflow-x: hidden;
-  margin: 0px auto 30px;
-  &--hidden {
-    display: none;
+  margin: 0px auto 40px;
+  .trainMode & {
+    // display: none;
+    margin: 0px auto 40px;
   }
   @media (max-width: 750px) {
     margin: 60px auto 30px;

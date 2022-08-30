@@ -7,8 +7,6 @@ register = template.Library()
 
 @register.simple_tag
 def get_percentage(word):
-    # word = context
-    # print(context['stats'])
     if word.correct == word.errors == 0 or word.correct == word.errors == None:
         return f'0%'
     else:

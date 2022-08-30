@@ -1,4 +1,3 @@
-// import { categories } from "../../data/cards.data";
 const fragment = document.createDocumentFragment();
 const body = document.body;
 const container = document.querySelector(".container");
@@ -7,15 +6,11 @@ const navElements = {
   nav: document.getElementById("js-nav"),
   overlay: document.getElementById("js-overlay"),
   burgerLine: document.querySelector(".burger__line"),
+  burger: document.querySelector(".burger"),
 };
 
 const CategoryContainerElement = document.querySelector(".category_container");
 const CardsContainerElement = document.querySelector(".card_container");
-// const [categoryNames, categoryImagesPaths, categoryIcons] = [
-//   categories[0],
-//   categories[1],
-//   categories[2],
-// ];
 
 const picturePathSuccess = "../static/assets/images/SUCCESS2.jpg";
 const picturePathFailure = "../static/assets/images/FAILURE2.jpg";
@@ -27,9 +22,6 @@ export {
   body,
   container,
   navElements,
-  // categoryNames,
-  // categoryImagesPaths,
-  // categoryIcons,
   CategoryContainerElement,
   CardsContainerElement,
   picturePathSuccess,

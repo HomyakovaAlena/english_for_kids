@@ -1,3 +1,5 @@
+import { container } from "../constants/constants";
+
 class Component {
   constructor(name, picturePath, cardContainer, id) {
     this.name = name;
@@ -68,6 +70,16 @@ class Component {
     });
     const h1 = document.querySelector(".header__link");
     h1.dispatchEvent(clickEvent);
+  }
+
+  static changeDesign(mode) {
+    if (mode === "train") {
+      container.classList.add("trainMode");
+      container.classList.remove("gameMode");
+    } else {
+      container.classList.remove("trainMode");
+      container.classList.add("gameMode");
+    }
   }
 }
 

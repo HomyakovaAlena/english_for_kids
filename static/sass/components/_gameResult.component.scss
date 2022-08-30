@@ -1,5 +1,5 @@
 .game_result_container {
-  max-width: 1200px;
+  max-width: min(85vw, 1200px);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,32 +7,39 @@
   justify-items: center;
   justify-content: center;
   align-content: center;
-  height: 600px;
-  background-color: $grey;
   border-radius: 20px;
   margin-bottom: calc(100vh - 780px);
 }
 
 .game_result {
-  height: 100%;
-  background-color: transparent;
+  // height: 400px;
+  background-color: $grey;
   perspective: 1000px;
   justify-self: center;
   align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: min(85vw, 1200px);
+  border-radius: 20px;
 
   &__figure {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    // overflow: hidden;
     border-radius: 20px;
   }
 
   &__img {
-    height: 500px;
+    height: 400px;
     border-radius: 20px;
-    margin: 50px 0 50px;
+    // margin: 50px 0 50px;
+    @media all and (max-width: 700px) {
+      height: 300px;
+    }
   }
 
   &__capture {
@@ -41,7 +48,10 @@
     font-family: $wellwait;
     font-size: 40px;
     color: $darkblue;
-
+    @media all and (max-width: 700px) {
+      font-size: 20px;
+      margin: 20px;
+    }
     &_errors {
       &--hidden {
         display: none;

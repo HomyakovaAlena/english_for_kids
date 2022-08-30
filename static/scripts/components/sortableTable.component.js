@@ -127,6 +127,7 @@ class SortableTable {
 
   handleClick(event) {
     let tgt = event.currentTarget;
+    event.preventDefault();
     this.setColumnHeaderSort(tgt.getAttribute("data-column-index"));
   }
 
@@ -140,9 +141,8 @@ class SortableTable {
     }
   }
 
-  static addSortTableListener() {
+  static addSortTable() {
     const sortableTable = document.querySelector(".sortable");
-    console.log("sortable");
     if (sortableTable) {
       new SortableTable(sortableTable);
     }

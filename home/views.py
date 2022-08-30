@@ -9,8 +9,6 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.contrib.auth.forms import UserCreationForm
 
 
-# Create your views here.
-
 class HomeView(TemplateView):
     template_name = 'home/welcome.html'
     extra_context = {'today': datetime.today()}
