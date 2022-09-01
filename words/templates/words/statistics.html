@@ -1,5 +1,4 @@
-{% extends "base.html" %} 
-{% load simple_tags %} 
+{% extends "base.html" %} {% load simple_tags %} 
 {% block nav %} 
 {% for category in categories %}
 <li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
@@ -9,13 +8,16 @@
     ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
   >
 </li>
-{%endfor%} 
-{% endblock %} 
+{%endfor%} {% endblock %} 
 {% block content %}
 <div class="stats_container">
-  <button class="stats__button stats__button-repeat_difficult">
-    Repeat difficult words</button
-  ><button class="stats__button stats__button-reset">Reset</button>
+  <div class="stats_container__buttons">
+    <button class="stats__button stats__button-repeat_difficult btn">
+      <a class="repeat_difficult" href="{% url 'difficult' %}">
+        Repeat difficult words</a
+      ></button
+    ><button class="stats__button stats__button-reset btn">Reset</button>
+  </div>
   <div class="statsTable_container_div">
     <table class="stats sortable">
       <caption>

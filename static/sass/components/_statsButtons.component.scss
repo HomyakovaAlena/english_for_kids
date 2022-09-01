@@ -1,0 +1,24 @@
+.stats_container__buttons {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.stats__button.btn {
+  font-size: 14px;
+  margin: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: $balsamiq;
+  &.stats__button-repeat_difficult a {
+    text-decoration: none;
+    &:visited {
+      color: $darkblue;
+    }
+  }
+  &.stats__button-reset:hover {
+    background: $red;
+  }
+}

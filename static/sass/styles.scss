@@ -1,6 +1,7 @@
 @import "normalize";
 @import "../assets/fonts/dinnext/stylesheet.css";
 @import "../assets/fonts/wellwait/stylesheet.css";
+@import "../assets/fonts/balsamiq/stylesheet.css";
 
 @import "./constants/colors.constants.scss";
 @import "./constants/fonts.constants.scss";
@@ -17,14 +18,16 @@
 @import "./components/card.component.scss";
 @import "./components/gameResult.component.scss";
 @import "./components/statsTable.component.scss";
+@import "./components/statsButtons.component.scss";
 @import "./components/login.component.scss";
+@import "./components/leaderboard.component.scss";
 
 body {
   background: $gradient-blue;
   background: $gradient-blue-moz;
   background: $gradient-blue-webkit;
   height: 100%;
-   max-width: 100%;
+  max-width: 100%;
   overflow-x: hidden !important;
   &::-webkit-scrollbar {
     display: none;

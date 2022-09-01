@@ -101,6 +101,7 @@ class StatsData {
       console.error("Error:", error);
     }
   }
+
 }
 
 export { StatsData };

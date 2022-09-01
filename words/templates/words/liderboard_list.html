@@ -1,0 +1,55 @@
+{% extends "base.html" %} 
+{% load simple_tags %} 
+{% block nav %} 
+{% for category in categories %}
+<li class="menu__item menu__item--main toCardPage" id="{{category.id}}">
+  <a
+    class="menu__link menu__link--main"
+    href="{% url 'selected_category' category.category %}"
+    ><i class="{{category.category_icon}}"></i> {{ category.category }}</a
+  >
+</li>
+{%endfor%} {% endblock %} {% block content %}
+<div class="leaderboard_container">
+  <div class="leaderboard">
+    <div class="leaderboard__header">
+      <h1 class="leaderboard__heading">
+        <i class="fa-solid fa-ranking-star"></i> High Scores TOP-5
+      </h1>
+      <h4 class="leaderboard__subheading">total guessed words</h4>
+      <h4 class="leaderboard__subheading leaderboard__subheading-italic">% correct</h4>
+    </div>
+    <ul class="leaderboard__list">
+      {% for stat in stats%}
+       {% if request.user.id == stat.user_id %} 
+          {% if stat.row_num > 6 %} 
+            <li class="leaderboard__list__item leaderboard__list__item__dots"> . . . </li>
+          {% endif %}
+        <li class="leaderboard__list__item leaderboard__list__item__current_user">
+        {% else %}
+        <li class="leaderboard__list__item">
+        {% endif %}
+          <div class="leaderboard__list__userrank">
+            <div class="leaderboard__list__rank">#{{stat.row_num}}</div>
+            <div class="leaderboard__list__user">
+              {% if stat.row_num < 4 %} 
+              <i class="fa-solid fa-trophy"></i> {{stat.username}}
+              {% elif stat.row_num < 6 %}
+              <i class="fa-solid fa-medal"></i> {{stat.username}}
+              {% else %}
+              <i class="fa-solid fa-user-ninja"></i>{{stat.username}}
+              {% endif %}
+            </div>
+          </div>
+          <div class="leaderboard__list__points">{{stat.sum_correct}}
+            <div class="leaderboard__list__points__subpoints">
+              {{stat.percent_correct}}%
+            </div>
+          </div>
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+
+  {% endblock %}
+</div>

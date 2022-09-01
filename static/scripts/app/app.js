@@ -16,7 +16,6 @@ class App {
     this.count = 0;
     this.audioPlayersCount = NaN;
     this.statsData = new StatsData();
-    this.difficultWords = [];
     this.currentPage = "";
     this.isStarted = false;
   }
@@ -84,6 +83,14 @@ class App {
     return this.currentID;
   }
 
+  handleAudioControlsCLick(event, card, element) {
+    AudioComponent.playAudio(event, element);
+    this.currentID = card.id;
+    this.statsData.sendToServer(
+      this.statsData.postNewItem(+this.currentID.replace("card", ""), "trained")
+    );
+  }
+
   defineAccuracy(event, id) {
     const element = event.target;
     event.preventDefault();
@@ -101,6 +108,10 @@ class App {
   }
 
   renderGameResult() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
     const gameResultContainer = new GameResultContainer();
     if (this.errors === 0) {
       gameResultContainer.renderGameResult("success", this.errors);
@@ -111,6 +122,75 @@ class App {
     }
   }
 
+  handleStartButtonClick(element) {
+    this.isStarted = true;
+    this.disableCardsBeforeStart();
+    this.generateAudio();
+    this.currentID = this.pronounceWords();
+    element.closest(".icon_start").classList.add("icon_start--hidden");
+    body.querySelector(".icon_repeat").classList.remove("icon_repeat--hidden");
+  }
+
+  handleWrongAndRight(accuracy) {
+    if (accuracy === "right") {
+      this.count++;
+      StarComponent.renderStar("right");
+      AudioComponent.playCorrectAudio();
+      this.statsData.sendToServer(
+        this.statsData.postNewItem(
+          +this.currentID.replace("card", ""),
+          "correct"
+        )
+      );
+    } else {
+      StarComponent.renderStar("wrong");
+      this.errors++;
+      AudioComponent.playErrorAudio();
+      this.statsData.sendToServer(
+        this.statsData.postNewItem(
+          +this.currentID.replace("card", ""),
+          "errors"
+        )
+      );
+    }
+  }
+
+  handleGameFinish() {
+    Component.cleanDOM();
+    this.toggleMode();
+    document
+      ?.querySelector(".icon_start")
+      .classList.remove("icon_start--hidden");
+    document
+      ?.querySelector(".icon_repeat")
+      .classList.add("icon_repeat--hidden");
+    StarComponent.hideStars();
+    this.renderGameResult();
+    setTimeout(Component.cleanDOM, 3000);
+    setTimeout(Component.simulatetoMainPageClick, 3000);
+    this.count = 0;
+    this.audioPlayersCount = NaN;
+  }
+
+  handleGameMode(event) {
+    const isRight = this.defineAccuracy(event, this.currentID);
+    if (isRight) {
+      this.handleWrongAndRight("right");
+      if (!this.isFinished()) {
+        this.currentID = this.pronounceWords();
+      } else {
+        this.handleGameFinish();
+      }
+    } else {
+      this.handleWrongAndRight("wrong");
+    }
+  }
+
+  handleReset() {
+    this.errors = 0;
+    this.statsData.sendToServer({ reset: "reset" });
+    window.location.reload();
+  }
 
   handleclicks = (event) => {
     const element = event.target;
@@ -120,104 +200,20 @@ class App {
     } else if (element.closest(".statistics")) {
       Component.changeDesign("train");
     } else if (element.closest(".audio-controls")) {
-      AudioComponent.playAudio(event, element);
-      this.currentID = card.id;
-      this.currentWord = card.querySelector(".card__capture").textContent;
-      this.currentCategoryName = window.location.href
-        .slice(window.location.href.lastIndexOf("/") + 1)
-        .replaceAll("%20", " ")
-        .replace("#", "");
-      this.statsData.sendToServer(
-        this.statsData.postNewItem(
-          +this.currentID.replace("card", ""),
-          "trained"
-        )
-      );
+      this.handleAudioControlsCLick(event, card, element);
     } else if (element.closest(".rotate-controls")) {
       Component.rotateBack(event, card);
     } else if (element.closest(".icon_start")) {
-      this.isStarted = true;
-      this.disableCardsBeforeStart();
-      this.generateAudio();
-      this.currentID = this.pronounceWords();
-      element.closest(".icon_start").classList.add("icon_start--hidden");
-      body
-        .querySelector(".icon_repeat")
-        .classList.remove("icon_repeat--hidden");
+      this.handleStartButtonClick(element);
     } else if (this.mode === "play" && card) {
-      const isRight = this.defineAccuracy(event, this.currentID);
-      if (isRight) {
-        this.count++;
-        StarComponent.renderStar("right");
-        AudioComponent.playCorrectAudio();
-        this.currentWord = card.querySelector(".card__capture").textContent;
-        this.currentCategoryName = window.location.href
-          .slice(window.location.href.lastIndexOf("/") + 1)
-          .replaceAll("%20", " ")
-          .replace("#", "");
-        this.statsData.sendToServer(
-          this.statsData.postNewItem(
-            +this.currentID.replace("card", ""),
-            "correct"
-          )
-        );
-        if (!this.isFinished()) {
-          this.currentID = this.pronounceWords();
-        } else {
-          Component.cleanDOM();
-          this.toggleMode();
-          document
-            ?.querySelector(".icon_start")
-            .classList.remove("icon_start--hidden");
-          document
-            ?.querySelector(".icon_repeat")
-            .classList.add("icon_repeat--hidden");
-          StarComponent.hideStars();
-          this.renderGameResult();
-          setTimeout(Component.cleanDOM, 3000);
-          setTimeout(Component.simulatetoMainPageClick, 3000);
-          this.count = 0;
-          this.audioPlayersCount = NaN;
-        }
-      } else {
-        StarComponent.renderStar("wrong");
-        this.errors++;
-        AudioComponent.playErrorAudio();
-        this.currentWord = card.querySelector(".card__capture").textContent;
-        this.currentCategoryName = window.location.href
-          .slice(window.location.href.lastIndexOf("/") + 1)
-          .replaceAll("%20", " ")
-          .replaceAll("#", "");
-        this.statsData.sendToServer(
-          this.statsData.postNewItem(
-            +this.currentID.replace("card", ""),
-            "errors"
-          )
-        );
-        if (!this.difficultWords.includes(this.currentWord)) {
-          this.difficultWords.push(this.currentWord);
-        }
-      }
+      this.handleGameMode(event);
     } else if (element.closest(".icon_repeat")) {
       AudioComponent.repeatPronouncedWord(this.currentID);
+    } else if (element.closest(".stats__button-repeat_difficult")) {
+      this.errors = 0;
+    } else if (element.closest(".stats__button-reset")) {
+      this.handleReset();
     }
-    // else if (element.closest(".stats__button-repeat_difficult")) {
-    //   if (this.difficultWords.length) {
-    //     Component.cleanDOM();
-    //     const wordsToRender = this.difficultWords.sort(function (a, b) {
-    //       return a - b;
-    //     });
-    //     const length = Math.min(this.difficultWords.length, 8);
-    //     this.renderCards(event, wordsToRender.slice(0, length));
-    //     this.errors = 0;
-    //   } else {
-    //     console.log("No difficult words");
-    //   }
-    // } else if (element.closest(".stats__button-reset")) {
-    //   this.statsData = new StatsData();
-    //   this.statsData.sendToServer();
-    //   this.difficultWords = [];
-    // }
   };
 
   addListeners() {

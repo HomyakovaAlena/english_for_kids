@@ -1,6 +1,8 @@
 .stats_container {
   width: 85vw;
-  max-width: 1200px;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .statsTable_container_div {
@@ -13,11 +15,11 @@ table {
   min-width: 600px;
 }
 table caption {
-  font-family: $dinnext;
+  font-family: $balsamiq;
   font-weight: bold;
   font-size: 40px;
   color: $white;
-  margin: 30px 0px;
+  margin-bottom: 20px;
   width: 50%;
   text-align: left;
   @media (max-width: 900px) {
@@ -28,10 +30,10 @@ table caption {
 table.sortable td,
 table.sortable th {
   padding: 0.125rem 0.25rem;
-  min-width: max(11vw, 100px);
+  min-width: max(10vw, 90px);
   max-width: 120px;
   table-layout: fixed;
-  font-family: $dinnext;
+  font-family: $balsamiq;
   font-size: 16px;
   &:hover {
     background-color: $darkblue;
