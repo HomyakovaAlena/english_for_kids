@@ -28,7 +28,6 @@ body {
   background: $gradient-blue-webkit;
   height: 100%;
   max-width: 100%;
-  overflow-x: hidden !important;
   &::-webkit-scrollbar {
     display: none;
     -ms-overflow-style: none;

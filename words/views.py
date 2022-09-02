@@ -7,7 +7,7 @@ from django.shortcuts import redirect
 from django.http import HttpResponseRedirect
 
 from django.db import models
-from django.db.models import Count, F, Value, Sum
+from django.db.models import Sum
 
 from .models import Words
 from .models import Categories

@@ -1,7 +1,6 @@
 import "../sass/styles.scss";
 import "./components/navigation.component";
 import "./components/audio.component";
-import "./components/categoryCard.component";
 
 const images = require.context("../assets/images/", true);
 const imagePath = (name) => images(name, true);

@@ -12,7 +12,6 @@
 }
 
 .game_result {
-  // height: 400px;
   background-color: $grey;
   perspective: 1000px;
   justify-self: center;
@@ -29,14 +28,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    // overflow: hidden;
     border-radius: 20px;
   }
 
   &__img {
     height: 400px;
     border-radius: 20px;
-    // margin: 50px 0 50px;
     @media all and (max-width: 700px) {
       height: 300px;
     }

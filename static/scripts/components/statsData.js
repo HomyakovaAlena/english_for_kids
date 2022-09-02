@@ -81,7 +81,6 @@ class StatsData {
   async sendToServer(stats) {
     const url = window.location.href;
     let data = { data: stats };
-    console.log({ data });
     const csrftoken = this.getCookie("csrftoken");
 
     try {

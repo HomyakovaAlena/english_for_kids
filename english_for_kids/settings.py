@@ -132,7 +132,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-# BUILD_URL = 'static/build'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
@@ -141,12 +140,7 @@ STATICFILES_DIRS = [
 STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    # 'sass_processor.finders.CssFinder',
 ]
-
-# STATIC_ROOT = BASE_DIR / 'static'
-
-# SASS_PROCESSOR_ROOT = BUILD_URL
 
 
 # Default primary key field type

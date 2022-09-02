@@ -28,21 +28,17 @@ class App {
     if (this.mode === "train") {
       this.setMode("play");
       Component.changeDesign("play");
-      console.log("play mode");
       localStorage.setItem("mode", "play");
       this.disableCardsBeforeStart();
     } else {
       this.setMode("train");
       Component.changeDesign("train");
-      console.log("train mode");
       localStorage.setItem("mode", "train");
       this.disableCardsBeforeStart();
     }
   }
 
   disableCardsBeforeStart() {
-    console.log(this.count, "this.count");
-    console.log(localStorage.getItem("mode"));
     if ((localStorage.getItem("mode") === "play") & !this.isStarted) {
       container.classList.add("notStarted");
     }
