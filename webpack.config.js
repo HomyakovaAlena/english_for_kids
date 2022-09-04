@@ -72,7 +72,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: true,
-      template: path.resolve("./static/templates/base.html"),
+      template: path.resolve("./static/templates/index.html"),
     }),
   ],
 };
