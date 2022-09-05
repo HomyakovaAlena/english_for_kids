@@ -1,2 +1,2195 @@
-/*! For license information please see index-bundle.js.LICENSE.txt */
-(()=>{var t={6769:(t,e,r)=>{var s={"./angry.mp3":344,"./armchair.mp3":4482,"./beach.mp3":7140,"./bedroom.mp3":9854,"./bird.mp3":5089,"./blouse.mp3":2344,"./boot.mp3":6629,"./breakfast.mp3":2572,"./cake.mp3":3256,"./cat.mp3":6190,"./chick.mp3":376,"./chicken.mp3":971,"./coat.mp3":4750,"./cocktail.mp3":7035,"./correct.mp3":2463,"./cry.mp3":8146,"./curtains.mp3":1220,"./dance.mp3":383,"./dive.mp3":1097,"./dog.mp3":7890,"./dolphin.mp3":658,"./draw.mp3":2014,"./dress.mp3":6947,"./error.mp3":8707,"./failure.mp3":256,"./field.mp3":5593,"./fireplace.mp3":4391,"./fish.mp3":87,"./flowers.mp3":7832,"./fly.mp3":1142,"./forest.mp3":2553,"./frog.mp3":7762,"./fruits.mp3":1626,"./giraffe.mp3":3963,"./happy.mp3":1228,"./horse.mp3":874,"./hug.mp3":6677,"./jump.mp3":7081,"./kitchen.mp3":5845,"./laugh.mp3":8610,"./lion.mp3":2499,"./livingroom.mp3":7439,"./meat.mp3":3574,"./mountain.mp3":8142,"./mouse.mp3":2441,"./open.mp3":945,"./pants.mp3":4686,"./pig.mp3":769,"./pizza.mp3":7185,"./play.mp3":1508,"./point.mp3":5773,"./rabbit.mp3":1583,"./ride.mp3":1010,"./river.mp3":1365,"./run.mp3":3855,"./sad.mp3":1683,"./scared.mp3":3717,"./sea.mp3":5941,"./sheep.mp3":8269,"./shirt.mp3":4976,"./shoe.mp3":9554,"./sing.mp3":8998,"./skip.mp3":1087,"./skirt.mp3":7404,"./smile.mp3":6666,"./sofa.mp3":3210,"./soup.mp3":9612,"./success.mp3":8155,"./surprised.mp3":4781,"./swim.mp3":2617,"./tired.mp3":1896,"./tree.mp3":7489,"./turtle.mp3":268,"./vegetables.mp3":9830,"./window.mp3":5719};function o(t){var e=n(t);return r(e)}function n(t){if(!r.o(s,t)){var e=new Error("Cannot find module '"+t+"'");throw e.code="MODULE_NOT_FOUND",e}return s[t]}o.keys=function(){return Object.keys(s)},o.resolve=n,t.exports=o,o.id=6769},7452:(t,e,r)=>{var s={"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png":5765,"./500aa9360f5573bf4c282bb6ed73cd92.png":9789,"./ACTIONS1.jpg":2122,"./ACTIONS2.jpg":1194,"./ACTIONS3.jpg":3615,"./ACTIONS4.jpg":533,"./ANIMALS1.jpg":8741,"./ANIMALS2.jpg":501,"./ANIMALS3.jpg":3374,"./CLOTHES.jpg":9690,"./CLOTHES2.jpg":476,"./EMOTIONS.jpg":5576,"./FAILURE1.jpg":6141,"./FAILURE2.jpg":5374,"./FOOD.jpg":6153,"./FOOD2.jpg":8438,"./HOME.jpg":4054,"./NATURE.jpg":1537,"./SUCCESS1.jpg":1174,"./SUCCESS2.jpg":9860,"./angry.jpg":4952,"./armchair.jpg":7738,"./audio.svg":9602,"./beach.jpg":1910,"./bedroom.jpg":3349,"./bird.jpg":8819,"./blouse.jpg":8318,"./boot.jpg":170,"./breakfast.jpg":9872,"./cake.jpg":4131,"./cat.jpg":5212,"./chick.jpg":6344,"./chicken.jpg":4551,"./clouds-transparent-background-75-700x439.png":9965,"./clouds-transparent-background-9-700x573.png":9399,"./coat.jpg":9371,"./cocktail.jpg":4306,"./cry.jpg":8619,"./curtains.jpg":502,"./dance.jpg":3571,"./dive.jpg":8633,"./dog.jpg":3346,"./dolphin.jpg":7546,"./draw.jpg":6712,"./dress.jpg":3468,"./e54fa2d2646f7146db99fd133f2b9de0.jpg":3863,"./failure.jpg":1895,"./field.jpg":1471,"./fireplace.jpg":9849,"./fish.jpg":7098,"./fish1.jpg":131,"./flowers.jpg":4770,"./fly.jpg":5163,"./forest.jpg":7264,"./frog.jpg":5761,"./fruits.jpg":2405,"./giraffe.jpg":2977,"./happy.jpg":1302,"./horse.jpg":6490,"./hug.jpg":6885,"./jump.jpg":731,"./kitchen.jpg":5050,"./laugh.jpg":5614,"./lion.jpg":6097,"./livingroom.jpg":7948,"./meat.jpg":6844,"./mountain.jpg":1836,"./mouse.jpg":5272,"./open.jpg":9540,"./pants.jpg":7470,"./pig.jpg":7014,"./pizza.jpg":7246,"./play.jpg":5675,"./point.jpg":1646,"./rabbit.jpg":7502,"./repeat.svg":1032,"./ride.jpg":1512,"./river.jpg":649,"./rotate.svg":69,"./run.jpg":7588,"./sad.jpg":1323,"./scared.jpg":6624,"./sea.jpg":4934,"./sheep.jpg":4681,"./shirt.jpg":1562,"./shoe.jpg":6543,"./sing.jpg":3677,"./skip.jpg":9957,"./skirt.jpg":4653,"./smile.jpg":7443,"./sofa.jpg":347,"./soup.jpg":2972,"./star-win.svg":1747,"./star.svg":4684,"./success.jpg":6018,"./surprised.jpg":2589,"./swim.jpg":8807,"./tired.jpg":169,"./tree.jpg":8841,"./turtle.jpg":3078,"./vegetables.jpg":2661,"./window.jpg":6911};function o(t){var e=n(t);return r(e)}function n(t){if(!r.o(s,t)){var e=new Error("Cannot find module '"+t+"'");throw e.code="MODULE_NOT_FOUND",e}return s[t]}o.keys=function(){return Object.keys(s)},o.resolve=n,t.exports=o,o.id=7452},344:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/angry.mp3"},4482:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/armchair.mp3"},7140:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/beach.mp3"},9854:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/bedroom.mp3"},5089:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/bird.mp3"},2344:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/blouse.mp3"},6629:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/boot.mp3"},2572:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/breakfast.mp3"},3256:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/cake.mp3"},6190:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/cat.mp3"},376:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/chick.mp3"},971:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/chicken.mp3"},4750:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/coat.mp3"},7035:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/cocktail.mp3"},2463:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/correct.mp3"},8146:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/cry.mp3"},1220:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/curtains.mp3"},383:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/dance.mp3"},1097:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/dive.mp3"},7890:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/dog.mp3"},658:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/dolphin.mp3"},2014:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/draw.mp3"},6947:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/dress.mp3"},8707:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/error.mp3"},256:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/failure.mp3"},5593:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/field.mp3"},4391:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/fireplace.mp3"},87:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/fish.mp3"},7832:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/flowers.mp3"},1142:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/fly.mp3"},2553:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/forest.mp3"},7762:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/frog.mp3"},1626:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/fruits.mp3"},3963:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/giraffe.mp3"},1228:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/happy.mp3"},874:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/horse.mp3"},6677:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/hug.mp3"},7081:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/jump.mp3"},5845:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/kitchen.mp3"},8610:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/laugh.mp3"},2499:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/lion.mp3"},7439:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/livingroom.mp3"},3574:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/meat.mp3"},8142:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/mountain.mp3"},2441:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/mouse.mp3"},945:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/open.mp3"},4686:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/pants.mp3"},769:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/pig.mp3"},7185:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/pizza.mp3"},1508:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/play.mp3"},5773:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/point.mp3"},1583:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/rabbit.mp3"},1010:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/ride.mp3"},1365:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/river.mp3"},3855:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/run.mp3"},1683:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/sad.mp3"},3717:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/scared.mp3"},5941:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/sea.mp3"},8269:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/sheep.mp3"},4976:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/shirt.mp3"},9554:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/shoe.mp3"},8998:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/sing.mp3"},1087:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/skip.mp3"},7404:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/skirt.mp3"},6666:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/smile.mp3"},3210:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/sofa.mp3"},9612:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/soup.mp3"},8155:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/success.mp3"},4781:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/surprised.mp3"},2617:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/swim.mp3"},1896:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/tired.mp3"},7489:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/tree.mp3"},268:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/turtle.mp3"},9830:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/vegetables.mp3"},5719:(t,e,r)=>{"use strict";t.exports=r.p+"assets/audio/window.mp3"},5765:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png"},9789:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/500aa9360f5573bf4c282bb6ed73cd92.png"},2122:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ACTIONS1.jpg"},1194:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ACTIONS2.jpg"},3615:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ACTIONS3.jpg"},533:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ACTIONS4.jpg"},8741:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ANIMALS1.jpg"},501:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ANIMALS2.jpg"},3374:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ANIMALS3.jpg"},9690:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/CLOTHES.jpg"},476:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/CLOTHES2.jpg"},5576:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/EMOTIONS.jpg"},6141:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/FAILURE1.jpg"},5374:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/FAILURE2.jpg"},6153:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/FOOD.jpg"},8438:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/FOOD2.jpg"},4054:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/HOME.jpg"},1537:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/NATURE.jpg"},1174:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/SUCCESS1.jpg"},9860:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/SUCCESS2.jpg"},4952:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/angry.jpg"},7738:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/armchair.jpg"},9602:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/audio.svg"},1910:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/beach.jpg"},3349:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/bedroom.jpg"},8819:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/bird.jpg"},8318:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/blouse.jpg"},170:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/boot.jpg"},9872:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/breakfast.jpg"},4131:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/cake.jpg"},5212:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/cat.jpg"},6344:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/chick.jpg"},4551:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/chicken.jpg"},9965:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/clouds-transparent-background-75-700x439.png"},9399:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/clouds-transparent-background-9-700x573.png"},9371:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/coat.jpg"},4306:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/cocktail.jpg"},8619:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/cry.jpg"},502:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/curtains.jpg"},3571:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/dance.jpg"},8633:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/dive.jpg"},3346:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/dog.jpg"},7546:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/dolphin.jpg"},6712:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/draw.jpg"},3468:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/dress.jpg"},3863:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg"},1895:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/failure.jpg"},1471:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/field.jpg"},9849:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/fireplace.jpg"},7098:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/fish.jpg"},131:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/fish1.jpg"},4770:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/flowers.jpg"},5163:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/fly.jpg"},7264:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/forest.jpg"},5761:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/frog.jpg"},2405:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/fruits.jpg"},2977:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/giraffe.jpg"},1302:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/happy.jpg"},6490:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/horse.jpg"},6885:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/hug.jpg"},731:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/jump.jpg"},5050:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/kitchen.jpg"},5614:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/laugh.jpg"},6097:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/lion.jpg"},7948:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/livingroom.jpg"},6844:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/meat.jpg"},1836:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/mountain.jpg"},5272:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/mouse.jpg"},9540:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/open.jpg"},7470:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/pants.jpg"},7014:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/pig.jpg"},7246:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/pizza.jpg"},5675:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/play.jpg"},1646:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/point.jpg"},7502:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/rabbit.jpg"},1032:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/repeat.svg"},1512:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/ride.jpg"},649:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/river.jpg"},69:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/rotate.svg"},7588:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/run.jpg"},1323:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/sad.jpg"},6624:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/scared.jpg"},4934:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/sea.jpg"},4681:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/sheep.jpg"},1562:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/shirt.jpg"},6543:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/shoe.jpg"},3677:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/sing.jpg"},9957:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/skip.jpg"},4653:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/skirt.jpg"},7443:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/smile.jpg"},347:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/sofa.jpg"},2972:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/soup.jpg"},1747:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/star-win.svg"},4684:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/star.svg"},6018:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/success.jpg"},2589:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/surprised.jpg"},8807:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/swim.jpg"},169:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/tired.jpg"},8841:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/tree.jpg"},3078:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/turtle.jpg"},2661:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/vegetables.jpg"},6911:(t,e,r)=>{"use strict";t.exports=r.p+"assets/images/window.jpg"}},e={};function r(s){var o=e[s];if(void 0!==o)return o.exports;var n=e[s]={exports:{}};return t[s](n,n.exports,r),n.exports}r.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(t){if("object"==typeof window)return window}}(),r.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e),(()=>{var t;r.g.importScripts&&(t=r.g.location+"");var e=r.g.document;if(!t&&e&&(e.currentScript&&(t=e.currentScript.src),!t)){var s=e.getElementsByTagName("script");s.length&&(t=s[s.length-1].src)}if(!t)throw new Error("Automatic publicPath is not supported in this browser");t=t.replace(/#.*$/,"").replace(/\?.*$/,"").replace(/\/[^\/]+$/,"/"),r.p=t})(),(()=>{"use strict";var t=document.createDocumentFragment(),e=document.body,s=document.querySelector(".container"),o={navIcon:document.getElementById("js-nav-button"),nav:document.getElementById("js-nav"),overlay:document.getElementById("js-overlay"),burgerLine:document.querySelector(".burger__line"),burger:document.querySelector(".burger")};function n(t,e){(null==e||e>t.length)&&(e=t.length);for(var r=0,s=new Array(e);r<e;r++)s[r]=t[r];return s}function i(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}document.querySelector(".category_container"),document.querySelector(".card_container");var a=function(){function t(){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t)}var e,r;return e=t,(r=[{key:"toggleMenu",value:function(){o.burgerLine.classList.toggle("burger__line--active"),document.body.classList.toggle("overflow"),o.overlay.classList.toggle("site-overlay--visible"),o.nav.classList.toggle("nav--visible"),o.burger.classList.toggle("open")}},{key:"addListeners",value:function(){var t,e=this,r=document.querySelectorAll(".menu__item");[o.navIcon,o.overlay].concat((t=r,function(t){if(Array.isArray(t))return n(t)}(t)||function(t){if("undefined"!=typeof Symbol&&null!=t[Symbol.iterator]||null!=t["@@iterator"])return Array.from(t)}(t)||function(t,e){if(t){if("string"==typeof t)return n(t,e);var r=Object.prototype.toString.call(t).slice(8,-1);return"Object"===r&&t.constructor&&(r=t.constructor.name),"Map"===r||"Set"===r?Array.from(t):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?n(t,e):void 0}}(t)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}())).forEach((function(t){t.addEventListener("click",e.toggleMenu)}))}}])&&i(e.prototype,r),Object.defineProperty(e,"prototype",{writable:!1}),t}();function c(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}var u=function(){function t(e,r,s,o){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.name=e,this.picture=new Image,this.picturePath=r,this.pictureAlt="".concat(this.name),this.cardContainer=s,this.id=o}var e,r;return e=t,r=[{key:"cleanDOM",value:function(){var t=document.querySelector(".category_container"),e=document.querySelector(".card_container"),r=document.querySelector(".game_result_container"),s=document.querySelector(".stats_container");null==t||t.remove(),null==e||e.remove(),null==r||r.remove(),null==s||s.remove()}},{key:"chooseAssetsForRendering",value:function(t,e){var r=this;return this.cardNames=[],this.cardImagesPaths=[],this.soundPaths=[],this.translations=[],t[e].map((function(t){r.cardNames.push(t.word),r.cardImagesPaths.push(t.image),r.soundPaths.push(t.audioSrc),r.translations.push(t.translation)})),[this.cardNames,this.cardImagesPaths,this.soundPaths,this.translations]}},{key:"rotateBack",value:function(t,e){t.preventDefault(),e.classList.add("card--pressed"),e.addEventListener("mouseleave",(function(){e.classList.remove("card--pressed")}))}},{key:"simulateSwitchButtonClick",value:function(){var t=new MouseEvent("click",{bubbles:!0,cancelable:!0,view:window});document.querySelector(".switch").dispatchEvent(t)}},{key:"simulatetoMainPageClick",value:function(){var t=new MouseEvent("click",{bubbles:!0,cancelable:!0,view:window});document.querySelector(".header__link").dispatchEvent(t)}},{key:"changeDesign",value:function(t){"train"===t?(s.classList.add("trainMode"),s.classList.remove("gameMode")):(s.classList.remove("trainMode"),s.classList.add("gameMode"))}}],null&&c(e.prototype,null),r&&c(e,r),Object.defineProperty(e,"prototype",{writable:!1}),t}();function p(t){return p="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},p(t)}function l(){l=function(){return t};var t={},e=Object.prototype,r=e.hasOwnProperty,s="function"==typeof Symbol?Symbol:{},o=s.iterator||"@@iterator",n=s.asyncIterator||"@@asyncIterator",i=s.toStringTag||"@@toStringTag";function a(t,e,r){return Object.defineProperty(t,e,{value:r,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{a({},"")}catch(t){a=function(t,e,r){return t[e]=r}}function c(t,e,r,s){var o=e&&e.prototype instanceof f?e:f,n=Object.create(o.prototype),i=new O(s||[]);return n._invoke=function(t,e,r){var s="suspendedStart";return function(o,n){if("executing"===s)throw new Error("Generator is already running");if("completed"===s){if("throw"===o)throw n;return{value:void 0,done:!0}}for(r.method=o,r.arg=n;;){var i=r.delegate;if(i){var a=w(i,r);if(a){if(a===d)continue;return a}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===s)throw s="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);s="executing";var c=u(t,e,r);if("normal"===c.type){if(s=r.done?"completed":"suspendedYield",c.arg===d)continue;return{value:c.arg,done:r.done}}"throw"===c.type&&(s="completed",r.method="throw",r.arg=c.arg)}}}(t,r,i),n}function u(t,e,r){try{return{type:"normal",arg:t.call(e,r)}}catch(t){return{type:"throw",arg:t}}}t.wrap=c;var d={};function f(){}function h(){}function g(){}var m={};a(m,o,(function(){return this}));var y=Object.getPrototypeOf,v=y&&y(y(_([])));v&&v!==e&&r.call(v,o)&&(m=v);var b=g.prototype=f.prototype=Object.create(m);function j(t){["next","throw","return"].forEach((function(e){a(t,e,(function(t){return this._invoke(e,t)}))}))}function x(t,e){function s(o,n,i,a){var c=u(t[o],t,n);if("throw"!==c.type){var l=c.arg,d=l.value;return d&&"object"==p(d)&&r.call(d,"__await")?e.resolve(d.__await).then((function(t){s("next",t,i,a)}),(function(t){s("throw",t,i,a)})):e.resolve(d).then((function(t){l.value=t,i(l)}),(function(t){return s("throw",t,i,a)}))}a(c.arg)}var o;this._invoke=function(t,r){function n(){return new e((function(e,o){s(t,r,e,o)}))}return o=o?o.then(n,n):n()}}function w(t,e){var r=t.iterator[e.method];if(void 0===r){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,w(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var s=u(r,t.iterator,e.arg);if("throw"===s.type)return e.method="throw",e.arg=s.arg,e.delegate=null,d;var o=s.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function S(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function k(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function O(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(S,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var s=-1,n=function e(){for(;++s<t.length;)if(r.call(t,s))return e.value=t[s],e.done=!1,e;return e.value=void 0,e.done=!0,e};return n.next=n}}return{next:L}}function L(){return{value:void 0,done:!0}}return h.prototype=g,a(b,"constructor",g),a(g,"constructor",h),h.displayName=a(g,i,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===h||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,g):(t.__proto__=g,a(t,i,"GeneratorFunction")),t.prototype=Object.create(b),t},t.awrap=function(t){return{__await:t}},j(x.prototype),a(x.prototype,n,(function(){return this})),t.AsyncIterator=x,t.async=function(e,r,s,o,n){void 0===n&&(n=Promise);var i=new x(c(e,r,s,o),n);return t.isGeneratorFunction(r)?i:i.next().then((function(t){return t.done?t.value:i.next()}))},j(b),a(b,i,"Generator"),a(b,o,(function(){return this})),a(b,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var r in t)e.push(r);return e.reverse(),function r(){for(;e.length;){var s=e.pop();if(s in t)return r.value=s,r.done=!1,r}return r.done=!0,r}},t.values=_,O.prototype={constructor:O,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(k),!t)for(var e in this)"t"===e.charAt(0)&&r.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function s(r,s){return i.type="throw",i.arg=t,e.next=r,s&&(e.method="next",e.arg=void 0),!!s}for(var o=this.tryEntries.length-1;o>=0;--o){var n=this.tryEntries[o],i=n.completion;if("root"===n.tryLoc)return s("end");if(n.tryLoc<=this.prev){var a=r.call(n,"catchLoc"),c=r.call(n,"finallyLoc");if(a&&c){if(this.prev<n.catchLoc)return s(n.catchLoc,!0);if(this.prev<n.finallyLoc)return s(n.finallyLoc)}else if(a){if(this.prev<n.catchLoc)return s(n.catchLoc,!0)}else{if(!c)throw new Error("try statement without catch or finally");if(this.prev<n.finallyLoc)return s(n.finallyLoc)}}}},abrupt:function(t,e){for(var s=this.tryEntries.length-1;s>=0;--s){var o=this.tryEntries[s];if(o.tryLoc<=this.prev&&r.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var n=o;break}}n&&("break"===t||"continue"===t)&&n.tryLoc<=e&&e<=n.finallyLoc&&(n=null);var i=n?n.completion:{};return i.type=t,i.arg=e,n?(this.method="next",this.next=n.finallyLoc,d):this.complete(i)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.finallyLoc===t)return this.complete(r.completion,r.afterLoc),k(r),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.tryLoc===t){var s=r.completion;if("throw"===s.type){var o=s.arg;k(r)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,r){return this.delegate={iterator:_(t),resultName:e,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}function f(t,e){return f=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},f(t,e)}function h(t,e){if(e&&("object"===p(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}function g(t){return g=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},g(t)}var m=function(t){!function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&f(t,e)}(a,t);var r,s,o,n,i=(o=a,n=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(t){return!1}}(),function(){var t,e=g(o);if(n){var r=g(this).constructor;t=Reflect.construct(e,arguments,r)}else t=e.apply(this,arguments);return h(this,t)});function a(t,e,r){var s;return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,a),(s=i.call(this,t,e)).soundPath=r,s}return r=a,null,(s=[{key:"playAudio",value:function(t,e){var r=e.closest(".card").querySelector(".audio-player");t.preventDefault(),r.play()}},{key:"playCorrectAudio",value:function(){e.querySelector(".audio-player--correct").play()}},{key:"playErrorAudio",value:function(){e.querySelector(".audio-player--error").play()}},{key:"playFailureAudio",value:function(){e.querySelector(".audio-player--failure").play()}},{key:"playSuccessAudio",value:function(){e.querySelector(".audio-player--success").play()}},{key:"repeatPronouncedWord",value:function(t){document.getElementById(String(t)).querySelector(".audio-player").play()}},{key:"shuffle",value:function(t){for(var e=t.length-1;e>0;e--){var r=Math.floor(Math.random()*(e+1)),s=[t[r],t[e]];t[e]=s[0],t[r]=s[1]}return t}},{key:"shuffleAudio",value:function(){var t=e.querySelectorAll(".audio-player"),r=Array.from(t);return a.shuffle(r)}},{key:"gen",value:l().mark((function t(e){return l().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return t.delegateYield(e,"t0",1);case 1:case"end":return t.stop()}}),t)}))}])&&d(r,s),Object.defineProperty(r,"prototype",{writable:!1}),a}(u);function y(t){return y="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},y(t)}function v(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function b(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}function j(t,e,r){return e&&b(t.prototype,e),r&&b(t,r),Object.defineProperty(t,"prototype",{writable:!1}),t}function x(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&w(t,e)}function w(t,e){return w=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},w(t,e)}function S(t){var e=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(t){return!1}}();return function(){var r,s=O(t);if(e){var o=O(this).constructor;r=Reflect.construct(s,arguments,o)}else r=s.apply(this,arguments);return k(this,r)}}function k(t,e){if(e&&("object"===y(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}function O(t){return O=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},O(t)}var _=function(e){x(s,e);var r=S(s);function s(t,e,o,n,i){var a;return v(this,s),(a=r.call(this,t,o)).errors=i,a.pictureAlt=a.name,a.picturePath=e,a.picturePathSuccess="../static/assets/images/SUCCESS2.jpg",a.picturePathFailure="../static/assets/images/FAILURE2.jpg",a.soundPath=n,a.soundPathSuccess="../static/assets/audio/success.mp3",a.soundPathFailure="../static/assets/audio/failure.mp3",a}return j(s,[{key:"createCard",value:function(){var t=document.createElement("div");return t.classList.add("game_result"),t.innerHTML='\n      <figure class="game_result__figure">\n        <img\n          class="game_result__img"\n          src="'.concat(this.picturePath,'"\n          alt=').concat(this.pictureAlt,'\n        />\n        <div class="capture"><h4 class="game_result__capture">').concat(this.name,"!</h4>\n        <h4 class=\"game_result__capture game_result__capture_errors\" id='errors'>").concat(this.errors,' errors</h4></div>\n      </figure>\n      <audio \n        src="').concat(this.soundPath,'"\n        class="audio-player--').concat(this.name,'" crossorigin="anonymous">\n            Your browser does not support the\n            <code>audio</code> element.\n      </audio>\n  '),t}},{key:"renderCard",value:function(e){return t.append(this.createCard()),e.append(t),this}}]),s}(u),L=function(e){x(o,e);var r=S(o);function o(){var t,e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"GameResultContainer",n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:s;return v(this,o),(t=r.call(this,e)).parent=n,t}return j(o,[{key:"createGameResultContainer",value:function(){var t=document.createElement("div");return t.classList.add("game_result_container"),t}},{key:"renderGameResultContainer",value:function(e){return t.append(e),this.parent.append(t),this}},{key:"renderGameResult",value:function(t,e){var r=this.createGameResultContainer();return"success"===t?new _(t,this.picturePathSuccess,r,this.soundPathSuccess,e).renderCard(r):new _(t,this.picturePathFailure,r,this.soundPathFailure,e).renderCard(r),this.renderGameResultContainer(r),this}}]),o}(_);function E(t){return E="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},E(t)}function P(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}function C(t,e){return C=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},C(t,e)}function A(t,e){if(e&&("object"===E(e)||"function"==typeof e))return e;if(void 0!==e)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}function I(t){return I=Object.setPrototypeOf?Object.getPrototypeOf.bind():function(t){return t.__proto__||Object.getPrototypeOf(t)},I(t)}var T=function(r){!function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),Object.defineProperty(t,"prototype",{writable:!1}),e&&C(t,e)}(c,r);var s,o,n,i,a=(n=c,i=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(t){return!1}}(),function(){var t,e=I(n);if(i){var r=I(this).constructor;t=Reflect.construct(e,arguments,r)}else t=e.apply(this,arguments);return A(this,t)});function c(t){return function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,c),a.call(this,t)}return s=c,o=[{key:"renderStar",value:function(r){var s=e.querySelector(".stars_line");s.classList.remove("stars_line--hidden");var o=document.createElement("span");"right"===r?o.classList.add("stars_line__icon_star","icon_star","icon_star--right"):"wrong"===r&&o.classList.add("stars_line__icon_star","icon_star","icon_star--wrong"),o.innerHTML='<i class="fa-solid fa-star"></i>',t.append(o),s.append(t)}},{key:"hideStars",value:function(){var t=e.querySelector(".stars_line");for(t.classList.add("stars_line--hidden");t.firstChild;)t.removeChild(t.firstChild)}}],null&&P(s.prototype,null),o&&P(s,o),Object.defineProperty(s,"prototype",{writable:!1}),c}(u);function N(t){return N="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},N(t)}function D(){D=function(){return t};var t={},e=Object.prototype,r=e.hasOwnProperty,s="function"==typeof Symbol?Symbol:{},o=s.iterator||"@@iterator",n=s.asyncIterator||"@@asyncIterator",i=s.toStringTag||"@@toStringTag";function a(t,e,r){return Object.defineProperty(t,e,{value:r,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{a({},"")}catch(t){a=function(t,e,r){return t[e]=r}}function c(t,e,r,s){var o=e&&e.prototype instanceof l?e:l,n=Object.create(o.prototype),i=new S(s||[]);return n._invoke=function(t,e,r){var s="suspendedStart";return function(o,n){if("executing"===s)throw new Error("Generator is already running");if("completed"===s){if("throw"===o)throw n;return{value:void 0,done:!0}}for(r.method=o,r.arg=n;;){var i=r.delegate;if(i){var a=j(i,r);if(a){if(a===p)continue;return a}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===s)throw s="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);s="executing";var c=u(t,e,r);if("normal"===c.type){if(s=r.done?"completed":"suspendedYield",c.arg===p)continue;return{value:c.arg,done:r.done}}"throw"===c.type&&(s="completed",r.method="throw",r.arg=c.arg)}}}(t,r,i),n}function u(t,e,r){try{return{type:"normal",arg:t.call(e,r)}}catch(t){return{type:"throw",arg:t}}}t.wrap=c;var p={};function l(){}function d(){}function f(){}var h={};a(h,o,(function(){return this}));var g=Object.getPrototypeOf,m=g&&g(g(k([])));m&&m!==e&&r.call(m,o)&&(h=m);var y=f.prototype=l.prototype=Object.create(h);function v(t){["next","throw","return"].forEach((function(e){a(t,e,(function(t){return this._invoke(e,t)}))}))}function b(t,e){function s(o,n,i,a){var c=u(t[o],t,n);if("throw"!==c.type){var p=c.arg,l=p.value;return l&&"object"==N(l)&&r.call(l,"__await")?e.resolve(l.__await).then((function(t){s("next",t,i,a)}),(function(t){s("throw",t,i,a)})):e.resolve(l).then((function(t){p.value=t,i(p)}),(function(t){return s("throw",t,i,a)}))}a(c.arg)}var o;this._invoke=function(t,r){function n(){return new e((function(e,o){s(t,r,e,o)}))}return o=o?o.then(n,n):n()}}function j(t,e){var r=t.iterator[e.method];if(void 0===r){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,j(t,e),"throw"===e.method))return p;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return p}var s=u(r,t.iterator,e.arg);if("throw"===s.type)return e.method="throw",e.arg=s.arg,e.delegate=null,p;var o=s.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,p):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,p)}function x(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function w(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function S(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(x,this),this.reset(!0)}function k(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var s=-1,n=function e(){for(;++s<t.length;)if(r.call(t,s))return e.value=t[s],e.done=!1,e;return e.value=void 0,e.done=!0,e};return n.next=n}}return{next:O}}function O(){return{value:void 0,done:!0}}return d.prototype=f,a(y,"constructor",f),a(f,"constructor",d),d.displayName=a(f,i,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===d||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,f):(t.__proto__=f,a(t,i,"GeneratorFunction")),t.prototype=Object.create(y),t},t.awrap=function(t){return{__await:t}},v(b.prototype),a(b.prototype,n,(function(){return this})),t.AsyncIterator=b,t.async=function(e,r,s,o,n){void 0===n&&(n=Promise);var i=new b(c(e,r,s,o),n);return t.isGeneratorFunction(r)?i:i.next().then((function(t){return t.done?t.value:i.next()}))},v(y),a(y,i,"Generator"),a(y,o,(function(){return this})),a(y,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var r in t)e.push(r);return e.reverse(),function r(){for(;e.length;){var s=e.pop();if(s in t)return r.value=s,r.done=!1,r}return r.done=!0,r}},t.values=k,S.prototype={constructor:S,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(w),!t)for(var e in this)"t"===e.charAt(0)&&r.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function s(r,s){return i.type="throw",i.arg=t,e.next=r,s&&(e.method="next",e.arg=void 0),!!s}for(var o=this.tryEntries.length-1;o>=0;--o){var n=this.tryEntries[o],i=n.completion;if("root"===n.tryLoc)return s("end");if(n.tryLoc<=this.prev){var a=r.call(n,"catchLoc"),c=r.call(n,"finallyLoc");if(a&&c){if(this.prev<n.catchLoc)return s(n.catchLoc,!0);if(this.prev<n.finallyLoc)return s(n.finallyLoc)}else if(a){if(this.prev<n.catchLoc)return s(n.catchLoc,!0)}else{if(!c)throw new Error("try statement without catch or finally");if(this.prev<n.finallyLoc)return s(n.finallyLoc)}}}},abrupt:function(t,e){for(var s=this.tryEntries.length-1;s>=0;--s){var o=this.tryEntries[s];if(o.tryLoc<=this.prev&&r.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var n=o;break}}n&&("break"===t||"continue"===t)&&n.tryLoc<=e&&e<=n.finallyLoc&&(n=null);var i=n?n.completion:{};return i.type=t,i.arg=e,n?(this.method="next",this.next=n.finallyLoc,p):this.complete(i)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),p},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.finallyLoc===t)return this.complete(r.completion,r.afterLoc),w(r),p}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var r=this.tryEntries[e];if(r.tryLoc===t){var s=r.completion;if("throw"===s.type){var o=s.arg;w(r)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,r){return this.delegate={iterator:k(t),resultName:e,nextLoc:r},"next"===this.method&&(this.arg=void 0),p}},t}function R(t,e,r,s,o,n,i){try{var a=t[n](i),c=a.value}catch(t){return void r(t)}a.done?e(c):Promise.resolve(c).then(s,o)}function M(t,e){var r=Object.keys(t);if(Object.getOwnPropertySymbols){var s=Object.getOwnPropertySymbols(t);e&&(s=s.filter((function(e){return Object.getOwnPropertyDescriptor(t,e).enumerable}))),r.push.apply(r,s)}return r}function F(t,e,r){return e in t?Object.defineProperty(t,e,{value:r,enumerable:!0,configurable:!0,writable:!0}):t[e]=r,t}function q(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}var G=function(){function t(){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.data={}}var e,r,s,o;return e=t,r=[{key:"addGameItem",value:function(t,e,r){var s,o,n,i;this.data[t]=this.data[t]||{},this.data[t][e]=this.data[t][e]||{},r?(null!==(o=(s=this.data[t][e]).correct)&&void 0!==o||(s.correct=0),this.data[t][e].correct++):(null!==(i=(n=this.data[t][e]).wrong)&&void 0!==i||(n.wrong=0),this.data[t][e].wrong++)}},{key:"addTrainItem",value:function(t,e){var r,s;this.data[t]=this.data[t]||{},this.data[t][e]=this.data[t][e]||{},null!==(s=(r=this.data[t][e]).trained)&&void 0!==s||(r.trained=0),this.data[t][e].trained++}},{key:"postNewItem",value:function(t,e){return{id:t,action:e}}},{key:"getTrainedItem",value:function(t,e){return this.data[t]&&this.data[t][e]&&this.data[t][e].trained||0}},{key:"getCorrectItem",value:function(t,e){return this.data[t]&&this.data[t][e]&&this.data[t][e].correct||0}},{key:"getWrongItem",value:function(t,e){return this.data[t]&&this.data[t][e]&&this.data[t][e].wrong||0}},{key:"mirrorToLocalStorage",value:function(){localStorage.setItem("stats",JSON.stringify(this.data))}},{key:"restoreFromLocalStorage",value:function(){this.data=function(t){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?arguments[e]:{};e%2?M(Object(r),!0).forEach((function(e){F(t,e,r[e])})):Object.getOwnPropertyDescriptors?Object.defineProperties(t,Object.getOwnPropertyDescriptors(r)):M(Object(r)).forEach((function(e){Object.defineProperty(t,e,Object.getOwnPropertyDescriptor(r,e))}))}return t}({},JSON.parse(localStorage.getItem("stats")))}},{key:"getCookie",value:function(t){var e=null;if(document.cookie&&""!==document.cookie)for(var r=document.cookie.split(";"),s=0;s<r.length;s++){var o=r[s].trim();if(o.substring(0,t.length+1)===t+"="){e=decodeURIComponent(o.substring(t.length+1));break}}return e}},{key:"sendToServer",value:(s=D().mark((function t(e){var r,s,o,n,i;return D().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return r=window.location.href,s={data:e},o=this.getCookie("csrftoken"),t.prev=3,t.next=6,fetch(r,{method:"POST",credentials:"same-origin",body:JSON.stringify(s),headers:{"Content-Type":"application/json","X-Requested-With":"XMLHttpRequest","X-CSRFToken":o}});case 6:return n=t.sent,t.next=9,n.json();case 9:i=t.sent,console.log("Success:",JSON.stringify(i)),t.next=16;break;case 13:t.prev=13,t.t0=t.catch(3),console.error("Error:",t.t0);case 16:case"end":return t.stop()}}),t,this,[[3,13]])})),o=function(){var t=this,e=arguments;return new Promise((function(r,o){var n=s.apply(t,e);function i(t){R(n,r,o,i,a,"next",t)}function a(t){R(n,r,o,i,a,"throw",t)}i(void 0)}))},function(t){return o.apply(this,arguments)})}],r&&q(e.prototype,r),Object.defineProperty(e,"prototype",{writable:!1}),t}();function B(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}var U=function(){function t(e){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.tableNode=e,this.columnHeaders=e.querySelectorAll("thead th"),this.sortColumns=[];for(var r=0;r<this.columnHeaders.length;r++){var s=this.columnHeaders[r].querySelector("button");s&&(this.sortColumns.push(r),s.setAttribute("data-column-index",r),s.addEventListener("click",this.handleClick.bind(this)))}this.optionCheckbox=document.querySelector('input[type="checkbox"][value="show-unsorted-icon"]'),this.optionCheckbox&&(this.optionCheckbox.addEventListener("change",this.handleOptionChange.bind(this)),this.optionCheckbox.checked&&this.tableNode.classList.add("show-unsorted-icon"))}var e,r,s;return e=t,s=[{key:"addSortTable",value:function(){var e=document.querySelector(".sortable");e&&new t(e)}}],(r=[{key:"setColumnHeaderSort",value:function(t){"string"==typeof t&&(t=parseInt(t));for(var e=0;e<this.columnHeaders.length;e++){var r=this.columnHeaders[e],s=r.querySelector("button");e===t?"descending"===r.getAttribute("aria-sort")?(r.setAttribute("aria-sort","ascending"),this.sortColumn(t,"ascending",r.classList.contains("num"))):(r.setAttribute("aria-sort","descending"),this.sortColumn(t,"descending",r.classList.contains("num"))):r.hasAttribute("aria-sort")&&s&&r.removeAttribute("aria-sort")}}},{key:"sortColumn",value:function(t,e,r){"boolean"!=typeof r&&(r=!1);for(var s=this.tableNode.querySelector("tbody"),o=[],n=[],i=s.firstElementChild,a=0;i;){o.push(i);var c=i.querySelectorAll("th, td")[t],u={};u.index=a,u.value=c.textContent.toLowerCase().trim(),r&&(u.value=parseFloat(u.value)),n.push(u),i=i.nextElementSibling,a+=1}for(n.sort((function(t,s){return"ascending"===e?t.value===s.value?0:r?t.value-s.value:t.value<s.value?-1:1:t.value===s.value?0:r?s.value-t.value:t.value>s.value?-1:1}));s.firstChild;)s.removeChild(s.lastChild);for(var p=0;p<n.length;p+=1)s.appendChild(o[n[p].index])}},{key:"handleClick",value:function(t){var e=t.currentTarget;t.preventDefault(),this.setColumnHeaderSort(e.getAttribute("data-column-index"))}},{key:"handleOptionChange",value:function(t){t.currentTarget.checked?this.tableNode.classList.add("show-unsorted-icon"):this.tableNode.classList.remove("show-unsorted-icon")}}])&&B(e.prototype,r),s&&B(e,s),Object.defineProperty(e,"prototype",{writable:!1}),t}();function H(t,e){for(var r=0;r<e.length;r++){var s=e[r];s.enumerable=s.enumerable||!1,s.configurable=!0,"value"in s&&(s.writable=!0),Object.defineProperty(t,s.key,s)}}var W=new(function(){function t(){var e,r,s=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),r=function(t){var e=t.target,r=e.closest(".card");e.closest(".switch")?s.toggleMode():e.closest(".statistics")?u.changeDesign("train"):e.closest(".audio-controls")?s.handleAudioControlsCLick(t,r,e):e.closest(".rotate-controls")?u.rotateBack(t,r):e.closest(".icon_start")?s.handleStartButtonClick(e):"play"===s.mode&&r?s.handleGameMode(t):e.closest(".icon_repeat")?m.repeatPronouncedWord(s.currentID):e.closest(".stats__button-repeat_difficult")?s.errors=0:e.closest(".stats__button-reset")&&s.handleReset()},(e="handleclicks")in this?Object.defineProperty(this,e,{value:r,enumerable:!0,configurable:!0,writable:!0}):this[e]=r,this.mode="train",this.errors=0,this.currentID=NaN,this.audiogenerator=null,this.count=0,this.audioPlayersCount=NaN,this.statsData=new G,this.currentPage="",this.isStarted=!1}var r,o;return r=t,(o=[{key:"setMode",value:function(t){this.mode=t}},{key:"toggleMode",value:function(){"train"===this.mode?(this.setMode("play"),u.changeDesign("play"),localStorage.setItem("mode","play"),this.disableCardsBeforeStart()):(this.setMode("train"),u.changeDesign("train"),localStorage.setItem("mode","train"),this.disableCardsBeforeStart())}},{key:"disableCardsBeforeStart",value:function(){"play"===localStorage.getItem("mode")&!this.isStarted&&s.classList.add("notStarted"),("train"===localStorage.getItem("mode")||this.isStarted)&&s.classList.remove("notStarted")}},{key:"defineSettingsForPage",value:function(){document.querySelector(".category_container")?this.currentPage="category_page":document.querySelector(".card_container")?this.currentPage="card_page":document.querySelector(".stats_container")&&(this.currentPage="stats_page"),s.classList.add(this.currentPage),"play"===localStorage.getItem("mode")&("card_page"===this.currentPage||"category_page"===this.currentPage)&&u.simulateSwitchButtonClick()}},{key:"generateAudio",value:function(){var t=m.shuffleAudio();this.audioPlayersCount=t.length,this.audioGenerator=m.gen(t)}},{key:"pronounceWords",value:function(){var t=this.audioGenerator.next().value;t.play();var e=t.closest(".card");return e.classList.add("card--pronounced"),this.currentID=e.id,this.currentID}},{key:"handleAudioControlsCLick",value:function(t,e,r){m.playAudio(t,r),this.currentID=e.id,this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace("card",""),"trained"))}},{key:"defineAccuracy",value:function(t,e){var r=t.target;t.preventDefault();var s=r.closest(".card");return s.id===e&&(s.classList.add("card--guessed"),!0)}},{key:"isFinished",value:function(){return this.count>=this.audioPlayersCount}},{key:"renderGameResult",value:function(){window.scrollTo({top:0,behavior:"smooth"});var t=new L;0===this.errors?(t.renderGameResult("success",this.errors),m.playSuccessAudio()):(t.renderGameResult("failure",this.errors),m.playFailureAudio())}},{key:"handleStartButtonClick",value:function(t){this.isStarted=!0,this.disableCardsBeforeStart(),this.generateAudio(),this.currentID=this.pronounceWords(),t.closest(".icon_start").classList.add("icon_start--hidden"),e.querySelector(".icon_repeat").classList.remove("icon_repeat--hidden")}},{key:"handleWrongAndRight",value:function(t){"right"===t?(this.count++,T.renderStar("right"),m.playCorrectAudio(),this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace("card",""),"correct"))):(T.renderStar("wrong"),this.errors++,m.playErrorAudio(),this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace("card",""),"errors")))}},{key:"handleGameFinish",value:function(){var t,e;u.cleanDOM(),this.toggleMode(),null===(t=document)||void 0===t||t.querySelector(".icon_start").classList.remove("icon_start--hidden"),null===(e=document)||void 0===e||e.querySelector(".icon_repeat").classList.add("icon_repeat--hidden"),T.hideStars(),this.renderGameResult(),setTimeout(u.cleanDOM,3e3),setTimeout(u.simulatetoMainPageClick,3e3),this.count=0,this.audioPlayersCount=NaN}},{key:"handleGameMode",value:function(t){this.defineAccuracy(t,this.currentID)?(this.handleWrongAndRight("right"),this.isFinished()?this.handleGameFinish():this.currentID=this.pronounceWords()):this.handleWrongAndRight("wrong")}},{key:"handleReset",value:function(){this.errors=0,this.statsData.sendToServer({reset:"reset"}),window.location.reload()}},{key:"addListeners",value:function(){e.addEventListener("click",this.handleclicks),document.addEventListener("DOMContentLoaded",this.defineSettingsForPage),U.addSortTable()}},{key:"addNavigation",value:function(){(new a).addListeners()}}])&&H(r.prototype,o),Object.defineProperty(r,"prototype",{writable:!1}),t}());W.addNavigation(),W.addListeners(),r(7452),r(6769)})()})();
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./static/scripts/app/app.js":
+/*!***********************************!*\
+  !*** ./static/scripts/app/app.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"App\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\n/* harmony import */ var _components_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navigation.component */ \"./static/scripts/components/navigation.component.js\");\n/* harmony import */ var _components_gameResult_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/gameResult.component */ \"./static/scripts/components/gameResult.component.js\");\n/* harmony import */ var _components_audio_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/audio.component */ \"./static/scripts/components/audio.component.js\");\n/* harmony import */ var _components_star_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/star.component */ \"./static/scripts/components/star.component.js\");\n/* harmony import */ var _components_component_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/component.component */ \"./static/scripts/components/component.component.js\");\n/* harmony import */ var _components_statsData__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/statsData */ \"./static/scripts/components/statsData.js\");\n/* harmony import */ var _components_sortableTable_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/sortableTable.component */ \"./static/scripts/components/sortableTable.component.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function () {\n  function App() {\n    var _this = this;\n\n    _classCallCheck(this, App);\n\n    _defineProperty(this, \"handleclicks\", function (event) {\n      var element = event.target;\n      var card = element.closest(\".card\");\n\n      if (element.closest(\".switch\")) {\n        _this.toggleMode();\n      } else if (element.closest(\".statistics\")) {\n        _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.changeDesign(\"train\");\n      } else if (element.closest(\".audio-controls\")) {\n        _this.handleAudioControlsCLick(event, card, element);\n      } else if (element.closest(\".rotate-controls\")) {\n        _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.rotateBack(event, card);\n      } else if (element.closest(\".icon_start\")) {\n        _this.handleStartButtonClick(element);\n      } else if (_this.mode === \"play\" && card) {\n        _this.handleGameMode(event);\n      } else if (element.closest(\".icon_repeat\")) {\n        _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.repeatPronouncedWord(_this.currentID);\n      } else if (element.closest(\".stats__button-repeat_difficult\")) {\n        _this.errors = 0;\n      } else if (element.closest(\".stats__button-reset\")) {\n        _this.handleReset();\n      }\n    });\n\n    this.mode = \"train\";\n    this.errors = 0;\n    this.currentID = NaN;\n    this.audiogenerator = null;\n    this.count = 0;\n    this.audioPlayersCount = NaN;\n    this.statsData = new _components_statsData__WEBPACK_IMPORTED_MODULE_6__.StatsData();\n    this.currentPage = \"\";\n    this.isStarted = false;\n  }\n\n  _createClass(App, [{\n    key: \"setMode\",\n    value: function setMode(mode) {\n      this.mode = mode;\n    }\n  }, {\n    key: \"toggleMode\",\n    value: function toggleMode() {\n      if (this.mode === \"train\") {\n        this.setMode(\"play\");\n        _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.changeDesign(\"play\");\n        localStorage.setItem(\"mode\", \"play\");\n        this.disableCardsBeforeStart();\n      } else {\n        this.setMode(\"train\");\n        _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.changeDesign(\"train\");\n        localStorage.setItem(\"mode\", \"train\");\n        this.disableCardsBeforeStart();\n      }\n    }\n  }, {\n    key: \"disableCardsBeforeStart\",\n    value: function disableCardsBeforeStart() {\n      if (localStorage.getItem(\"mode\") === \"play\" & !this.isStarted) {\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.add(\"notStarted\");\n      }\n\n      if (localStorage.getItem(\"mode\") === \"train\" || this.isStarted) {\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.remove(\"notStarted\");\n      }\n    }\n  }, {\n    key: \"defineSettingsForPage\",\n    value: function defineSettingsForPage() {\n      if (document.querySelector(\".category_container\")) {\n        this.currentPage = \"category_page\";\n      } else if (document.querySelector(\".card_container\")) {\n        this.currentPage = \"card_page\";\n      } else if (document.querySelector(\".stats_container\")) {\n        this.currentPage = \"stats_page\";\n      }\n\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.add(this.currentPage);\n\n      if (localStorage.getItem(\"mode\") === \"play\" & (this.currentPage === \"card_page\" || this.currentPage === \"category_page\")) {\n        _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.simulateSwitchButtonClick();\n      }\n    }\n  }, {\n    key: \"generateAudio\",\n    value: function generateAudio() {\n      var shuffledAudio = _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.shuffleAudio();\n      this.audioPlayersCount = shuffledAudio.length;\n      this.audioGenerator = _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.gen(shuffledAudio);\n    }\n  }, {\n    key: \"pronounceWords\",\n    value: function pronounceWords() {\n      var newAudio = this.audioGenerator.next().value;\n      newAudio.play();\n      var card = newAudio.closest(\".card\");\n      card.classList.add(\"card--pronounced\");\n      this.currentID = card.id;\n      return this.currentID;\n    }\n  }, {\n    key: \"handleAudioControlsCLick\",\n    value: function handleAudioControlsCLick(event, card, element) {\n      _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.playAudio(event, element);\n      this.currentID = card.id;\n      this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace(\"card\", \"\"), \"trained\"));\n    }\n  }, {\n    key: \"defineAccuracy\",\n    value: function defineAccuracy(event, id) {\n      var element = event.target;\n      event.preventDefault();\n      var card = element.closest(\".card\");\n\n      if (card.id === id) {\n        card.classList.add(\"card--guessed\");\n        return true;\n      } else {\n        return false;\n      }\n    }\n  }, {\n    key: \"isFinished\",\n    value: function isFinished() {\n      return this.count >= this.audioPlayersCount;\n    }\n  }, {\n    key: \"renderGameResult\",\n    value: function renderGameResult() {\n      window.scrollTo({\n        top: 0,\n        behavior: \"smooth\"\n      });\n      var gameResultContainer = new _components_gameResult_component__WEBPACK_IMPORTED_MODULE_2__.GameResultContainer();\n\n      if (this.errors === 0) {\n        gameResultContainer.renderGameResult(\"success\", this.errors);\n        _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.playSuccessAudio();\n      } else {\n        gameResultContainer.renderGameResult(\"failure\", this.errors);\n        _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.playFailureAudio();\n      }\n    }\n  }, {\n    key: \"handleStartButtonClick\",\n    value: function handleStartButtonClick(element) {\n      this.isStarted = true;\n      this.disableCardsBeforeStart();\n      this.generateAudio();\n      this.currentID = this.pronounceWords();\n      element.closest(\".icon_start\").classList.add(\"icon_start--hidden\");\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".icon_repeat\").classList.remove(\"icon_repeat--hidden\");\n    }\n  }, {\n    key: \"handleWrongAndRight\",\n    value: function handleWrongAndRight(accuracy) {\n      if (accuracy === \"right\") {\n        this.count++;\n        _components_star_component__WEBPACK_IMPORTED_MODULE_4__.StarComponent.renderStar(\"right\");\n        _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.playCorrectAudio();\n        this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace(\"card\", \"\"), \"correct\"));\n      } else {\n        _components_star_component__WEBPACK_IMPORTED_MODULE_4__.StarComponent.renderStar(\"wrong\");\n        this.errors++;\n        _components_audio_component__WEBPACK_IMPORTED_MODULE_3__.AudioComponent.playErrorAudio();\n        this.statsData.sendToServer(this.statsData.postNewItem(+this.currentID.replace(\"card\", \"\"), \"errors\"));\n      }\n    }\n  }, {\n    key: \"handleGameFinish\",\n    value: function handleGameFinish() {\n      var _document, _document2;\n\n      _components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.cleanDOM();\n      this.toggleMode();\n      (_document = document) === null || _document === void 0 ? void 0 : _document.querySelector(\".icon_start\").classList.remove(\"icon_start--hidden\");\n      (_document2 = document) === null || _document2 === void 0 ? void 0 : _document2.querySelector(\".icon_repeat\").classList.add(\"icon_repeat--hidden\");\n      _components_star_component__WEBPACK_IMPORTED_MODULE_4__.StarComponent.hideStars();\n      this.renderGameResult();\n      setTimeout(_components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.cleanDOM, 3000);\n      setTimeout(_components_component_component__WEBPACK_IMPORTED_MODULE_5__.Component.simulatetoMainPageClick, 3000);\n      this.count = 0;\n      this.audioPlayersCount = NaN;\n    }\n  }, {\n    key: \"handleGameMode\",\n    value: function handleGameMode(event) {\n      var isRight = this.defineAccuracy(event, this.currentID);\n\n      if (isRight) {\n        this.handleWrongAndRight(\"right\");\n\n        if (!this.isFinished()) {\n          this.currentID = this.pronounceWords();\n        } else {\n          this.handleGameFinish();\n        }\n      } else {\n        this.handleWrongAndRight(\"wrong\");\n      }\n    }\n  }, {\n    key: \"handleReset\",\n    value: function handleReset() {\n      this.errors = 0;\n      this.statsData.sendToServer({\n        reset: \"reset\"\n      });\n      window.location.reload();\n    }\n  }, {\n    key: \"addListeners\",\n    value: function addListeners() {\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.addEventListener(\"click\", this.handleclicks);\n      document.addEventListener(\"DOMContentLoaded\", this.defineSettingsForPage);\n      _components_sortableTable_component__WEBPACK_IMPORTED_MODULE_7__.SortableTable.addSortTable();\n    }\n  }, {\n    key: \"addNavigation\",\n    value: function addNavigation() {\n      var navigation = new _components_navigation_component__WEBPACK_IMPORTED_MODULE_1__.Navigation();\n      navigation.addListeners();\n    }\n  }]);\n\n  return App;\n}();\n\nvar application = new App();\napplication.addNavigation();\napplication.addListeners();\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/app/app.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/audio.component.js":
+/*!******************************************************!*\
+  !*** ./static/scripts/components/audio.component.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"AudioComponent\": () => (/* binding */ AudioComponent)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\n/* harmony import */ var _component_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component.component */ \"./static/scripts/components/component.component.js\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\nfunction _regeneratorRuntime() { \"use strict\"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, $Symbol = \"function\" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || \"@@iterator\", asyncIteratorSymbol = $Symbol.asyncIterator || \"@@asyncIterator\", toStringTagSymbol = $Symbol.toStringTag || \"@@toStringTag\"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, \"\"); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return generator._invoke = function (innerFn, self, context) { var state = \"suspendedStart\"; return function (method, arg) { if (\"executing\" === state) throw new Error(\"Generator is already running\"); if (\"completed\" === state) { if (\"throw\" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if (\"next\" === context.method) context.sent = context._sent = context.arg;else if (\"throw\" === context.method) { if (\"suspendedStart\" === state) throw state = \"completed\", context.arg; context.dispatchException(context.arg); } else \"return\" === context.method && context.abrupt(\"return\", context.arg); state = \"executing\"; var record = tryCatch(innerFn, self, context); if (\"normal\" === record.type) { if (state = context.done ? \"completed\" : \"suspendedYield\", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } \"throw\" === record.type && (state = \"completed\", context.method = \"throw\", context.arg = record.arg); } }; }(innerFn, self, context), generator; } function tryCatch(fn, obj, arg) { try { return { type: \"normal\", arg: fn.call(obj, arg) }; } catch (err) { return { type: \"throw\", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { [\"next\", \"throw\", \"return\"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if (\"throw\" !== record.type) { var result = record.arg, value = result.value; return value && \"object\" == _typeof(value) && hasOwn.call(value, \"__await\") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke(\"next\", value, resolve, reject); }, function (err) { invoke(\"throw\", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke(\"throw\", error, resolve, reject); }); } reject(record.arg); } var previousPromise; this._invoke = function (method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); }; } function maybeInvokeDelegate(delegate, context) { var method = delegate.iterator[context.method]; if (undefined === method) { if (context.delegate = null, \"throw\" === context.method) { if (delegate.iterator[\"return\"] && (context.method = \"return\", context.arg = undefined, maybeInvokeDelegate(delegate, context), \"throw\" === context.method)) return ContinueSentinel; context.method = \"throw\", context.arg = new TypeError(\"The iterator does not provide a 'throw' method\"); } return ContinueSentinel; } var record = tryCatch(method, delegate.iterator, context.arg); if (\"throw\" === record.type) return context.method = \"throw\", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, \"return\" !== context.method && (context.method = \"next\", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = \"throw\", context.arg = new TypeError(\"iterator result is not an object\"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = \"normal\", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: \"root\" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if (\"function\" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) { if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; } return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, define(Gp, \"constructor\", GeneratorFunctionPrototype), define(GeneratorFunctionPrototype, \"constructor\", GeneratorFunction), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, \"GeneratorFunction\"), exports.isGeneratorFunction = function (genFun) { var ctor = \"function\" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || \"GeneratorFunction\" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, \"GeneratorFunction\")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, \"Generator\"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, \"toString\", function () { return \"[object Generator]\"; }), exports.keys = function (object) { var keys = []; for (var key in object) { keys.push(key); } return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = \"next\", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) { \"t\" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); } }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if (\"throw\" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = \"throw\", record.arg = exception, context.next = loc, caught && (context.method = \"next\", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if (\"root\" === entry.tryLoc) return handle(\"end\"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, \"catchLoc\"), hasFinally = hasOwn.call(entry, \"finallyLoc\"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error(\"try statement without catch or finally\"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, \"finallyLoc\") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && (\"break\" === type || \"continue\" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = \"next\", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if (\"throw\" === record.type) throw record.arg; return \"break\" === record.type || \"continue\" === record.type ? this.next = record.arg : \"return\" === record.type ? (this.rval = this.arg = record.arg, this.method = \"return\", this.next = \"end\") : \"normal\" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, \"catch\": function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if (\"throw\" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error(\"illegal catch attempt\"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, \"next\" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, \"prototype\", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } else if (call !== void 0) { throw new TypeError(\"Derived constructors may only return object or undefined\"); } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\nvar AudioComponent = /*#__PURE__*/function (_Component) {\n  _inherits(AudioComponent, _Component);\n\n  var _super = _createSuper(AudioComponent);\n\n  function AudioComponent(name, cardContainer, soundPath) {\n    var _this;\n\n    _classCallCheck(this, AudioComponent);\n\n    _this = _super.call(this, name, cardContainer);\n    _this.soundPath = soundPath;\n    return _this;\n  }\n\n  _createClass(AudioComponent, null, [{\n    key: \"playAudio\",\n    value: function playAudio(event, element) {\n      var audioPlayer = element.closest(\".card\").querySelector(\".audio-player\");\n      event.preventDefault();\n      audioPlayer.play();\n    }\n  }, {\n    key: \"playCorrectAudio\",\n    value: function playCorrectAudio() {\n      var correctAudio = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".audio-player--correct\");\n      correctAudio.play();\n    }\n  }, {\n    key: \"playErrorAudio\",\n    value: function playErrorAudio() {\n      var errorAudio = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".audio-player--error\");\n      errorAudio.play();\n    }\n  }, {\n    key: \"playFailureAudio\",\n    value: function playFailureAudio() {\n      var failureAudio = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".audio-player--failure\");\n      failureAudio.play();\n    }\n  }, {\n    key: \"playSuccessAudio\",\n    value: function playSuccessAudio() {\n      var successAudio = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".audio-player--success\");\n      successAudio.play();\n    }\n  }, {\n    key: \"repeatPronouncedWord\",\n    value: function repeatPronouncedWord(id) {\n      var card = document.getElementById(String(id));\n      var audio = card.querySelector(\".audio-player\");\n      audio.play();\n    }\n  }, {\n    key: \"shuffle\",\n    value: function shuffle(array) {\n      for (var i = array.length - 1; i > 0; i--) {\n        var j = Math.floor(Math.random() * (i + 1));\n        var _ref = [array[j], array[i]];\n        array[i] = _ref[0];\n        array[j] = _ref[1];\n      }\n\n      return array;\n    }\n  }, {\n    key: \"shuffleAudio\",\n    value: function shuffleAudio() {\n      var audioPlayers = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelectorAll(\".audio-player\");\n      var audioPlayersArray = Array.from(audioPlayers);\n      return AudioComponent.shuffle(audioPlayersArray);\n    }\n  }, {\n    key: \"gen\",\n    value: /*#__PURE__*/_regeneratorRuntime().mark(function gen(array) {\n      return _regeneratorRuntime().wrap(function gen$(_context) {\n        while (1) {\n          switch (_context.prev = _context.next) {\n            case 0:\n              return _context.delegateYield(array, \"t0\", 1);\n\n            case 1:\n            case \"end\":\n              return _context.stop();\n          }\n        }\n      }, gen);\n    })\n  }]);\n\n  return AudioComponent;\n}(_component_component__WEBPACK_IMPORTED_MODULE_1__.Component);\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/audio.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/component.component.js":
+/*!**********************************************************!*\
+  !*** ./static/scripts/components/component.component.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Component\": () => (/* binding */ Component)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\n\n\nvar Component = /*#__PURE__*/function () {\n  function Component(name, picturePath, cardContainer, id) {\n    _classCallCheck(this, Component);\n\n    this.name = name;\n    this.picture = new Image();\n    this.picturePath = picturePath;\n    this.pictureAlt = \"\".concat(this.name);\n    this.cardContainer = cardContainer;\n    this.id = id;\n  }\n\n  _createClass(Component, null, [{\n    key: \"cleanDOM\",\n    value: function cleanDOM() {\n      var categoryContainerElement = document.querySelector(\".category_container\");\n      var cardsContainerElement = document.querySelector(\".card_container\");\n      var gameResultContainerElement = document.querySelector(\".game_result_container\");\n      var statsContainerElement = document.querySelector(\".stats_container\");\n      categoryContainerElement === null || categoryContainerElement === void 0 ? void 0 : categoryContainerElement.remove();\n      cardsContainerElement === null || cardsContainerElement === void 0 ? void 0 : cardsContainerElement.remove();\n      gameResultContainerElement === null || gameResultContainerElement === void 0 ? void 0 : gameResultContainerElement.remove();\n      statsContainerElement === null || statsContainerElement === void 0 ? void 0 : statsContainerElement.remove();\n    }\n  }, {\n    key: \"chooseAssetsForRendering\",\n    value: function chooseAssetsForRendering(cards, id) {\n      var _this = this;\n\n      this.cardNames = [];\n      this.cardImagesPaths = [];\n      this.soundPaths = [];\n      this.translations = [];\n      cards[id].map(function (item) {\n        _this.cardNames.push(item[\"word\"]);\n\n        _this.cardImagesPaths.push(item[\"image\"]);\n\n        _this.soundPaths.push(item[\"audioSrc\"]);\n\n        _this.translations.push(item[\"translation\"]);\n      });\n      return [this.cardNames, this.cardImagesPaths, this.soundPaths, this.translations];\n    }\n  }, {\n    key: \"rotateBack\",\n    value: function rotateBack(event, card) {\n      event.preventDefault();\n      card.classList.add(\"card--pressed\");\n      card.addEventListener(\"mouseleave\", function () {\n        card.classList.remove(\"card--pressed\");\n      });\n    }\n  }, {\n    key: \"simulateSwitchButtonClick\",\n    value: function simulateSwitchButtonClick() {\n      var clickEvent = new MouseEvent(\"click\", {\n        bubbles: true,\n        cancelable: true,\n        view: window\n      });\n      var switchButton = document.querySelector(\".switch\");\n      switchButton.dispatchEvent(clickEvent);\n    }\n  }, {\n    key: \"simulatetoMainPageClick\",\n    value: function simulatetoMainPageClick() {\n      var clickEvent = new MouseEvent(\"click\", {\n        bubbles: true,\n        cancelable: true,\n        view: window\n      });\n      var h1 = document.querySelector(\".header__link\");\n      h1.dispatchEvent(clickEvent);\n    }\n  }, {\n    key: \"changeDesign\",\n    value: function changeDesign(mode) {\n      if (mode === \"train\") {\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.add(\"trainMode\");\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.remove(\"gameMode\");\n      } else {\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.remove(\"trainMode\");\n        _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container.classList.add(\"gameMode\");\n      }\n    }\n  }]);\n\n  return Component;\n}();\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/component.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/gameResult.component.js":
+/*!***********************************************************!*\
+  !*** ./static/scripts/components/gameResult.component.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"GameResult\": () => (/* binding */ GameResult),\n/* harmony export */   \"GameResultContainer\": () => (/* binding */ GameResultContainer)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\n/* harmony import */ var _component_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component.component */ \"./static/scripts/components/component.component.js\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, \"prototype\", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } else if (call !== void 0) { throw new TypeError(\"Derived constructors may only return object or undefined\"); } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\nvar GameResult = /*#__PURE__*/function (_Component) {\n  _inherits(GameResult, _Component);\n\n  var _super = _createSuper(GameResult);\n\n  function GameResult(name, picturePath, cardContainer, soundPath, errors) {\n    var _this;\n\n    _classCallCheck(this, GameResult);\n\n    _this = _super.call(this, name, cardContainer);\n    _this.errors = errors;\n    _this.pictureAlt = _this.name;\n    _this.picturePath = picturePath;\n    _this.picturePathSuccess = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.picturePathSuccess;\n    _this.picturePathFailure = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.picturePathFailure;\n    _this.soundPath = soundPath;\n    _this.soundPathSuccess = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.soundPathSuccess;\n    _this.soundPathFailure = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.soundPathFailure;\n    return _this;\n  }\n\n  _createClass(GameResult, [{\n    key: \"createCard\",\n    value: function createCard() {\n      var newElement = document.createElement(\"div\");\n      newElement.classList.add(\"game_result\");\n      newElement.innerHTML = \"\\n      <figure class=\\\"game_result__figure\\\">\\n        <img\\n          class=\\\"game_result__img\\\"\\n          src=\\\"\".concat(this.picturePath, \"\\\"\\n          alt=\").concat(this.pictureAlt, \"\\n        />\\n        <div class=\\\"capture\\\"><h4 class=\\\"game_result__capture\\\">\").concat(this.name, \"!</h4>\\n        <h4 class=\\\"game_result__capture game_result__capture_errors\\\" id='errors'>\").concat(this.errors, \" errors</h4></div>\\n      </figure>\\n      <audio \\n        src=\\\"\").concat(this.soundPath, \"\\\"\\n        class=\\\"audio-player--\").concat(this.name, \"\\\" crossorigin=\\\"anonymous\\\">\\n            Your browser does not support the\\n            <code>audio</code> element.\\n      </audio>\\n  \");\n      return newElement;\n    }\n  }, {\n    key: \"renderCard\",\n    value: function renderCard(gameResultContainer) {\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment.append(this.createCard());\n      gameResultContainer.append(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment);\n      return this;\n    }\n  }]);\n\n  return GameResult;\n}(_component_component__WEBPACK_IMPORTED_MODULE_1__.Component);\n\nvar GameResultContainer = /*#__PURE__*/function (_GameResult) {\n  _inherits(GameResultContainer, _GameResult);\n\n  var _super2 = _createSuper(GameResultContainer);\n\n  function GameResultContainer() {\n    var _this2;\n\n    var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : \"GameResultContainer\";\n    var parent = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _constants_constants__WEBPACK_IMPORTED_MODULE_0__.container;\n\n    _classCallCheck(this, GameResultContainer);\n\n    _this2 = _super2.call(this, name);\n    _this2.parent = parent;\n    return _this2;\n  }\n\n  _createClass(GameResultContainer, [{\n    key: \"createGameResultContainer\",\n    value: function createGameResultContainer() {\n      var newElement = document.createElement(\"div\");\n      newElement.classList.add(\"game_result_container\");\n      return newElement;\n    }\n  }, {\n    key: \"renderGameResultContainer\",\n    value: function renderGameResultContainer(element) {\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment.append(element);\n      this.parent.append(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment);\n      return this;\n    }\n  }, {\n    key: \"renderGameResult\",\n    value: function renderGameResult(name, errors) {\n      var gameResultContainer = this.createGameResultContainer();\n\n      if (name === \"success\") {\n        var newGameResult = new GameResult(name, this.picturePathSuccess, gameResultContainer, this.soundPathSuccess, errors);\n        newGameResult.renderCard(gameResultContainer);\n      } else {\n        var _newGameResult = new GameResult(name, this.picturePathFailure, gameResultContainer, this.soundPathFailure, errors);\n\n        _newGameResult.renderCard(gameResultContainer);\n      }\n\n      this.renderGameResultContainer(gameResultContainer);\n      return this;\n    }\n  }]);\n\n  return GameResultContainer;\n}(GameResult);\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/gameResult.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/navigation.component.js":
+/*!***********************************************************!*\
+  !*** ./static/scripts/components/navigation.component.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Navigation\": () => (/* binding */ Navigation)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _iterableToArray(iter) { if (typeof Symbol !== \"undefined\" && iter[Symbol.iterator] != null || iter[\"@@iterator\"] != null) return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\n\n\nvar Navigation = /*#__PURE__*/function () {\n  function Navigation() {\n    _classCallCheck(this, Navigation);\n  }\n\n  _createClass(Navigation, [{\n    key: \"toggleMenu\",\n    value: function toggleMenu() {\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.burgerLine.classList.toggle(\"burger__line--active\");\n      document.body.classList.toggle(\"overflow\");\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.overlay.classList.toggle(\"site-overlay--visible\");\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.nav.classList.toggle(\"nav--visible\");\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.burger.classList.toggle(\"open\");\n    }\n  }, {\n    key: \"addListeners\",\n    value: function addListeners() {\n      var _this = this;\n\n      var menuItems = document.querySelectorAll(\".menu__item\");\n      [_constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.navIcon, _constants_constants__WEBPACK_IMPORTED_MODULE_0__.navElements.overlay].concat(_toConsumableArray(menuItems)).forEach(function (el) {\n        el.addEventListener(\"click\", _this.toggleMenu);\n      });\n    }\n  }]);\n\n  return Navigation;\n}();\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/navigation.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/sortableTable.component.js":
+/*!**************************************************************!*\
+  !*** ./static/scripts/components/sortableTable.component.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SortableTable\": () => (/* binding */ SortableTable)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nvar SortableTable = /*#__PURE__*/function () {\n  function SortableTable(tableNode) {\n    _classCallCheck(this, SortableTable);\n\n    this.tableNode = tableNode;\n    this.columnHeaders = tableNode.querySelectorAll(\"thead th\");\n    this.sortColumns = [];\n\n    for (var i = 0; i < this.columnHeaders.length; i++) {\n      var ch = this.columnHeaders[i];\n      var buttonNode = ch.querySelector(\"button\");\n\n      if (buttonNode) {\n        this.sortColumns.push(i);\n        buttonNode.setAttribute(\"data-column-index\", i);\n        buttonNode.addEventListener(\"click\", this.handleClick.bind(this));\n      }\n    }\n\n    this.optionCheckbox = document.querySelector('input[type=\"checkbox\"][value=\"show-unsorted-icon\"]');\n\n    if (this.optionCheckbox) {\n      this.optionCheckbox.addEventListener(\"change\", this.handleOptionChange.bind(this));\n\n      if (this.optionCheckbox.checked) {\n        this.tableNode.classList.add(\"show-unsorted-icon\");\n      }\n    }\n  }\n\n  _createClass(SortableTable, [{\n    key: \"setColumnHeaderSort\",\n    value: function setColumnHeaderSort(columnIndex) {\n      if (typeof columnIndex === \"string\") {\n        columnIndex = parseInt(columnIndex);\n      }\n\n      for (var i = 0; i < this.columnHeaders.length; i++) {\n        var ch = this.columnHeaders[i];\n        var buttonNode = ch.querySelector(\"button\");\n\n        if (i === columnIndex) {\n          var value = ch.getAttribute(\"aria-sort\");\n\n          if (value === \"descending\") {\n            ch.setAttribute(\"aria-sort\", \"ascending\");\n            this.sortColumn(columnIndex, \"ascending\", ch.classList.contains(\"num\"));\n          } else {\n            ch.setAttribute(\"aria-sort\", \"descending\");\n            this.sortColumn(columnIndex, \"descending\", ch.classList.contains(\"num\"));\n          }\n        } else {\n          if (ch.hasAttribute(\"aria-sort\") && buttonNode) {\n            ch.removeAttribute(\"aria-sort\");\n          }\n        }\n      }\n    }\n  }, {\n    key: \"sortColumn\",\n    value: function sortColumn(columnIndex, sortValue, isNumber) {\n      function compareValues(a, b) {\n        if (sortValue === \"ascending\") {\n          if (a.value === b.value) {\n            return 0;\n          } else {\n            if (isNumber) {\n              return a.value - b.value;\n            } else {\n              return a.value < b.value ? -1 : 1;\n            }\n          }\n        } else {\n          if (a.value === b.value) {\n            return 0;\n          } else {\n            if (isNumber) {\n              return b.value - a.value;\n            } else {\n              return a.value > b.value ? -1 : 1;\n            }\n          }\n        }\n      }\n\n      if (typeof isNumber !== \"boolean\") {\n        isNumber = false;\n      }\n\n      var tbodyNode = this.tableNode.querySelector(\"tbody\");\n      var rowNodes = [];\n      var dataCells = [];\n      var rowNode = tbodyNode.firstElementChild;\n      var index = 0;\n\n      while (rowNode) {\n        rowNodes.push(rowNode);\n        var rowCells = rowNode.querySelectorAll(\"th, td\");\n        var dataCell = rowCells[columnIndex];\n        var data = {};\n        data.index = index;\n        data.value = dataCell.textContent.toLowerCase().trim();\n\n        if (isNumber) {\n          data.value = parseFloat(data.value);\n        }\n\n        dataCells.push(data);\n        rowNode = rowNode.nextElementSibling;\n        index += 1;\n      }\n\n      dataCells.sort(compareValues);\n\n      while (tbodyNode.firstChild) {\n        tbodyNode.removeChild(tbodyNode.lastChild);\n      }\n\n      for (var i = 0; i < dataCells.length; i += 1) {\n        tbodyNode.appendChild(rowNodes[dataCells[i].index]);\n      }\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick(event) {\n      var tgt = event.currentTarget;\n      event.preventDefault();\n      this.setColumnHeaderSort(tgt.getAttribute(\"data-column-index\"));\n    }\n  }, {\n    key: \"handleOptionChange\",\n    value: function handleOptionChange(event) {\n      var tgt = event.currentTarget;\n\n      if (tgt.checked) {\n        this.tableNode.classList.add(\"show-unsorted-icon\");\n      } else {\n        this.tableNode.classList.remove(\"show-unsorted-icon\");\n      }\n    }\n  }], [{\n    key: \"addSortTable\",\n    value: function addSortTable() {\n      var sortableTable = document.querySelector(\".sortable\");\n\n      if (sortableTable) {\n        new SortableTable(sortableTable);\n      }\n    }\n  }]);\n\n  return SortableTable;\n}();\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/sortableTable.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/star.component.js":
+/*!*****************************************************!*\
+  !*** ./static/scripts/components/star.component.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"StarComponent\": () => (/* binding */ StarComponent)\n/* harmony export */ });\n/* harmony import */ var _constants_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants/constants */ \"./static/scripts/constants/constants.js\");\n/* harmony import */ var _component_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component.component */ \"./static/scripts/components/component.component.js\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, \"prototype\", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } else if (call !== void 0) { throw new TypeError(\"Derived constructors may only return object or undefined\"); } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\n\n\n\nvar StarComponent = /*#__PURE__*/function (_Component) {\n  _inherits(StarComponent, _Component);\n\n  var _super = _createSuper(StarComponent);\n\n  function StarComponent(name) {\n    _classCallCheck(this, StarComponent);\n\n    return _super.call(this, name);\n  }\n\n  _createClass(StarComponent, null, [{\n    key: \"renderStar\",\n    value: function renderStar(type) {\n      var starsLine = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".stars_line\");\n      starsLine.classList.remove(\"stars_line--hidden\");\n      var starElement = document.createElement(\"span\");\n\n      if (type === \"right\") {\n        starElement.classList.add(\"stars_line__icon_star\", \"icon_star\", \"icon_star--right\");\n      } else if (type === \"wrong\") {\n        starElement.classList.add(\"stars_line__icon_star\", \"icon_star\", \"icon_star--wrong\");\n      }\n\n      starElement.innerHTML = \"<i class=\\\"fa-solid fa-star\\\"></i>\";\n      _constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment.append(starElement);\n      starsLine.append(_constants_constants__WEBPACK_IMPORTED_MODULE_0__.fragment);\n    }\n  }, {\n    key: \"hideStars\",\n    value: function hideStars() {\n      var stars = _constants_constants__WEBPACK_IMPORTED_MODULE_0__.body.querySelector(\".stars_line\");\n      stars.classList.add(\"stars_line--hidden\");\n\n      while (stars.firstChild) {\n        stars.removeChild(stars.firstChild);\n      }\n    }\n  }]);\n\n  return StarComponent;\n}(_component_component__WEBPACK_IMPORTED_MODULE_1__.Component);\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/star.component.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/components/statsData.js":
+/*!************************************************!*\
+  !*** ./static/scripts/components/statsData.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"StatsData\": () => (/* binding */ StatsData)\n/* harmony export */ });\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\nfunction _regeneratorRuntime() { \"use strict\"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, $Symbol = \"function\" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || \"@@iterator\", asyncIteratorSymbol = $Symbol.asyncIterator || \"@@asyncIterator\", toStringTagSymbol = $Symbol.toStringTag || \"@@toStringTag\"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, \"\"); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return generator._invoke = function (innerFn, self, context) { var state = \"suspendedStart\"; return function (method, arg) { if (\"executing\" === state) throw new Error(\"Generator is already running\"); if (\"completed\" === state) { if (\"throw\" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if (\"next\" === context.method) context.sent = context._sent = context.arg;else if (\"throw\" === context.method) { if (\"suspendedStart\" === state) throw state = \"completed\", context.arg; context.dispatchException(context.arg); } else \"return\" === context.method && context.abrupt(\"return\", context.arg); state = \"executing\"; var record = tryCatch(innerFn, self, context); if (\"normal\" === record.type) { if (state = context.done ? \"completed\" : \"suspendedYield\", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } \"throw\" === record.type && (state = \"completed\", context.method = \"throw\", context.arg = record.arg); } }; }(innerFn, self, context), generator; } function tryCatch(fn, obj, arg) { try { return { type: \"normal\", arg: fn.call(obj, arg) }; } catch (err) { return { type: \"throw\", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { [\"next\", \"throw\", \"return\"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if (\"throw\" !== record.type) { var result = record.arg, value = result.value; return value && \"object\" == _typeof(value) && hasOwn.call(value, \"__await\") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke(\"next\", value, resolve, reject); }, function (err) { invoke(\"throw\", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke(\"throw\", error, resolve, reject); }); } reject(record.arg); } var previousPromise; this._invoke = function (method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); }; } function maybeInvokeDelegate(delegate, context) { var method = delegate.iterator[context.method]; if (undefined === method) { if (context.delegate = null, \"throw\" === context.method) { if (delegate.iterator[\"return\"] && (context.method = \"return\", context.arg = undefined, maybeInvokeDelegate(delegate, context), \"throw\" === context.method)) return ContinueSentinel; context.method = \"throw\", context.arg = new TypeError(\"The iterator does not provide a 'throw' method\"); } return ContinueSentinel; } var record = tryCatch(method, delegate.iterator, context.arg); if (\"throw\" === record.type) return context.method = \"throw\", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, \"return\" !== context.method && (context.method = \"next\", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = \"throw\", context.arg = new TypeError(\"iterator result is not an object\"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = \"normal\", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: \"root\" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if (\"function\" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) { if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; } return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, define(Gp, \"constructor\", GeneratorFunctionPrototype), define(GeneratorFunctionPrototype, \"constructor\", GeneratorFunction), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, \"GeneratorFunction\"), exports.isGeneratorFunction = function (genFun) { var ctor = \"function\" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || \"GeneratorFunction\" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, \"GeneratorFunction\")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, \"Generator\"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, \"toString\", function () { return \"[object Generator]\"; }), exports.keys = function (object) { var keys = []; for (var key in object) { keys.push(key); } return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = \"next\", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) { \"t\" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); } }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if (\"throw\" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = \"throw\", record.arg = exception, context.next = loc, caught && (context.method = \"next\", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if (\"root\" === entry.tryLoc) return handle(\"end\"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, \"catchLoc\"), hasFinally = hasOwn.call(entry, \"finallyLoc\"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error(\"try statement without catch or finally\"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, \"finallyLoc\") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && (\"break\" === type || \"continue\" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = \"next\", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if (\"throw\" === record.type) throw record.arg; return \"break\" === record.type || \"continue\" === record.type ? this.next = record.arg : \"return\" === record.type ? (this.rval = this.arg = record.arg, this.method = \"return\", this.next = \"end\") : \"normal\" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, \"catch\": function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if (\"throw\" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error(\"illegal catch attempt\"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, \"next\" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }\n\nfunction asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }\n\nfunction _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err); } _next(undefined); }); }; }\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nvar StatsData = /*#__PURE__*/function () {\n  function StatsData() {\n    _classCallCheck(this, StatsData);\n\n    this.data = {};\n  }\n\n  _createClass(StatsData, [{\n    key: \"addGameItem\",\n    value: function addGameItem(category, word, correct) {\n      this.data[category] = this.data[category] || {};\n      this.data[category][word] = this.data[category][word] || {};\n\n      if (correct) {\n        var _this$data$category$w, _correct, _this$data$category$w2;\n\n        (_this$data$category$w2 = (_this$data$category$w = this.data[category][word])[_correct = \"correct\"]) !== null && _this$data$category$w2 !== void 0 ? _this$data$category$w2 : _this$data$category$w[_correct] = 0;\n        this.data[category][word][\"correct\"]++;\n      } else {\n        var _this$data$category$w3, _wrong, _this$data$category$w4;\n\n        (_this$data$category$w4 = (_this$data$category$w3 = this.data[category][word])[_wrong = \"wrong\"]) !== null && _this$data$category$w4 !== void 0 ? _this$data$category$w4 : _this$data$category$w3[_wrong] = 0;\n        this.data[category][word][\"wrong\"]++;\n      }\n    }\n  }, {\n    key: \"addTrainItem\",\n    value: function addTrainItem(category, word) {\n      var _this$data$category$w5, _trained, _this$data$category$w6;\n\n      this.data[category] = this.data[category] || {};\n      this.data[category][word] = this.data[category][word] || {};\n      (_this$data$category$w6 = (_this$data$category$w5 = this.data[category][word])[_trained = \"trained\"]) !== null && _this$data$category$w6 !== void 0 ? _this$data$category$w6 : _this$data$category$w5[_trained] = 0;\n      this.data[category][word][\"trained\"]++;\n    }\n  }, {\n    key: \"postNewItem\",\n    value: function postNewItem(id, action) {\n      return {\n        id: id,\n        action: action\n      };\n    }\n  }, {\n    key: \"getTrainedItem\",\n    value: function getTrainedItem(category, word) {\n      return this.data[category] && this.data[category][word] && this.data[category][word].trained || 0;\n    }\n  }, {\n    key: \"getCorrectItem\",\n    value: function getCorrectItem(category, word) {\n      return this.data[category] && this.data[category][word] && this.data[category][word].correct || 0;\n    }\n  }, {\n    key: \"getWrongItem\",\n    value: function getWrongItem(category, word) {\n      return this.data[category] && this.data[category][word] && this.data[category][word].wrong || 0;\n    }\n  }, {\n    key: \"mirrorToLocalStorage\",\n    value: function mirrorToLocalStorage() {\n      localStorage.setItem(\"stats\", JSON.stringify(this.data));\n    }\n  }, {\n    key: \"restoreFromLocalStorage\",\n    value: function restoreFromLocalStorage() {\n      this.data = _objectSpread({}, JSON.parse(localStorage.getItem(\"stats\")));\n    }\n  }, {\n    key: \"getCookie\",\n    value: function getCookie(name) {\n      var cookieValue = null;\n\n      if (document.cookie && document.cookie !== \"\") {\n        var cookies = document.cookie.split(\";\");\n\n        for (var i = 0; i < cookies.length; i++) {\n          var cookie = cookies[i].trim();\n\n          if (cookie.substring(0, name.length + 1) === name + \"=\") {\n            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));\n            break;\n          }\n        }\n      }\n\n      return cookieValue;\n    }\n  }, {\n    key: \"sendToServer\",\n    value: function () {\n      var _sendToServer = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(stats) {\n        var url, data, csrftoken, response, json;\n        return _regeneratorRuntime().wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                url = window.location.href;\n                data = {\n                  data: stats\n                };\n                csrftoken = this.getCookie(\"csrftoken\");\n                _context.prev = 3;\n                _context.next = 6;\n                return fetch(url, {\n                  method: \"POST\",\n                  credentials: \"same-origin\",\n                  body: JSON.stringify(data),\n                  headers: {\n                    \"Content-Type\": \"application/json\",\n                    \"X-Requested-With\": \"XMLHttpRequest\",\n                    \"X-CSRFToken\": csrftoken\n                  }\n                });\n\n              case 6:\n                response = _context.sent;\n                _context.next = 9;\n                return response.json();\n\n              case 9:\n                json = _context.sent;\n                console.log(\"Success:\", JSON.stringify(json));\n                _context.next = 16;\n                break;\n\n              case 13:\n                _context.prev = 13;\n                _context.t0 = _context[\"catch\"](3);\n                console.error(\"Error:\", _context.t0);\n\n              case 16:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this, [[3, 13]]);\n      }));\n\n      function sendToServer(_x) {\n        return _sendToServer.apply(this, arguments);\n      }\n\n      return sendToServer;\n    }()\n  }]);\n\n  return StatsData;\n}();\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/components/statsData.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/constants/constants.js":
+/*!***********************************************!*\
+  !*** ./static/scripts/constants/constants.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"CardsContainerElement\": () => (/* binding */ CardsContainerElement),\n/* harmony export */   \"CategoryContainerElement\": () => (/* binding */ CategoryContainerElement),\n/* harmony export */   \"body\": () => (/* binding */ body),\n/* harmony export */   \"container\": () => (/* binding */ container),\n/* harmony export */   \"fragment\": () => (/* binding */ fragment),\n/* harmony export */   \"navElements\": () => (/* binding */ navElements),\n/* harmony export */   \"picturePathFailure\": () => (/* binding */ picturePathFailure),\n/* harmony export */   \"picturePathSuccess\": () => (/* binding */ picturePathSuccess),\n/* harmony export */   \"soundPathFailure\": () => (/* binding */ soundPathFailure),\n/* harmony export */   \"soundPathSuccess\": () => (/* binding */ soundPathSuccess)\n/* harmony export */ });\nvar fragment = document.createDocumentFragment();\nvar body = document.body;\nvar container = document.querySelector(\".container\");\nvar navElements = {\n  navIcon: document.getElementById(\"js-nav-button\"),\n  nav: document.getElementById(\"js-nav\"),\n  overlay: document.getElementById(\"js-overlay\"),\n  burgerLine: document.querySelector(\".burger__line\"),\n  burger: document.querySelector(\".burger\")\n};\nvar CategoryContainerElement = document.querySelector(\".category_container\");\nvar CardsContainerElement = document.querySelector(\".card_container\");\nvar picturePathSuccess = \"../static/assets/images/SUCCESS2.jpg\";\nvar picturePathFailure = \"../static/assets/images/FAILURE2.jpg\";\nvar soundPathSuccess = \"../static/assets/audio/success.mp3\";\nvar soundPathFailure = \"../static/assets/audio/failure.mp3\";\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/constants/constants.js?");
+
+/***/ }),
+
+/***/ "./static/scripts/index.js":
+/*!*********************************!*\
+  !*** ./static/scripts/index.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/styles.scss */ \"./static/sass/styles.scss\");\n/* harmony import */ var _components_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/navigation.component */ \"./static/scripts/components/navigation.component.js\");\n/* harmony import */ var _components_audio_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/audio.component */ \"./static/scripts/components/audio.component.js\");\n/* harmony import */ var _app_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app */ \"./static/scripts/app/app.js\");\n/* harmony import */ var _components_component_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/component.component */ \"./static/scripts/components/component.component.js\");\n/* harmony import */ var _components_sortableTable_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/sortableTable.component */ \"./static/scripts/components/sortableTable.component.js\");\n\n\n\n\nvar images = __webpack_require__(\"./static/assets/images sync recursive ^\\\\.\\\\/.*$\");\n\nvar imagePath = function imagePath(name) {\n  return images(name, true);\n};\n\nvar audio = __webpack_require__(\"./static/assets/audio sync recursive ^\\\\.\\\\/.*$\");\n\nvar audioPath = function audioPath(name) {\n  return audio(name, true);\n};\n\n\n\n\n\n\n//# sourceURL=webpack://english_for_kids/./static/scripts/index.js?");
+
+/***/ }),
+
+/***/ "./static/sass/styles.scss":
+/*!*********************************!*\
+  !*** ./static/sass/styles.scss ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://english_for_kids/./static/sass/styles.scss?");
+
+/***/ }),
+
+/***/ "./static/assets/audio sync recursive ^\\.\\/.*$":
+/*!********************************************!*\
+  !*** ./static/assets/audio/ sync ^\.\/.*$ ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var map = {\n\t\"./angry.mp3\": \"./static/assets/audio/angry.mp3\",\n\t\"./armchair.mp3\": \"./static/assets/audio/armchair.mp3\",\n\t\"./beach.mp3\": \"./static/assets/audio/beach.mp3\",\n\t\"./bedroom.mp3\": \"./static/assets/audio/bedroom.mp3\",\n\t\"./bird.mp3\": \"./static/assets/audio/bird.mp3\",\n\t\"./blouse.mp3\": \"./static/assets/audio/blouse.mp3\",\n\t\"./boot.mp3\": \"./static/assets/audio/boot.mp3\",\n\t\"./breakfast.mp3\": \"./static/assets/audio/breakfast.mp3\",\n\t\"./cake.mp3\": \"./static/assets/audio/cake.mp3\",\n\t\"./cat.mp3\": \"./static/assets/audio/cat.mp3\",\n\t\"./chick.mp3\": \"./static/assets/audio/chick.mp3\",\n\t\"./chicken.mp3\": \"./static/assets/audio/chicken.mp3\",\n\t\"./coat.mp3\": \"./static/assets/audio/coat.mp3\",\n\t\"./cocktail.mp3\": \"./static/assets/audio/cocktail.mp3\",\n\t\"./correct.mp3\": \"./static/assets/audio/correct.mp3\",\n\t\"./cry.mp3\": \"./static/assets/audio/cry.mp3\",\n\t\"./curtains.mp3\": \"./static/assets/audio/curtains.mp3\",\n\t\"./dance.mp3\": \"./static/assets/audio/dance.mp3\",\n\t\"./dive.mp3\": \"./static/assets/audio/dive.mp3\",\n\t\"./dog.mp3\": \"./static/assets/audio/dog.mp3\",\n\t\"./dolphin.mp3\": \"./static/assets/audio/dolphin.mp3\",\n\t\"./draw.mp3\": \"./static/assets/audio/draw.mp3\",\n\t\"./dress.mp3\": \"./static/assets/audio/dress.mp3\",\n\t\"./error.mp3\": \"./static/assets/audio/error.mp3\",\n\t\"./failure.mp3\": \"./static/assets/audio/failure.mp3\",\n\t\"./field.mp3\": \"./static/assets/audio/field.mp3\",\n\t\"./fireplace.mp3\": \"./static/assets/audio/fireplace.mp3\",\n\t\"./fish.mp3\": \"./static/assets/audio/fish.mp3\",\n\t\"./flowers.mp3\": \"./static/assets/audio/flowers.mp3\",\n\t\"./fly.mp3\": \"./static/assets/audio/fly.mp3\",\n\t\"./forest.mp3\": \"./static/assets/audio/forest.mp3\",\n\t\"./frog.mp3\": \"./static/assets/audio/frog.mp3\",\n\t\"./fruits.mp3\": \"./static/assets/audio/fruits.mp3\",\n\t\"./giraffe.mp3\": \"./static/assets/audio/giraffe.mp3\",\n\t\"./happy.mp3\": \"./static/assets/audio/happy.mp3\",\n\t\"./horse.mp3\": \"./static/assets/audio/horse.mp3\",\n\t\"./hug.mp3\": \"./static/assets/audio/hug.mp3\",\n\t\"./jump.mp3\": \"./static/assets/audio/jump.mp3\",\n\t\"./kitchen.mp3\": \"./static/assets/audio/kitchen.mp3\",\n\t\"./laugh.mp3\": \"./static/assets/audio/laugh.mp3\",\n\t\"./lion.mp3\": \"./static/assets/audio/lion.mp3\",\n\t\"./livingroom.mp3\": \"./static/assets/audio/livingroom.mp3\",\n\t\"./meat.mp3\": \"./static/assets/audio/meat.mp3\",\n\t\"./mountain.mp3\": \"./static/assets/audio/mountain.mp3\",\n\t\"./mouse.mp3\": \"./static/assets/audio/mouse.mp3\",\n\t\"./open.mp3\": \"./static/assets/audio/open.mp3\",\n\t\"./pants.mp3\": \"./static/assets/audio/pants.mp3\",\n\t\"./pig.mp3\": \"./static/assets/audio/pig.mp3\",\n\t\"./pizza.mp3\": \"./static/assets/audio/pizza.mp3\",\n\t\"./play.mp3\": \"./static/assets/audio/play.mp3\",\n\t\"./point.mp3\": \"./static/assets/audio/point.mp3\",\n\t\"./rabbit.mp3\": \"./static/assets/audio/rabbit.mp3\",\n\t\"./ride.mp3\": \"./static/assets/audio/ride.mp3\",\n\t\"./river.mp3\": \"./static/assets/audio/river.mp3\",\n\t\"./run.mp3\": \"./static/assets/audio/run.mp3\",\n\t\"./sad.mp3\": \"./static/assets/audio/sad.mp3\",\n\t\"./scared.mp3\": \"./static/assets/audio/scared.mp3\",\n\t\"./sea.mp3\": \"./static/assets/audio/sea.mp3\",\n\t\"./sheep.mp3\": \"./static/assets/audio/sheep.mp3\",\n\t\"./shirt.mp3\": \"./static/assets/audio/shirt.mp3\",\n\t\"./shoe.mp3\": \"./static/assets/audio/shoe.mp3\",\n\t\"./sing.mp3\": \"./static/assets/audio/sing.mp3\",\n\t\"./skip.mp3\": \"./static/assets/audio/skip.mp3\",\n\t\"./skirt.mp3\": \"./static/assets/audio/skirt.mp3\",\n\t\"./smile.mp3\": \"./static/assets/audio/smile.mp3\",\n\t\"./sofa.mp3\": \"./static/assets/audio/sofa.mp3\",\n\t\"./soup.mp3\": \"./static/assets/audio/soup.mp3\",\n\t\"./success.mp3\": \"./static/assets/audio/success.mp3\",\n\t\"./surprised.mp3\": \"./static/assets/audio/surprised.mp3\",\n\t\"./swim.mp3\": \"./static/assets/audio/swim.mp3\",\n\t\"./tired.mp3\": \"./static/assets/audio/tired.mp3\",\n\t\"./tree.mp3\": \"./static/assets/audio/tree.mp3\",\n\t\"./turtle.mp3\": \"./static/assets/audio/turtle.mp3\",\n\t\"./vegetables.mp3\": \"./static/assets/audio/vegetables.mp3\",\n\t\"./window.mp3\": \"./static/assets/audio/window.mp3\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/audio sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./static/assets/images sync recursive ^\\.\\/.*$":
+/*!*********************************************!*\
+  !*** ./static/assets/images/ sync ^\.\/.*$ ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var map = {\n\t\"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\": \"./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\",\n\t\"./500aa9360f5573bf4c282bb6ed73cd92.png\": \"./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\",\n\t\"./ACTIONS1.jpg\": \"./static/assets/images/ACTIONS1.jpg\",\n\t\"./ACTIONS2.jpg\": \"./static/assets/images/ACTIONS2.jpg\",\n\t\"./ACTIONS3.jpg\": \"./static/assets/images/ACTIONS3.jpg\",\n\t\"./ACTIONS4.jpg\": \"./static/assets/images/ACTIONS4.jpg\",\n\t\"./ANIMALS1.jpg\": \"./static/assets/images/ANIMALS1.jpg\",\n\t\"./ANIMALS2.jpg\": \"./static/assets/images/ANIMALS2.jpg\",\n\t\"./ANIMALS3.jpg\": \"./static/assets/images/ANIMALS3.jpg\",\n\t\"./CLOTHES.jpg\": \"./static/assets/images/CLOTHES.jpg\",\n\t\"./CLOTHES2.jpg\": \"./static/assets/images/CLOTHES2.jpg\",\n\t\"./EMOTIONS.jpg\": \"./static/assets/images/EMOTIONS.jpg\",\n\t\"./FAILURE1.jpg\": \"./static/assets/images/FAILURE1.jpg\",\n\t\"./FAILURE2.jpg\": \"./static/assets/images/FAILURE2.jpg\",\n\t\"./FOOD.jpg\": \"./static/assets/images/FOOD.jpg\",\n\t\"./FOOD2.jpg\": \"./static/assets/images/FOOD2.jpg\",\n\t\"./HOME.jpg\": \"./static/assets/images/HOME.jpg\",\n\t\"./NATURE.jpg\": \"./static/assets/images/NATURE.jpg\",\n\t\"./SUCCESS1.jpg\": \"./static/assets/images/SUCCESS1.jpg\",\n\t\"./SUCCESS2.jpg\": \"./static/assets/images/SUCCESS2.jpg\",\n\t\"./angry.jpg\": \"./static/assets/images/angry.jpg\",\n\t\"./armchair.jpg\": \"./static/assets/images/armchair.jpg\",\n\t\"./audio.svg\": \"./static/assets/images/audio.svg\",\n\t\"./beach.jpg\": \"./static/assets/images/beach.jpg\",\n\t\"./bedroom.jpg\": \"./static/assets/images/bedroom.jpg\",\n\t\"./bird.jpg\": \"./static/assets/images/bird.jpg\",\n\t\"./blouse.jpg\": \"./static/assets/images/blouse.jpg\",\n\t\"./boot.jpg\": \"./static/assets/images/boot.jpg\",\n\t\"./breakfast.jpg\": \"./static/assets/images/breakfast.jpg\",\n\t\"./cake.jpg\": \"./static/assets/images/cake.jpg\",\n\t\"./cat.jpg\": \"./static/assets/images/cat.jpg\",\n\t\"./chick.jpg\": \"./static/assets/images/chick.jpg\",\n\t\"./chicken.jpg\": \"./static/assets/images/chicken.jpg\",\n\t\"./clouds-transparent-background-75-700x439.png\": \"./static/assets/images/clouds-transparent-background-75-700x439.png\",\n\t\"./clouds-transparent-background-9-700x573.png\": \"./static/assets/images/clouds-transparent-background-9-700x573.png\",\n\t\"./coat.jpg\": \"./static/assets/images/coat.jpg\",\n\t\"./cocktail.jpg\": \"./static/assets/images/cocktail.jpg\",\n\t\"./cry.jpg\": \"./static/assets/images/cry.jpg\",\n\t\"./curtains.jpg\": \"./static/assets/images/curtains.jpg\",\n\t\"./dance.jpg\": \"./static/assets/images/dance.jpg\",\n\t\"./dive.jpg\": \"./static/assets/images/dive.jpg\",\n\t\"./dog.jpg\": \"./static/assets/images/dog.jpg\",\n\t\"./dolphin.jpg\": \"./static/assets/images/dolphin.jpg\",\n\t\"./draw.jpg\": \"./static/assets/images/draw.jpg\",\n\t\"./dress.jpg\": \"./static/assets/images/dress.jpg\",\n\t\"./e54fa2d2646f7146db99fd133f2b9de0.jpg\": \"./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\",\n\t\"./failure.jpg\": \"./static/assets/images/failure.jpg\",\n\t\"./field.jpg\": \"./static/assets/images/field.jpg\",\n\t\"./fireplace.jpg\": \"./static/assets/images/fireplace.jpg\",\n\t\"./fish.jpg\": \"./static/assets/images/fish.jpg\",\n\t\"./fish1.jpg\": \"./static/assets/images/fish1.jpg\",\n\t\"./flowers.jpg\": \"./static/assets/images/flowers.jpg\",\n\t\"./fly.jpg\": \"./static/assets/images/fly.jpg\",\n\t\"./forest.jpg\": \"./static/assets/images/forest.jpg\",\n\t\"./frog.jpg\": \"./static/assets/images/frog.jpg\",\n\t\"./fruits.jpg\": \"./static/assets/images/fruits.jpg\",\n\t\"./giraffe.jpg\": \"./static/assets/images/giraffe.jpg\",\n\t\"./happy.jpg\": \"./static/assets/images/happy.jpg\",\n\t\"./horse.jpg\": \"./static/assets/images/horse.jpg\",\n\t\"./hug.jpg\": \"./static/assets/images/hug.jpg\",\n\t\"./jump.jpg\": \"./static/assets/images/jump.jpg\",\n\t\"./kitchen.jpg\": \"./static/assets/images/kitchen.jpg\",\n\t\"./laugh.jpg\": \"./static/assets/images/laugh.jpg\",\n\t\"./lion.jpg\": \"./static/assets/images/lion.jpg\",\n\t\"./livingroom.jpg\": \"./static/assets/images/livingroom.jpg\",\n\t\"./meat.jpg\": \"./static/assets/images/meat.jpg\",\n\t\"./mountain.jpg\": \"./static/assets/images/mountain.jpg\",\n\t\"./mouse.jpg\": \"./static/assets/images/mouse.jpg\",\n\t\"./open.jpg\": \"./static/assets/images/open.jpg\",\n\t\"./pants.jpg\": \"./static/assets/images/pants.jpg\",\n\t\"./pig.jpg\": \"./static/assets/images/pig.jpg\",\n\t\"./pizza.jpg\": \"./static/assets/images/pizza.jpg\",\n\t\"./play.jpg\": \"./static/assets/images/play.jpg\",\n\t\"./point.jpg\": \"./static/assets/images/point.jpg\",\n\t\"./rabbit.jpg\": \"./static/assets/images/rabbit.jpg\",\n\t\"./repeat.svg\": \"./static/assets/images/repeat.svg\",\n\t\"./ride.jpg\": \"./static/assets/images/ride.jpg\",\n\t\"./river.jpg\": \"./static/assets/images/river.jpg\",\n\t\"./rotate.svg\": \"./static/assets/images/rotate.svg\",\n\t\"./run.jpg\": \"./static/assets/images/run.jpg\",\n\t\"./sad.jpg\": \"./static/assets/images/sad.jpg\",\n\t\"./scared.jpg\": \"./static/assets/images/scared.jpg\",\n\t\"./sea.jpg\": \"./static/assets/images/sea.jpg\",\n\t\"./sheep.jpg\": \"./static/assets/images/sheep.jpg\",\n\t\"./shirt.jpg\": \"./static/assets/images/shirt.jpg\",\n\t\"./shoe.jpg\": \"./static/assets/images/shoe.jpg\",\n\t\"./sing.jpg\": \"./static/assets/images/sing.jpg\",\n\t\"./skip.jpg\": \"./static/assets/images/skip.jpg\",\n\t\"./skirt.jpg\": \"./static/assets/images/skirt.jpg\",\n\t\"./smile.jpg\": \"./static/assets/images/smile.jpg\",\n\t\"./sofa.jpg\": \"./static/assets/images/sofa.jpg\",\n\t\"./soup.jpg\": \"./static/assets/images/soup.jpg\",\n\t\"./star-win.svg\": \"./static/assets/images/star-win.svg\",\n\t\"./star.svg\": \"./static/assets/images/star.svg\",\n\t\"./success.jpg\": \"./static/assets/images/success.jpg\",\n\t\"./surprised.jpg\": \"./static/assets/images/surprised.jpg\",\n\t\"./swim.jpg\": \"./static/assets/images/swim.jpg\",\n\t\"./tired.jpg\": \"./static/assets/images/tired.jpg\",\n\t\"./tree.jpg\": \"./static/assets/images/tree.jpg\",\n\t\"./turtle.jpg\": \"./static/assets/images/turtle.jpg\",\n\t\"./vegetables.jpg\": \"./static/assets/images/vegetables.jpg\",\n\t\"./window.jpg\": \"./static/assets/images/window.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/angry.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/angry.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/angry.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/angry.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/armchair.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/armchair.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/armchair.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/armchair.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/beach.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/beach.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/beach.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/beach.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/bedroom.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/bedroom.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/bedroom.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/bedroom.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/bird.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/bird.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/bird.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/bird.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/blouse.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/blouse.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/blouse.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/blouse.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/boot.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/boot.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/boot.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/boot.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/breakfast.mp3":
+/*!*******************************************!*\
+  !*** ./static/assets/audio/breakfast.mp3 ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/breakfast.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/breakfast.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/cake.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/cake.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cake.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cake.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/cat.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/cat.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cat.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cat.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/chick.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/chick.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/chick.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/chick.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/chicken.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/chicken.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/chicken.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/chicken.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/coat.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/coat.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/coat.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/coat.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/cocktail.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/cocktail.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cocktail.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cocktail.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/correct.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/correct.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/correct.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/correct.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/cry.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/cry.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/cry.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/cry.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/curtains.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/curtains.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/curtains.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/curtains.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/dance.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/dance.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/dance.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/dance.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/dive.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/dive.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/dive.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/dive.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/dog.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/dog.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/dog.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/dog.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/dolphin.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/dolphin.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/dolphin.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/dolphin.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/draw.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/draw.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/draw.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/draw.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/dress.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/dress.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/dress.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/dress.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/error.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/error.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/error.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/error.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/failure.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/failure.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/failure.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/failure.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/field.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/field.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/field.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/field.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fireplace.mp3":
+/*!*******************************************!*\
+  !*** ./static/assets/audio/fireplace.mp3 ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fireplace.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fireplace.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fish.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/fish.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fish.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fish.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/flowers.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/flowers.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/flowers.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/flowers.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fly.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/fly.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fly.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fly.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/forest.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/forest.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/forest.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/forest.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/frog.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/frog.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/frog.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/frog.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/fruits.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/fruits.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/fruits.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/fruits.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/giraffe.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/giraffe.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/giraffe.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/giraffe.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/happy.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/happy.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/happy.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/happy.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/horse.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/horse.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/horse.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/horse.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/hug.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/hug.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/hug.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/hug.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/jump.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/jump.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/jump.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/jump.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/kitchen.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/kitchen.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/kitchen.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/kitchen.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/laugh.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/laugh.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/laugh.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/laugh.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/lion.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/lion.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/lion.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/lion.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/livingroom.mp3":
+/*!********************************************!*\
+  !*** ./static/assets/audio/livingroom.mp3 ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/livingroom.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/livingroom.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/meat.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/meat.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/meat.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/meat.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/mountain.mp3":
+/*!******************************************!*\
+  !*** ./static/assets/audio/mountain.mp3 ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/mountain.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/mountain.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/mouse.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/mouse.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/mouse.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/mouse.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/open.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/open.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/open.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/open.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/pants.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/pants.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/pants.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/pants.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/pig.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/pig.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/pig.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/pig.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/pizza.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/pizza.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/pizza.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/pizza.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/play.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/play.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/play.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/play.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/point.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/point.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/point.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/point.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/rabbit.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/rabbit.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/rabbit.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/rabbit.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/ride.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/ride.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/ride.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/ride.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/river.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/river.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/river.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/river.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/run.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/run.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/run.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/run.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sad.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/sad.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sad.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sad.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/scared.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/scared.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/scared.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/scared.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sea.mp3":
+/*!*************************************!*\
+  !*** ./static/assets/audio/sea.mp3 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sea.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sea.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sheep.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/sheep.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sheep.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sheep.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/shirt.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/shirt.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/shirt.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/shirt.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/shoe.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/shoe.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/shoe.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/shoe.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sing.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/sing.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sing.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sing.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/skip.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/skip.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/skip.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/skip.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/skirt.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/skirt.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/skirt.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/skirt.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/smile.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/smile.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/smile.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/smile.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/sofa.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/sofa.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/sofa.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/sofa.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/soup.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/soup.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/soup.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/soup.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/success.mp3":
+/*!*****************************************!*\
+  !*** ./static/assets/audio/success.mp3 ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/success.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/success.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/surprised.mp3":
+/*!*******************************************!*\
+  !*** ./static/assets/audio/surprised.mp3 ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/surprised.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/surprised.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/swim.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/swim.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/swim.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/swim.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/tired.mp3":
+/*!***************************************!*\
+  !*** ./static/assets/audio/tired.mp3 ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/tired.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/tired.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/tree.mp3":
+/*!**************************************!*\
+  !*** ./static/assets/audio/tree.mp3 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/tree.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/tree.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/turtle.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/turtle.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/turtle.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/turtle.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/vegetables.mp3":
+/*!********************************************!*\
+  !*** ./static/assets/audio/vegetables.mp3 ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/vegetables.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/vegetables.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/audio/window.mp3":
+/*!****************************************!*\
+  !*** ./static/assets/audio/window.mp3 ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/audio/window.mp3\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/audio/window.mp3?");
+
+/***/ }),
+
+/***/ "./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png":
+/*!*********************************************************************************!*\
+  !*** ./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png ***!
+  \*********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png?");
+
+/***/ }),
+
+/***/ "./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png":
+/*!*******************************************************************!*\
+  !*** ./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ACTIONS1.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ACTIONS1.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS1.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ACTIONS2.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ACTIONS2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ACTIONS3.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ACTIONS3.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS3.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS3.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ACTIONS4.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ACTIONS4.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS4.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS4.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ANIMALS1.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ANIMALS1.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ANIMALS1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ANIMALS1.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ANIMALS2.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ANIMALS2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ANIMALS2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ANIMALS2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ANIMALS3.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/ANIMALS3.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ANIMALS3.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ANIMALS3.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/CLOTHES.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/CLOTHES.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/CLOTHES.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/CLOTHES.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/CLOTHES2.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/CLOTHES2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/CLOTHES2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/CLOTHES2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/EMOTIONS.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/EMOTIONS.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/EMOTIONS.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/EMOTIONS.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/FAILURE1.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/FAILURE1.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/FAILURE1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/FAILURE1.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/FAILURE2.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/FAILURE2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/FAILURE2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/FAILURE2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/FOOD.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/FOOD.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/FOOD.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/FOOD.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/FOOD2.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/FOOD2.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/FOOD2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/FOOD2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/HOME.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/HOME.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/HOME.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/HOME.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/NATURE.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/NATURE.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/NATURE.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/NATURE.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/SUCCESS1.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/SUCCESS1.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/SUCCESS1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/SUCCESS1.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/SUCCESS2.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/SUCCESS2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/SUCCESS2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/SUCCESS2.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/angry.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/angry.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/angry.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/angry.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/armchair.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/armchair.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/armchair.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/armchair.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/audio.svg":
+/*!****************************************!*\
+  !*** ./static/assets/images/audio.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/audio.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/audio.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/beach.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/beach.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/beach.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/beach.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/bedroom.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/bedroom.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/bedroom.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/bedroom.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/bird.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/bird.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/bird.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/bird.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/blouse.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/blouse.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/blouse.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/blouse.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/boot.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/boot.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/boot.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/boot.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/breakfast.jpg":
+/*!********************************************!*\
+  !*** ./static/assets/images/breakfast.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/breakfast.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/breakfast.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/cake.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/cake.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cake.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cake.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/cat.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/cat.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cat.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cat.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/chick.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/chick.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/chick.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/chick.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/chicken.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/chicken.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/chicken.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/chicken.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/clouds-transparent-background-75-700x439.png":
+/*!***************************************************************************!*\
+  !*** ./static/assets/images/clouds-transparent-background-75-700x439.png ***!
+  \***************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/clouds-transparent-background-75-700x439.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/clouds-transparent-background-75-700x439.png?");
+
+/***/ }),
+
+/***/ "./static/assets/images/clouds-transparent-background-9-700x573.png":
+/*!**************************************************************************!*\
+  !*** ./static/assets/images/clouds-transparent-background-9-700x573.png ***!
+  \**************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/clouds-transparent-background-9-700x573.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/clouds-transparent-background-9-700x573.png?");
+
+/***/ }),
+
+/***/ "./static/assets/images/coat.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/coat.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/coat.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/coat.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/cocktail.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/cocktail.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cocktail.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cocktail.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/cry.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/cry.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/cry.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/cry.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/curtains.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/curtains.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/curtains.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/curtains.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/dance.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/dance.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/dance.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dance.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/dive.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/dive.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/dive.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dive.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/dog.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/dog.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/dog.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dog.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/dolphin.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/dolphin.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/dolphin.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dolphin.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/draw.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/draw.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/draw.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/draw.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/dress.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/dress.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/dress.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dress.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg":
+/*!*******************************************************************!*\
+  !*** ./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/failure.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/failure.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/failure.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/failure.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/field.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/field.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/field.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/field.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fireplace.jpg":
+/*!********************************************!*\
+  !*** ./static/assets/images/fireplace.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fireplace.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fireplace.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fish.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/fish.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fish.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fish.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fish1.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/fish1.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fish1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fish1.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/flowers.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/flowers.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/flowers.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/flowers.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fly.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/fly.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fly.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fly.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/forest.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/forest.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/forest.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/forest.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/frog.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/frog.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/frog.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/frog.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/fruits.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/fruits.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/fruits.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/fruits.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/giraffe.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/giraffe.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/giraffe.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/giraffe.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/happy.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/happy.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/happy.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/happy.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/horse.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/horse.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/horse.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/horse.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/hug.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/hug.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/hug.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/hug.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/jump.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/jump.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/jump.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/jump.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/kitchen.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/kitchen.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/kitchen.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/kitchen.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/laugh.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/laugh.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/laugh.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/laugh.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/lion.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/lion.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/lion.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/lion.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/livingroom.jpg":
+/*!*********************************************!*\
+  !*** ./static/assets/images/livingroom.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/livingroom.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/livingroom.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/meat.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/meat.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/meat.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/meat.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/mountain.jpg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/mountain.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/mountain.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/mountain.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/mouse.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/mouse.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/mouse.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/mouse.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/open.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/open.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/open.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/open.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/pants.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/pants.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/pants.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/pants.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/pig.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/pig.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/pig.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/pig.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/pizza.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/pizza.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/pizza.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/pizza.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/play.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/play.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/play.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/play.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/point.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/point.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/point.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/point.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/rabbit.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/rabbit.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/rabbit.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/rabbit.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/repeat.svg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/repeat.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/repeat.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/repeat.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/ride.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/ride.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/ride.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ride.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/river.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/river.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/river.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/river.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/rotate.svg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/rotate.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/rotate.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/rotate.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/run.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/run.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/run.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/run.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sad.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/sad.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sad.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sad.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/scared.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/scared.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/scared.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/scared.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sea.jpg":
+/*!**************************************!*\
+  !*** ./static/assets/images/sea.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sea.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sea.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sheep.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/sheep.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sheep.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sheep.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/shirt.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/shirt.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/shirt.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/shirt.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/shoe.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/shoe.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/shoe.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/shoe.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sing.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/sing.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sing.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sing.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/skip.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/skip.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/skip.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/skip.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/skirt.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/skirt.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/skirt.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/skirt.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/smile.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/smile.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/smile.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/smile.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/sofa.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/sofa.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/sofa.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/sofa.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/soup.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/soup.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/soup.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/soup.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/star-win.svg":
+/*!*******************************************!*\
+  !*** ./static/assets/images/star-win.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/star-win.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/star-win.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/star.svg":
+/*!***************************************!*\
+  !*** ./static/assets/images/star.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/star.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/star.svg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/success.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/success.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/success.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/success.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/surprised.jpg":
+/*!********************************************!*\
+  !*** ./static/assets/images/surprised.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/surprised.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/surprised.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/swim.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/swim.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/swim.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/swim.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/tired.jpg":
+/*!****************************************!*\
+  !*** ./static/assets/images/tired.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/tired.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/tired.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/tree.jpg":
+/*!***************************************!*\
+  !*** ./static/assets/images/tree.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/tree.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/tree.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/turtle.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/turtle.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/turtle.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/turtle.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/vegetables.jpg":
+/*!*********************************************!*\
+  !*** ./static/assets/images/vegetables.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/vegetables.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/vegetables.jpg?");
+
+/***/ }),
+
+/***/ "./static/assets/images/window.jpg":
+/*!*****************************************!*\
+  !*** ./static/assets/images/window.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"assets/images/window.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/window.jpg?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./static/scripts/index.js");
+/******/ 	
+/******/ })()
+;

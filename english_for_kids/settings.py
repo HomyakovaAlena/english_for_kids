@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # packages installations
-    'sass_processor',
+    # # packages installations
+    # 'sass_processor',
 
     # apps 
     'home',
