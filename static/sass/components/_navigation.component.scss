@@ -28,10 +28,10 @@
   &.open {
     transform: translateX(180px);
     @media (min-width: 900px) {
-      transform: translateX(170px);
+      transform: translateX(160px);
     }
     @media (min-width: 1400px) {
-      transform: translateX(80px);
+      transform: translateX(60px);
     }
   }
 

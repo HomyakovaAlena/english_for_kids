@@ -39,13 +39,3 @@ class Stats(models.Model):
 
     def __str__(self):
         return f'{self.user}, {self.word}: {self.trained}, {self.correct}, {self.errors}'
-
-    @property
-    def get_percentage(self):
-        if self.correct == self.errors == 0:
-            return f'0%'
-        else:
-            return f'{round((self.correct / (self.correct + self.errors) ) * 100)}%'
-
-
-

@@ -146,7 +146,7 @@ eval("var map = {\n\t\"./angry.mp3\": \"./static/assets/audio/angry.mp3\",\n\t\"
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\": \"./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\",\n\t\"./500aa9360f5573bf4c282bb6ed73cd92.png\": \"./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\",\n\t\"./ACTIONS1.jpg\": \"./static/assets/images/ACTIONS1.jpg\",\n\t\"./ACTIONS2.jpg\": \"./static/assets/images/ACTIONS2.jpg\",\n\t\"./ACTIONS3.jpg\": \"./static/assets/images/ACTIONS3.jpg\",\n\t\"./ACTIONS4.jpg\": \"./static/assets/images/ACTIONS4.jpg\",\n\t\"./ANIMALS1.jpg\": \"./static/assets/images/ANIMALS1.jpg\",\n\t\"./ANIMALS2.jpg\": \"./static/assets/images/ANIMALS2.jpg\",\n\t\"./ANIMALS3.jpg\": \"./static/assets/images/ANIMALS3.jpg\",\n\t\"./CLOTHES.jpg\": \"./static/assets/images/CLOTHES.jpg\",\n\t\"./CLOTHES2.jpg\": \"./static/assets/images/CLOTHES2.jpg\",\n\t\"./EMOTIONS.jpg\": \"./static/assets/images/EMOTIONS.jpg\",\n\t\"./FAILURE1.jpg\": \"./static/assets/images/FAILURE1.jpg\",\n\t\"./FAILURE2.jpg\": \"./static/assets/images/FAILURE2.jpg\",\n\t\"./FOOD.jpg\": \"./static/assets/images/FOOD.jpg\",\n\t\"./FOOD2.jpg\": \"./static/assets/images/FOOD2.jpg\",\n\t\"./HOME.jpg\": \"./static/assets/images/HOME.jpg\",\n\t\"./NATURE.jpg\": \"./static/assets/images/NATURE.jpg\",\n\t\"./SUCCESS1.jpg\": \"./static/assets/images/SUCCESS1.jpg\",\n\t\"./SUCCESS2.jpg\": \"./static/assets/images/SUCCESS2.jpg\",\n\t\"./angry.jpg\": \"./static/assets/images/angry.jpg\",\n\t\"./armchair.jpg\": \"./static/assets/images/armchair.jpg\",\n\t\"./audio.svg\": \"./static/assets/images/audio.svg\",\n\t\"./beach.jpg\": \"./static/assets/images/beach.jpg\",\n\t\"./bedroom.jpg\": \"./static/assets/images/bedroom.jpg\",\n\t\"./bird.jpg\": \"./static/assets/images/bird.jpg\",\n\t\"./blouse.jpg\": \"./static/assets/images/blouse.jpg\",\n\t\"./boot.jpg\": \"./static/assets/images/boot.jpg\",\n\t\"./breakfast.jpg\": \"./static/assets/images/breakfast.jpg\",\n\t\"./cake.jpg\": \"./static/assets/images/cake.jpg\",\n\t\"./cat.jpg\": \"./static/assets/images/cat.jpg\",\n\t\"./chick.jpg\": \"./static/assets/images/chick.jpg\",\n\t\"./chicken.jpg\": \"./static/assets/images/chicken.jpg\",\n\t\"./clouds-transparent-background-75-700x439.png\": \"./static/assets/images/clouds-transparent-background-75-700x439.png\",\n\t\"./clouds-transparent-background-9-700x573.png\": \"./static/assets/images/clouds-transparent-background-9-700x573.png\",\n\t\"./coat.jpg\": \"./static/assets/images/coat.jpg\",\n\t\"./cocktail.jpg\": \"./static/assets/images/cocktail.jpg\",\n\t\"./cry.jpg\": \"./static/assets/images/cry.jpg\",\n\t\"./curtains.jpg\": \"./static/assets/images/curtains.jpg\",\n\t\"./dance.jpg\": \"./static/assets/images/dance.jpg\",\n\t\"./dive.jpg\": \"./static/assets/images/dive.jpg\",\n\t\"./dog.jpg\": \"./static/assets/images/dog.jpg\",\n\t\"./dolphin.jpg\": \"./static/assets/images/dolphin.jpg\",\n\t\"./draw.jpg\": \"./static/assets/images/draw.jpg\",\n\t\"./dress.jpg\": \"./static/assets/images/dress.jpg\",\n\t\"./e54fa2d2646f7146db99fd133f2b9de0.jpg\": \"./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\",\n\t\"./failure.jpg\": \"./static/assets/images/failure.jpg\",\n\t\"./field.jpg\": \"./static/assets/images/field.jpg\",\n\t\"./fireplace.jpg\": \"./static/assets/images/fireplace.jpg\",\n\t\"./fish.jpg\": \"./static/assets/images/fish.jpg\",\n\t\"./fish1.jpg\": \"./static/assets/images/fish1.jpg\",\n\t\"./flowers.jpg\": \"./static/assets/images/flowers.jpg\",\n\t\"./fly.jpg\": \"./static/assets/images/fly.jpg\",\n\t\"./forest.jpg\": \"./static/assets/images/forest.jpg\",\n\t\"./frog.jpg\": \"./static/assets/images/frog.jpg\",\n\t\"./fruits.jpg\": \"./static/assets/images/fruits.jpg\",\n\t\"./giraffe.jpg\": \"./static/assets/images/giraffe.jpg\",\n\t\"./happy.jpg\": \"./static/assets/images/happy.jpg\",\n\t\"./horse.jpg\": \"./static/assets/images/horse.jpg\",\n\t\"./hug.jpg\": \"./static/assets/images/hug.jpg\",\n\t\"./jump.jpg\": \"./static/assets/images/jump.jpg\",\n\t\"./kitchen.jpg\": \"./static/assets/images/kitchen.jpg\",\n\t\"./laugh.jpg\": \"./static/assets/images/laugh.jpg\",\n\t\"./lion.jpg\": \"./static/assets/images/lion.jpg\",\n\t\"./livingroom.jpg\": \"./static/assets/images/livingroom.jpg\",\n\t\"./meat.jpg\": \"./static/assets/images/meat.jpg\",\n\t\"./mountain.jpg\": \"./static/assets/images/mountain.jpg\",\n\t\"./mouse.jpg\": \"./static/assets/images/mouse.jpg\",\n\t\"./open.jpg\": \"./static/assets/images/open.jpg\",\n\t\"./pants.jpg\": \"./static/assets/images/pants.jpg\",\n\t\"./pig.jpg\": \"./static/assets/images/pig.jpg\",\n\t\"./pizza.jpg\": \"./static/assets/images/pizza.jpg\",\n\t\"./play.jpg\": \"./static/assets/images/play.jpg\",\n\t\"./point.jpg\": \"./static/assets/images/point.jpg\",\n\t\"./rabbit.jpg\": \"./static/assets/images/rabbit.jpg\",\n\t\"./repeat.svg\": \"./static/assets/images/repeat.svg\",\n\t\"./ride.jpg\": \"./static/assets/images/ride.jpg\",\n\t\"./river.jpg\": \"./static/assets/images/river.jpg\",\n\t\"./rotate.svg\": \"./static/assets/images/rotate.svg\",\n\t\"./run.jpg\": \"./static/assets/images/run.jpg\",\n\t\"./sad.jpg\": \"./static/assets/images/sad.jpg\",\n\t\"./scared.jpg\": \"./static/assets/images/scared.jpg\",\n\t\"./sea.jpg\": \"./static/assets/images/sea.jpg\",\n\t\"./sheep.jpg\": \"./static/assets/images/sheep.jpg\",\n\t\"./shirt.jpg\": \"./static/assets/images/shirt.jpg\",\n\t\"./shoe.jpg\": \"./static/assets/images/shoe.jpg\",\n\t\"./sing.jpg\": \"./static/assets/images/sing.jpg\",\n\t\"./skip.jpg\": \"./static/assets/images/skip.jpg\",\n\t\"./skirt.jpg\": \"./static/assets/images/skirt.jpg\",\n\t\"./smile.jpg\": \"./static/assets/images/smile.jpg\",\n\t\"./sofa.jpg\": \"./static/assets/images/sofa.jpg\",\n\t\"./soup.jpg\": \"./static/assets/images/soup.jpg\",\n\t\"./star-win.svg\": \"./static/assets/images/star-win.svg\",\n\t\"./star.svg\": \"./static/assets/images/star.svg\",\n\t\"./success.jpg\": \"./static/assets/images/success.jpg\",\n\t\"./surprised.jpg\": \"./static/assets/images/surprised.jpg\",\n\t\"./swim.jpg\": \"./static/assets/images/swim.jpg\",\n\t\"./tired.jpg\": \"./static/assets/images/tired.jpg\",\n\t\"./tree.jpg\": \"./static/assets/images/tree.jpg\",\n\t\"./turtle.jpg\": \"./static/assets/images/turtle.jpg\",\n\t\"./vegetables.jpg\": \"./static/assets/images/vegetables.jpg\",\n\t\"./window.jpg\": \"./static/assets/images/window.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./ACTIONS3.jpg\": \"./static/assets/images/ACTIONS3.jpg\",\n\t\"./ACTIONS4.jpg\": \"./static/assets/images/ACTIONS4.jpg\",\n\t\"./ANIMALS1.jpg\": \"./static/assets/images/ANIMALS1.jpg\",\n\t\"./ANIMALS3.jpg\": \"./static/assets/images/ANIMALS3.jpg\",\n\t\"./CLOTHES.jpg\": \"./static/assets/images/CLOTHES.jpg\",\n\t\"./CLOTHES2.jpg\": \"./static/assets/images/CLOTHES2.jpg\",\n\t\"./EMOTIONS.jpg\": \"./static/assets/images/EMOTIONS.jpg\",\n\t\"./FAILURE1.jpg\": \"./static/assets/images/FAILURE1.jpg\",\n\t\"./FAILURE2.jpg\": \"./static/assets/images/FAILURE2.jpg\",\n\t\"./FOOD.jpg\": \"./static/assets/images/FOOD.jpg\",\n\t\"./FOOD2.jpg\": \"./static/assets/images/FOOD2.jpg\",\n\t\"./HOME.jpg\": \"./static/assets/images/HOME.jpg\",\n\t\"./NATURE.jpg\": \"./static/assets/images/NATURE.jpg\",\n\t\"./SUCCESS1.jpg\": \"./static/assets/images/SUCCESS1.jpg\",\n\t\"./SUCCESS2.jpg\": \"./static/assets/images/SUCCESS2.jpg\",\n\t\"./angry.jpg\": \"./static/assets/images/angry.jpg\",\n\t\"./armchair.jpg\": \"./static/assets/images/armchair.jpg\",\n\t\"./beach.jpg\": \"./static/assets/images/beach.jpg\",\n\t\"./bedroom.jpg\": \"./static/assets/images/bedroom.jpg\",\n\t\"./bird.jpg\": \"./static/assets/images/bird.jpg\",\n\t\"./blouse.jpg\": \"./static/assets/images/blouse.jpg\",\n\t\"./boot.jpg\": \"./static/assets/images/boot.jpg\",\n\t\"./breakfast.jpg\": \"./static/assets/images/breakfast.jpg\",\n\t\"./cake.jpg\": \"./static/assets/images/cake.jpg\",\n\t\"./cat.jpg\": \"./static/assets/images/cat.jpg\",\n\t\"./chick.jpg\": \"./static/assets/images/chick.jpg\",\n\t\"./chicken.jpg\": \"./static/assets/images/chicken.jpg\",\n\t\"./coat.jpg\": \"./static/assets/images/coat.jpg\",\n\t\"./cocktail.jpg\": \"./static/assets/images/cocktail.jpg\",\n\t\"./cry.jpg\": \"./static/assets/images/cry.jpg\",\n\t\"./curtains.jpg\": \"./static/assets/images/curtains.jpg\",\n\t\"./dance.jpg\": \"./static/assets/images/dance.jpg\",\n\t\"./dive.jpg\": \"./static/assets/images/dive.jpg\",\n\t\"./dog.jpg\": \"./static/assets/images/dog.jpg\",\n\t\"./dolphin.jpg\": \"./static/assets/images/dolphin.jpg\",\n\t\"./draw.jpg\": \"./static/assets/images/draw.jpg\",\n\t\"./dress.jpg\": \"./static/assets/images/dress.jpg\",\n\t\"./failure.jpg\": \"./static/assets/images/failure.jpg\",\n\t\"./field.jpg\": \"./static/assets/images/field.jpg\",\n\t\"./fireplace.jpg\": \"./static/assets/images/fireplace.jpg\",\n\t\"./fish.jpg\": \"./static/assets/images/fish.jpg\",\n\t\"./fish1.jpg\": \"./static/assets/images/fish1.jpg\",\n\t\"./flowers.jpg\": \"./static/assets/images/flowers.jpg\",\n\t\"./fly.jpg\": \"./static/assets/images/fly.jpg\",\n\t\"./forest.jpg\": \"./static/assets/images/forest.jpg\",\n\t\"./frog.jpg\": \"./static/assets/images/frog.jpg\",\n\t\"./fruits.jpg\": \"./static/assets/images/fruits.jpg\",\n\t\"./giraffe.jpg\": \"./static/assets/images/giraffe.jpg\",\n\t\"./happy.jpg\": \"./static/assets/images/happy.jpg\",\n\t\"./horse.jpg\": \"./static/assets/images/horse.jpg\",\n\t\"./hug.jpg\": \"./static/assets/images/hug.jpg\",\n\t\"./jump.jpg\": \"./static/assets/images/jump.jpg\",\n\t\"./kitchen.jpg\": \"./static/assets/images/kitchen.jpg\",\n\t\"./laugh.jpg\": \"./static/assets/images/laugh.jpg\",\n\t\"./lion.jpg\": \"./static/assets/images/lion.jpg\",\n\t\"./livingroom.jpg\": \"./static/assets/images/livingroom.jpg\",\n\t\"./meat.jpg\": \"./static/assets/images/meat.jpg\",\n\t\"./mountain.jpg\": \"./static/assets/images/mountain.jpg\",\n\t\"./mouse.jpg\": \"./static/assets/images/mouse.jpg\",\n\t\"./open.jpg\": \"./static/assets/images/open.jpg\",\n\t\"./pants.jpg\": \"./static/assets/images/pants.jpg\",\n\t\"./pig.jpg\": \"./static/assets/images/pig.jpg\",\n\t\"./pizza.jpg\": \"./static/assets/images/pizza.jpg\",\n\t\"./play.jpg\": \"./static/assets/images/play.jpg\",\n\t\"./point.jpg\": \"./static/assets/images/point.jpg\",\n\t\"./rabbit.jpg\": \"./static/assets/images/rabbit.jpg\",\n\t\"./ride.jpg\": \"./static/assets/images/ride.jpg\",\n\t\"./river.jpg\": \"./static/assets/images/river.jpg\",\n\t\"./run.jpg\": \"./static/assets/images/run.jpg\",\n\t\"./sad.jpg\": \"./static/assets/images/sad.jpg\",\n\t\"./scared.jpg\": \"./static/assets/images/scared.jpg\",\n\t\"./sea.jpg\": \"./static/assets/images/sea.jpg\",\n\t\"./sheep.jpg\": \"./static/assets/images/sheep.jpg\",\n\t\"./shirt.jpg\": \"./static/assets/images/shirt.jpg\",\n\t\"./shoe.jpg\": \"./static/assets/images/shoe.jpg\",\n\t\"./sing.jpg\": \"./static/assets/images/sing.jpg\",\n\t\"./skip.jpg\": \"./static/assets/images/skip.jpg\",\n\t\"./skirt.jpg\": \"./static/assets/images/skirt.jpg\",\n\t\"./smile.jpg\": \"./static/assets/images/smile.jpg\",\n\t\"./sofa.jpg\": \"./static/assets/images/sofa.jpg\",\n\t\"./soup.jpg\": \"./static/assets/images/soup.jpg\",\n\t\"./success.jpg\": \"./static/assets/images/success.jpg\",\n\t\"./surprised.jpg\": \"./static/assets/images/surprised.jpg\",\n\t\"./swim.jpg\": \"./static/assets/images/swim.jpg\",\n\t\"./tired.jpg\": \"./static/assets/images/tired.jpg\",\n\t\"./tree.jpg\": \"./static/assets/images/tree.jpg\",\n\t\"./turtle.jpg\": \"./static/assets/images/turtle.jpg\",\n\t\"./vegetables.jpg\": \"./static/assets/images/vegetables.jpg\",\n\t\"./window.jpg\": \"./static/assets/images/window.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./static/assets/images sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -975,50 +975,6 @@ eval("module.exports = __webpack_require__.p + \"assets/audio/window.mp3\";\n\n/
 
 /***/ }),
 
-/***/ "./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png":
-/*!*********************************************************************************!*\
-  !*** ./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png ***!
-  \*********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/1646890822_1-kartinkin-net-p-kartinki-tuchki-1.png?");
-
-/***/ }),
-
-/***/ "./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png":
-/*!*******************************************************************!*\
-  !*** ./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png ***!
-  \*******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/500aa9360f5573bf4c282bb6ed73cd92.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/500aa9360f5573bf4c282bb6ed73cd92.png?");
-
-/***/ }),
-
-/***/ "./static/assets/images/ACTIONS1.jpg":
-/*!*******************************************!*\
-  !*** ./static/assets/images/ACTIONS1.jpg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS1.jpg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/ACTIONS2.jpg":
-/*!*******************************************!*\
-  !*** ./static/assets/images/ACTIONS2.jpg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ACTIONS2.jpg?");
-
-/***/ }),
-
 /***/ "./static/assets/images/ACTIONS3.jpg":
 /*!*******************************************!*\
   !*** ./static/assets/images/ACTIONS3.jpg ***!
@@ -1049,17 +1005,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/ACTIONS4.jpg\";\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/ANIMALS1.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ANIMALS1.jpg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/ANIMALS2.jpg":
-/*!*******************************************!*\
-  !*** ./static/assets/images/ANIMALS2.jpg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/ANIMALS2.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/ANIMALS2.jpg?");
 
 /***/ }),
 
@@ -1217,17 +1162,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/armchair.jpg\";\n
 
 /***/ }),
 
-/***/ "./static/assets/images/audio.svg":
-/*!****************************************!*\
-  !*** ./static/assets/images/audio.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/audio.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/audio.svg?");
-
-/***/ }),
-
 /***/ "./static/assets/images/beach.jpg":
 /*!****************************************!*\
   !*** ./static/assets/images/beach.jpg ***!
@@ -1338,28 +1272,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/chicken.jpg\";\n\
 
 /***/ }),
 
-/***/ "./static/assets/images/clouds-transparent-background-75-700x439.png":
-/*!***************************************************************************!*\
-  !*** ./static/assets/images/clouds-transparent-background-75-700x439.png ***!
-  \***************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/clouds-transparent-background-75-700x439.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/clouds-transparent-background-75-700x439.png?");
-
-/***/ }),
-
-/***/ "./static/assets/images/clouds-transparent-background-9-700x573.png":
-/*!**************************************************************************!*\
-  !*** ./static/assets/images/clouds-transparent-background-9-700x573.png ***!
-  \**************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/clouds-transparent-background-9-700x573.png\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/clouds-transparent-background-9-700x573.png?");
-
-/***/ }),
-
 /***/ "./static/assets/images/coat.jpg":
 /*!***************************************!*\
   !*** ./static/assets/images/coat.jpg ***!
@@ -1467,17 +1379,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/draw.jpg\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/dress.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/dress.jpg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg":
-/*!*******************************************************************!*\
-  !*** ./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg ***!
-  \*******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/e54fa2d2646f7146db99fd133f2b9de0.jpg?");
 
 /***/ }),
 
@@ -1800,17 +1701,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/rabbit.jpg\";\n\n
 
 /***/ }),
 
-/***/ "./static/assets/images/repeat.svg":
-/*!*****************************************!*\
-  !*** ./static/assets/images/repeat.svg ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/repeat.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/repeat.svg?");
-
-/***/ }),
-
 /***/ "./static/assets/images/ride.jpg":
 /*!***************************************!*\
   !*** ./static/assets/images/ride.jpg ***!
@@ -1830,17 +1720,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/ride.jpg\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/river.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/river.jpg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/rotate.svg":
-/*!*****************************************!*\
-  !*** ./static/assets/images/rotate.svg ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/rotate.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/rotate.svg?");
 
 /***/ }),
 
@@ -1984,28 +1863,6 @@ eval("module.exports = __webpack_require__.p + \"assets/images/sofa.jpg\";\n\n//
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"assets/images/soup.jpg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/soup.jpg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/star-win.svg":
-/*!*******************************************!*\
-  !*** ./static/assets/images/star-win.svg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/star-win.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/star-win.svg?");
-
-/***/ }),
-
-/***/ "./static/assets/images/star.svg":
-/*!***************************************!*\
-  !*** ./static/assets/images/star.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/images/star.svg\";\n\n//# sourceURL=webpack://english_for_kids/./static/assets/images/star.svg?");
 
 /***/ }),
 

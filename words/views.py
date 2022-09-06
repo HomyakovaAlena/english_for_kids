@@ -51,8 +51,8 @@ class StatsListView(LoginRequiredMixin, ListView):
             FROM djangodatabase.words_words
             LEFT JOIN djangodatabase.words_stats
             ON words_words.id=words_stats.word_id AND words_stats.user_id= %s 
-            Join djangodatabase.words_categories 
-            on words_words.categories_id=words_categories.id
+            JOIN djangodatabase.words_categories 
+            ON words_words.categories_id=words_categories.id
             ''', [self.request.user.id])
         return query
     
@@ -85,18 +85,26 @@ class LiderboardListView(LoginRequiredMixin, ListView):
         query = Stats.objects.raw(
             '''
             WITH USERS AS (
-            SELECT 1 as id, ROW_NUMBER() OVER(
-            ORDER BY SUM(djangodatabase.words_stats.correct) DESC, round(SUM(djangodatabase.words_stats.correct)/(SUM(djangodatabase.words_stats.correct) + SUM(djangodatabase.words_stats.errors)) * 100, 1) DESC) 
-            as row_num, djangodatabase.auth_user.id AS user_id, djangodatabase.auth_user.username AS username, SUM(djangodatabase.words_stats.correct)   AS sum_correct,
-            round(SUM(djangodatabase.words_stats.correct)/(SUM(djangodatabase.words_stats.correct) + SUM(djangodatabase.words_stats.errors)) * 100, 1) AS percent_correct
-            FROM djangodatabase.words_stats  JOIN djangodatabase.auth_user 
+            SELECT 1 as id, 
+            ROW_NUMBER() OVER(
+                ORDER BY SUM(djangodatabase.words_stats.correct) DESC, 
+                ROUND(SUM(djangodatabase.words_stats.correct)/(SUM(djangodatabase.words_stats.correct) 
+                + SUM(djangodatabase.words_stats.errors)) * 100, 1) DESC) 
+            AS row_num, 
+            djangodatabase.auth_user.id AS user_id, 
+            djangodatabase.auth_user.username AS username, 
+            SUM(djangodatabase.words_stats.correct) AS sum_correct,
+            ROUND(SUM(djangodatabase.words_stats.correct)/(SUM(djangodatabase.words_stats.correct) 
+            + SUM(djangodatabase.words_stats.errors)) * 100, 1) AS percent_correct
+            FROM djangodatabase.words_stats 
+            JOIN djangodatabase.auth_user 
             ON djangodatabase.words_stats.user_id=djangodatabase.auth_user.id
             GROUP BY username)
-            (SELECT 1 as id, row_num, user_id, username, sum_correct, percent_correct  
+            (SELECT 1 AS id, row_num, user_id, username, sum_correct, percent_correct  
             FROM USERS
             LIMIT 5) 
             UNION  
-            (SELECT 1 as id, row_num, user_id, username, sum_correct, percent_correct   
+            (SELECT 1 AS id, row_num, user_id, username, sum_correct, percent_correct   
             FROM USERS
             WHERE user_id = %s)
             ''', [self.request.user.id])  

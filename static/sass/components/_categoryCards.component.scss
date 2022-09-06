@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   gap: min(50px, 8vw);
+  margin-bottom: 15px;
    @media screen and (max-width: 700px) {
     gap: 20px;
   }
