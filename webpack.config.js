@@ -18,7 +18,6 @@ module.exports = {
       return `${filepath}/[name][ext]`;
     },
   },
-
   module: {
     rules: [
       {
