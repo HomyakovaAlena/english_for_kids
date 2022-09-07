@@ -8,7 +8,6 @@ const imagePath = (name) => images(name, true);
 const audio = require.context("../assets/audio/", true);
 const audioPath = (name) => audio(name, true);
 
-
 import { App } from "./app/app";
 import { Component } from "./components/component.component";
 import { Navigation } from "./components/navigation.component";

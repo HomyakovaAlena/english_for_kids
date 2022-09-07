@@ -18,6 +18,7 @@ import json
 from django.db import connection
 from .utils import Utils
 
+
 class CategoriesListView(ListView):
     model = Categories
     context_object_name = "categories"
@@ -31,9 +32,10 @@ class WordsListView(Utils, LoginRequiredMixin, ListView):
     login_url = '/login'
 
     def get_queryset(self, **kwargs):
-       qs = super().get_queryset(**kwargs)
-       category = Categories.objects.get(category=self.kwargs['category_category'])
-       return qs.filter(categories=category.id)
+        qs = super().get_queryset(**kwargs)
+        category = Categories.objects.get(
+            category=self.kwargs['category_category'])
+        return qs.filter(categories=category.id)
 
 
 class StatsListView(LoginRequiredMixin, ListView):
@@ -55,7 +57,7 @@ class StatsListView(LoginRequiredMixin, ListView):
             ON words_words.categories_id=words_categories.id
             ''', [self.request.user.id])
         return query
-    
+
     def post(self, request, *args, **kwargs):
         if request.method == 'GET':
             pass
@@ -64,6 +66,7 @@ class StatsListView(LoginRequiredMixin, ListView):
             Stats.objects.filter(user_id=self.request.user.id).delete()
             return JsonResponse(data_from_post)
 
+
 class DifficultListView(Utils, LoginRequiredMixin, ListView):
     model = Stats
     context_object_name = "stats"
@@ -71,17 +74,18 @@ class DifficultListView(Utils, LoginRequiredMixin, ListView):
     login_url = '/login'
 
     def get_queryset(self, **kwargs):
-        query = Stats.objects.filter(errors__gt=0, user_id=self.request.user.id).order_by('-errors').prefetch_related('word')[0:8]
+        query = Stats.objects.filter(errors__gt=0, user_id=self.request.user.id).order_by(
+            '-errors').prefetch_related('word')[0:8]
         return query
 
 
-class LiderboardListView(LoginRequiredMixin, ListView):
+class leaderboardListView(LoginRequiredMixin, ListView):
     model = Stats
     context_object_name = "stats"
-    template_name = "words/liderboard_list.html"
+    template_name = "words/leaderboard_list.html"
     login_url = '/login'
 
-    def get_queryset(self, **kwargs):     
+    def get_queryset(self, **kwargs):
         query = Stats.objects.raw(
             '''
             WITH USERS AS (
@@ -107,15 +111,11 @@ class LiderboardListView(LoginRequiredMixin, ListView):
             (SELECT 1 AS id, row_num, user_id, username, sum_correct, percent_correct   
             FROM USERS
             WHERE user_id = %s)
-            ''', [self.request.user.id])  
+            ''', [self.request.user.id])
         return query
-
 
 
 class WordsDetailView(DetailView):
     model = Words
     context_object_name = "word"
     template_name = "words/word.html"
-
-
-
